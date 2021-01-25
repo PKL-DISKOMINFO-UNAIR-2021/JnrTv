@@ -68,7 +68,7 @@ span.psw {
 </head>
 <body>
 
-<h2>Login ADMIN</h2>
+<h2>Login user</h2>
 
 <form action="/Admin/Login" style="text-align:center; width:760px">
   <div class="imgcontainer">
