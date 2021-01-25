@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/Admin', function () {
     return view('loginadmin');
 });
+Route::get('/coba', function () {
+    return view('home');
+});

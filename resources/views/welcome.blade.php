@@ -39,7 +39,7 @@
     <div class="navbar">
       <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
       <a href="/Admin"><i class="fa fa-fw fa-user"></i> Admin</a> 
-      <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+      <a href="/coba"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
       <a href="#" class="fa fa-instagram"> farisfsydn</a>
     </div>
 
