@@ -12,10 +12,10 @@ function get_curl ($url){
 
 }
 
-$result = get_curl('https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=UCEe1ees-scoEkTQv3he9PJw&key=AIzaSyCHzjzVt26LyEnQLDFzTnMuhmzYM5afMy4');
+$result = get_curl('https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=UCEe1ees-scoEkTQv3he9PJw&key=AIzaSyCSy4GQvyGWZOa0sDXxDUye6JMIl_f2VZQ');
 
 //latest video
-$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCHzjzVt26LyEnQLDFzTnMuhmzYM5afMy4&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&order=date&part=snippet';
+$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCSy4GQvyGWZOa0sDXxDUye6JMIl_f2VZQ&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=date';
 $result = get_curl($urlvideo);
 
 $latestvideo = $result['items'][0]['id']['videoId'];
@@ -23,6 +23,8 @@ $latestvideo1 = $result['items'][1]['id']['videoId'];
 $latestvideo2 = $result['items'][2]['id']['videoId'];
 $latestvideo3 = $result['items'][3]['id']['videoId'];
 $latestvideo4 = $result['items'][4]['id']['videoId'];
+
+
 
 ?>
 
