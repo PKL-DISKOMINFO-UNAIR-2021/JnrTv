@@ -110,7 +110,7 @@
                     
                       <div class="form-group">
                         <label for="password">PASSWORD</label>
-                        <input type="password" maxlength='3' required="required" placeholder="Password" name="password" class="form-control form-control-sm" id="password">
+                        <input type="password" required="required" placeholder="Password" name="password" class="form-control form-control-sm" id="password">
             
                       </div>
                      <div class="bawah">
