@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    background-color:  #F9F9F9;
+    height: 70px;
+    align-items: center;
+    color: rgb(87, 86, 86);
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+    width: 40%;
+    margin-top: 15px;
+}
+nav ul:hover {
+    color: black;
+}
+.home {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color:  rgb(87, 86, 86);
+    text-decoration: none;
+    font-size: 1em;
+}
+
+input[type="search" i] {
+    appearance: searchfield;
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.icon a{
+    color: rgb(87, 86, 86);
+    font-size: 0.8em;
+}
+
+.btn {
+    height: 38px;
+    border-radius: 20px;
+    font-size: 15px;
+
+}
