@@ -78,23 +78,21 @@ $latestvideo4 = $result['items'][4]['id']['videoId'];
             <div class="carousel-item active">
             <img class="d-block w-100" src="img/slide1.jpg" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
-                <h5>TESTTTTTTTTTTTTTTTTTTTTTTTTTTTTT1</h5>
-                <p>...</p>
+                <h1 class="display-4"><span class="font-weight-bold"> SELAMAT DATANG DI JNRTV </span></h1>
+                <p>Web Informasi Berita & Streaming Video dari Youtube Dinas KOMINFO Prov. Jawa Timur</p>
+                <p class="lead">
+                    <a class="btn btn-primary btn-lg" href="#" role="button">NEW RELEASE</a>
+                </p>
             </div>
             </div>
             <div class="carousel-item">
             <img class="d-block w-100" src="img/slide2.jpg" alt="Second slide">
             <div class="carousel-caption d-none d-md-block">
-                <h5>TESTTTTTTTTTTTTTTTTTTTTTTTTTTTTT2</h5>
-                <p>...</p>
-            </div>
-            </div>
-            <div class="carousel-item">
-            <img class="d-block w-100" src="img/slide3.jpg" alt="Third slide">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>TESTTTTTTTTTTTTTTTTTTTTTTTTTTTTT3</h5>
-                <p>...</p>
-            </div>
+            <h1 class="display-4"><span class="font-weight-bold"> Youtube Channel KOMINFO MMC </span></h1>
+                <p>Web Informasi Berita & Streaming Video dari Youtube Dinas KOMINFO Prov. Jawa Timur</p>
+                <p class="lead">
+                    <a class="btn btn-primary btn-lg" href="#" role="button">GO TO YOUTUBE</a>
+                </p>
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -106,6 +104,8 @@ $latestvideo4 = $result['items'][4]['id']['videoId'];
             <span class="sr-only">Next</span>
         </a>
         </div>
+
+
         <div class="container">
         <iframe class="embed-responsive-item" src="https://youtube.com/embed/<?= $latestvideo; ?>?rel=0" allowfullscreen></iframe>
         <iframe class="embed-responsive-item" src="https://youtube.com/embed/<?= $latestvideo1; ?>?rel=0" allowfullscreen></iframe>
