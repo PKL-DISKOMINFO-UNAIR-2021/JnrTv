@@ -24,8 +24,6 @@ $latestvideo2 = $result['items'][2]['id']['videoId'];
 $latestvideo3 = $result['items'][3]['id']['videoId'];
 $latestvideo4 = $result['items'][4]['id']['videoId'];
 
-
-
 ?>
 
 <!DOCTYPE html>
@@ -44,7 +42,6 @@ $latestvideo4 = $result['items'][4]['id']['videoId'];
         <iframe class="embed-responsive-item" src="https://youtube.com/embed/<?= $latestvideo2; ?>?rel=0" allowfullscreen></iframe>
         <iframe class="embed-responsive-item" src="https://youtube.com/embed/<?= $latestvideo3; ?>?rel=0" allowfullscreen></iframe>
         <iframe class="embed-responsive-item" src="https://youtube.com/embed/<?= $latestvideo4; ?>?rel=0" allowfullscreen></iframe>
-        <li onclick="videoslider("https://youtube.com/embed/<?= $latestvideo; ?>?rel=0")"><video src="./video1.mp4"></video></li>
     </div>
 
 
