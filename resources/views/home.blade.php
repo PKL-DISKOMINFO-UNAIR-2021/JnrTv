@@ -35,7 +35,7 @@
             <div class="icon ml-4">
             <h5>
                 <i class="fas fa-bell mr-3" data-toggle="tooltip" title="notifications"></i> <!-- tooltip dibuat untuk memeberitahu makna icon -->
-                <a href="">SIGN IN</a>
+                <a href="" data-toggle="modal" data-target="#exampleModal">SIGN IN</a>
             </h5>
             </div>
         </div>
@@ -100,6 +100,7 @@
             </div>
         </div>
 
+<<<<<<< HEAD
         <div class="card" style="width: 15rem;">
             <img src="img/slide3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -118,6 +119,50 @@
             </div>
         </div>
         
+=======
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">SIGN IN</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                  <!-- ini body modal -->
+                    <form >
+                        {{ csrf_field() }}
+                      <div class="form-group">
+                        <label for="email">EMAIL</label>
+                        <input type="email"  required="required" placeholder="Email" name="email" class="form-control form-control-sm" id="email">
+                      </div>
+                    
+                      <div class="form-group">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" required="required" placeholder="Password" name="password" class="form-control form-control-sm" id="password">
+            
+                      </div>
+                     <div class="bawah">
+                         <a class="signup" href="">Sign Up</a>
+                         <a class="forgot" href="">Forgot Password</a>
+                     </div>
+                     <!-- ini akhir body modal -->
+                    
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">BACK</button>
+                    <button type="submit" class="btn btn-primary">LOGIN</button>
+                  </form>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+<!-- Modal -->
+>>>>>>> 646b2e4736fe94e9172c876b5de0cbba7e9a4262
 
     <!----- Java Script------>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
