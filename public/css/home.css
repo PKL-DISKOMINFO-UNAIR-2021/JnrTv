@@ -57,9 +57,17 @@ input[type="search" i] {
 .nav2 {
     margin-top: 70px;
     background-color: #F2F2F2;
-    ;
 
 }
 .nav-link {
     color: black;
+}
+a.signup {
+    margin-right: 320px;
+    
+}
+.bawah a {
+    color:  rgb(87, 86, 86);
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
 }
