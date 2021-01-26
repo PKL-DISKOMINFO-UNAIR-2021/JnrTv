@@ -22,3 +22,6 @@ Route::get('/Admin', function () {
 Route::get('/coba', function () {
     return view('home');
 });
+Route::get('/home/profile', function(){
+    return view('profile');
+})
