@@ -81,7 +81,7 @@ $latestvideo4 = $result['items'][4]['id']['videoId'];
                 <h1 class="display-4"><span class="font-weight-bold"> SELAMAT DATANG DI JNRTV </span></h1>
                 <p>Web Informasi Berita & Streaming Video dari Youtube Dinas KOMINFO Prov. Jawa Timur</p>
                 <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="#" role="button">NEW RELEASE</a>
+                <a class="btn btn-primary btn-lg" href="#" role="button">NEW RELEASE</a>
                 </p>
             </div>
             </div>
