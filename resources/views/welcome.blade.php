@@ -118,17 +118,17 @@
         <div class="slideshow-container">
         
         <div class="mySlides fade">
-          <img src="{{ ('img/hotel1.jpg ') }}" style="width:1520px; height:500px">
+          <img src="{{ ('img/slide1.jpg ') }}" style="width:1520px; height:500px">
           <div class="text">Caption Text</div>
         </div>
         
         <div class="mySlides fade">
-          <img src="{{ ('img/hotel.jpg ') }}" style="width:1520px; height:500px">
+          <img src="{{ ('img/slide2.jpg ') }}" style="width:1520px; height:500px">
           <div class="text">Caption Two</div>
         </div>
         
         <div class="mySlides fade">
-          <img src="{{ ('img/hotel3.jpg ') }}" style="width:1520px; height:500px">
+          <img src="{{ ('img/slide3.jpg ') }}" style="width:1520px; height:500px">
           <div class="text">Caption Three</div>
         </div>
         

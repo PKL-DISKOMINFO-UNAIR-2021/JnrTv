@@ -22,3 +22,6 @@ Route::get('/Admin', function () {
 Route::get('/coba', function () {
     return view('home');
 });
+Route::get('/test', function(){
+    return view('carousell');
+});
