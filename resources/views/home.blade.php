@@ -19,7 +19,7 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light  fixed-top shadow-sm p-3 mb-5 bg-white rounded">
         <a class="navbar-brand text-black" href="# " >JatimTV</a>
         <ul>
             <li class="home"><a href="">HOME</a></li>
