@@ -1,31 +1,3 @@
-<?php
-
-function get_curl ($url){
-
-    $curl = curl_init() ;
-    curl_setopt($curl, CURLOPT_URL, $url);
-    curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-    $result = curl_exec($curl);
-    curl_close($curl);
-    
-    return json_decode($result, true);
-
-}
-
-$result = get_curl('https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=UCEe1ees-scoEkTQv3he9PJw&key=AIzaSyCHzjzVt26LyEnQLDFzTnMuhmzYM5afMy4');
-
-//latest video
-$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCHzjzVt26LyEnQLDFzTnMuhmzYM5afMy4&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&order=date&part=snippet';
-$result = get_curl($urlvideo);
-
-$latestvideo = $result['items'][0]['id']['videoId'];
-$latestvideo1 = $result['items'][1]['id']['videoId'];
-$latestvideo2 = $result['items'][2]['id']['videoId'];
-$latestvideo3 = $result['items'][3]['id']['videoId'];
-$latestvideo4 = $result['items'][4]['id']['videoId'];
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,7 +39,17 @@ $latestvideo4 = $result['items'][4]['id']['videoId'];
             </div>
         </div>
     </nav>
-        
+    <div class="nav2">
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link" href="#">NEW RELEASE</a></li>
+                 <li class="nav-item"> <a class="nav-link" href="#">CHANNEL</a></li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT</a>
+            </li>
+        </ul>
+        </div>
+
+
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -107,21 +89,6 @@ $latestvideo4 = $result['items'][4]['id']['videoId'];
         </a>
         </div>
 
-        <div class="container">
-        <iframe class="embed-responsive-item" src="https://youtube.com/embed/<?= $latestvideo; ?>?rel=0" allowfullscreen></iframe>
-        <iframe class="embed-responsive-item" src="https://youtube.com/embed/<?= $latestvideo1; ?>?rel=0" allowfullscreen></iframe>
-        <iframe class="embed-responsive-item" src="https://youtube.com/embed/<?= $latestvideo2; ?>?rel=0" allowfullscreen></iframe>
-        <iframe class="embed-responsive-item" src="https://youtube.com/embed/<?= $latestvideo3; ?>?rel=0" allowfullscreen></iframe>
-        <iframe class="embed-responsive-item" src="https://youtube.com/embed/<?= $latestvideo4; ?>?rel=0" allowfullscreen></iframe>
-    </div>
-
-    <script>
-
-        function videoslider(links){
-            document.querySelector(".slider").src = links;
-        }
-
-    </script>
 
     <!----- Java Script------>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
