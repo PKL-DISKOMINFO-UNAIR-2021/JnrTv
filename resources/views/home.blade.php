@@ -100,7 +100,6 @@
             </div>
         </div>
 
-<<<<<<< HEAD
         <div class="card" style="width: 15rem;">
             <img src="img/slide3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -119,7 +118,6 @@
             </div>
         </div>
         
-=======
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
               <div class="modal-dialog" role="document">
@@ -162,7 +160,6 @@
             </div>
 
 <!-- Modal -->
->>>>>>> 646b2e4736fe94e9172c876b5de0cbba7e9a4262
 
     <!----- Java Script------>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
