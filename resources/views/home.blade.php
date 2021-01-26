@@ -72,28 +72,30 @@ $latestvideo4 = $result['items'][4]['id']['videoId'];
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
+
         <div class="carousel-inner">
             <div class="carousel-item active">
             <img class="d-block w-100" src="img/slide1.jpg" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
-                <h1 class="display-4"><span class="font-weight-bold"> SELAMAT DATANG DI JNRTV </span></h1>
-                <p>Web Informasi Berita & Streaming Video dari Youtube Dinas KOMINFO Prov. Jawa Timur</p>
+                <h2> <span class="font-weight-bold">SELAMAT DATANG DI JATIM TV</span></h5>
+                <p>Streaming Informasi dan Video dari KOMINFO Prov. JAWA TIMUR</p>
                 <p class="lead">
-                <a class="btn btn-primary btn-lg" href="#" role="button">NEW RELEASE</a>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">NEW RELEASE</a>
                 </p>
             </div>
             </div>
             <div class="carousel-item">
             <img class="d-block w-100" src="img/slide2.jpg" alt="Second slide">
             <div class="carousel-caption d-none d-md-block">
-            <h1 class="display-4"><span class="font-weight-bold"> Youtube Channel KOMINFO MMC </span></h1>
-                <p>Web Informasi Berita & Streaming Video dari Youtube Dinas KOMINFO Prov. Jawa Timur</p>
+                <h2> <span class="font-weight-bold">KUNJUNGI CHANNEL YOUTUBE KAMI</span></h5>
+                <p>Streaming Informasi dan Video dari Youtube KOMINFO Prov. JAWA TIMUR</p>
                 <p class="lead">
                     <a class="btn btn-primary btn-lg" href="#" role="button">GO TO YOUTUBE</a>
                 </p>
             </div>
+            </div>
+            
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -104,7 +106,6 @@ $latestvideo4 = $result['items'][4]['id']['videoId'];
             <span class="sr-only">Next</span>
         </a>
         </div>
-
 
         <div class="container">
         <iframe class="embed-responsive-item" src="https://youtube.com/embed/<?= $latestvideo; ?>?rel=0" allowfullscreen></iframe>
