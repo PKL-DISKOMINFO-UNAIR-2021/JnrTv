@@ -79,7 +79,7 @@ $latestvideo4 = $result['items'][4]['id']['videoId'];
             <img class="d-block w-100" src="img/slide1.jpg" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
                 <h2> <span class="font-weight-bold">SELAMAT DATANG DI JATIM TV</span></h5>
-                <p>Streaming Informasi dan Video dari KOMINFO Prov. JAWA TIMUR</p>
+                <p>Streaming Informasi dan Video dari Dinas KOMINFO Prov. JAWA TIMUR</p>
                 <p class="lead">
                     <a class="btn btn-primary btn-lg" href="#" role="button">NEW RELEASE</a>
                 </p>
