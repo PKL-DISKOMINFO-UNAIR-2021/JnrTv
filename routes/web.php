@@ -22,12 +22,9 @@ Route::get('/Admin', function () {
 Route::get('/coba', function () {
     return view('home');
 });
-<<<<<<< Updated upstream
 Route::get('/test', function(){
     return view('carousell');
 });
-=======
-Route::get('/coba1', function () {
+Route::get('/coba1', function(){
     return view('gridview');
 });
->>>>>>> Stashed changes
