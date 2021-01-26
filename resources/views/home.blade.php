@@ -11,6 +11,7 @@
       <link rel="stylesheet" type="text/css" href="{{ asset('/Bootstrap/Bootstrap/css/all.min.css') }}">
       <link rel="stylesheet" href="/css/home.css">
       <link rel="stylesheet" href="/css/style.css">
+      <link rel="stylesheet" href="/css/card.css">
     <!--------->
     <title>Home</title>
     <!-- Font -->
@@ -88,7 +89,35 @@
             <span class="sr-only">Next</span>
         </a>
         </div>
+        <!-- Card -->
+        
+        <div class="card" style="width: 15rem;">
+            <img src="img/slide3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
 
+        <div class="card" style="width: 15rem;">
+            <img src="img/slide3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 15rem;">
+            <img src="img/slide3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        
 
     <!----- Java Script------>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
