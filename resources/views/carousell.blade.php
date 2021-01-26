@@ -1,86 +1,73 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Somehow I got an error, so I comment the title, just uncomment to show -->
+    <!-- <title>Owl-carousel Cards Slider | CodingNepal</title> -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  </head>
+  <body>
+    <div class="slider owl-carousel">
+      <div class="card">
+        <div class="img">
+        <img src="img/slide1.jpg" alt=""></div>
+        <div class="content">
+          <div class="title">
+        Briana Tozour</div>
+        <div class="sub-title">
+          Graphic Designer</div>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque.</p>
+        <div class="btn">
+          <button>Read more</button>
+          </div>
+      </div>
+      </div>
+      
+      <div class="card">
+              <div class="img">
+      <img src="img/slide2.jpg" alt=""></div>
+      <div class="content">
+                <div class="title">
+      Pricilla Preez</div>
+      <div class="sub-title">
+      Web Developer</div>
+      <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque.</p>
+      <div class="btn">
+                  <button>Read more</button>
+                </div>
+      </div>
+      </div>
+      <div class="card">
+              <div class="img">
+      <img src="img/slide3.jpg" alt=""></div>
+      <div class="content">
+                <div class="title">
+      Eliana Maia</div>
+      <div class="sub-title">
+      App Developer</div>
+      <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque.</p>
+      <div class="btn">
+                  <button>Read more</button>
+                </div>
+      </div>
+      </div>
+      </div>
+<script>
+      $(".slider").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000, //2000ms = 2s;
+        autoplayHoverPause: true,
+      });
+    </script>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/style.css">
-    <head>
-     
-    
-        <!-- Slideshow container -->
-        <div class="slideshow-container">
-
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-        <div class="numbertext">1 / 3</div>
-        <img src="img/slide1.jpg" style="width:100%">
-        <div class="text">Caption Text</div>
-        </div>
-
-        <div class="mySlides fade">
-        <div class="numbertext">2 / 3</div>
-        <img src="img/slide2.jpg" style="width:100%">
-        <div class="text">Caption Two</div>
-        </div>
-
-        <div class="mySlides fade">
-        <div class="numbertext">3 / 3</div>
-        <img src="img/slide3.jpg" style="width:100%">
-        <div class="text">Caption Three</div>
-        </div>
-
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <br>
-
-        <!-- The dots/circles -->
-        <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
-
-        <script>
-            var slideIndex = 1;
-        showSlides(slideIndex);
-
-        // Next/previous controls
-        function plusSlides(n) {
-        showSlides(slideIndex += n);
-        }
-
-        // Thumbnail image controls
-        function currentSlide(n) {
-        showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
-        }
-        </script>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
+
