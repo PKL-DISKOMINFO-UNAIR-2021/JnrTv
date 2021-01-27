@@ -31,3 +31,6 @@ Route::get('/coba1', function(){
 Route::get('/coba2', function(){
     return view('explore');
 });
+Route::get('/about', function(){
+    return view('about');
+});

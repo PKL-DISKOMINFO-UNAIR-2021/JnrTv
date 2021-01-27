@@ -26,7 +26,7 @@
     <nav class="navbar navbar-expand-lg navbar-light  fixed-top shadow-sm p-3 mb-5 bg-white">
         <a class="navbar-brand text-black" href="# " >JatimTV</a>
         <ul>
-            <li class="active"><a href="">HOME</a></li>
+            <li class="home"><a href="">HOME</a></li>
             <li class="explore"><a href="/coba2">EXPLORE</a></li>
         </ul>
             <form class="form-inline my-2 my-lg-0 ml-auto">
@@ -48,7 +48,7 @@
                 <li class="nav-item"><a class="nav-link" href="#">NEW RELEASE</a></li>
                  <li class="nav-item"> <a class="nav-link" href="#">CHANNEL</a></li>
         <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT</a>
+            <a class="nav-link" href="/about">ABOUT</a>
             </li>
         </ul>
         </div>

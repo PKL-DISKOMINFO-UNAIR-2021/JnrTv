@@ -23,18 +23,18 @@ nav ul{
     width: 40%;
     margin-top: 15px;
 }
-nav ul:hover {
-    color: black;
-}
-.home {
-    margin-right: 20px;
-    margin-left: 20px;
+
+nav ul li a:hover{
+    color:rgb(155, 155, 155);
+    text-decoration: none;
+
 }
 
 nav ul li a {
-    color:  rgb(87, 86, 86);
     text-decoration: none;
     font-size: 1em;
+    padding: 15px 20px;
+    color: rgb(27, 27, 27);
 }
 
 input[type="search" i] {
@@ -73,6 +73,6 @@ a.signup {
 }
 
 /* body */
-.active {
-    color:blue;
+.home {
+    color-adjust: rgb(126, 56, 56);
 }
