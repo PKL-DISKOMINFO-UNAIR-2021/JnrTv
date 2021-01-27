@@ -74,7 +74,7 @@
     </div>
     <section id="movies-list">
         <!--box-1------------------------>
-        <div class="movies-box">
+        <div class="channel-box">
             <!--img------------>
             <div class="movies-img">
                 <img src="img/kominfojabar.jpg">
@@ -87,7 +87,7 @@
          <!--box-2------------------------>
          <div class="movies-box">
             <!--img------------>
-            <div class="movies-img">
+            <div class="channel-img">
                 <img src="img/kominfosby.jpg">
             </div>
             <!--text--------->
@@ -98,7 +98,7 @@
          <!--box-3------------------------>
         <div class="movies-box">
             <!--img------------>
-            <div class="movies-img">
+            <div class="channel-img">
                 <img src="img/kominfojateng.jpg">
             </div>
             <!--text--------->
@@ -109,7 +109,7 @@
          <!--box-4------------------------>
          <div class="movies-box">
             <!--img------------>
-            <div class="movies-img">
+            <div class="channel-img">
                 <img src="img/kominfopusat.jpg">
             </div>
             <!--text--------->

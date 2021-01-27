@@ -32,9 +32,9 @@ a{
     display: flex;
     margin:0px 5%;
 }
-.movies-box{
+.channel-box{
     height: 300px;
-    width:400px;
+    width:700px;
     display: flex;
     justify-content: space-between;
     align-items: center;
