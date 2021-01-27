@@ -23,7 +23,7 @@ Route::get('/coba', function () {
     return view('home');
 });
 Route::get('/test', function(){
-    return view('carousell');
+    return view('test');
 });
 Route::get('/coba1', function(){
     return view('gridview');
