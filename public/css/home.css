@@ -1,10 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
+    margin:0px;
+    padding: 0px;
     font-family: 'Roboto', sans-serif;
+    background-color: rgba(151,151,151,0.03);
 }
 
 /* Navbar */

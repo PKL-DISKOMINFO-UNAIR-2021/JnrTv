@@ -12,8 +12,7 @@
       <link rel="stylesheet" type="text/css" href="{{ asset('/Bootstrap/Bootstrap/css/all.min.css') }}">
       <link rel="stylesheet" href="/css/home.css">
       <link rel="stylesheet" href="/css/style.css">
-      <link rel="stylesheet" href="/css/card.css">
-      <link rel="stylesheet" href="/css/explore.css">
+      
     <link rel="stylesheet" href="/css/lightslider.css">
     <!--------->
     <title>Home</title>
@@ -257,35 +256,6 @@
         });  
     });
     </script>
-
-        <!-- Card -->
-        
-        <div class="card" style="width: 15rem;">
-            <img src="img/slide3.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-
-        <div class="card" style="width: 15rem;">
-            <img src="img/slide3.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-
-        <div class="card" style="width: 15rem;">
-            <img src="img/slide3.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
         
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
