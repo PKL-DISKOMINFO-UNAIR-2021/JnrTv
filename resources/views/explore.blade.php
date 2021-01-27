@@ -1,3 +1,32 @@
+<?php
+
+function get_curl ($url){
+
+    $curl = curl_init() ;
+    curl_setopt($curl, CURLOPT_URL, $url);
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+    $result = curl_exec($curl);
+    curl_close($curl);
+    
+    return json_decode($result, true);
+
+}
+
+$result = get_curl('https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=UCEe1ees-scoEkTQv3he9PJw&key=AIzaSyCSy4GQvyGWZOa0sDXxDUye6JMIl_f2VZQ');
+
+//latest video
+$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCSy4GQvyGWZOa0sDXxDUye6JMIl_f2VZQ&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=date';
+$result = get_curl($urlvideo);
+
+$latestvideo = $result['items'][0]['id']['videoId'];
+$latestvideo1 = $result['items'][1]['id']['videoId'];
+$latestvideo2 = $result['items'][2]['id']['videoId'];
+$latestvideo3 = $result['items'][3]['id']['videoId'];
+$latestvideo4 = $result['items'][4]['id']['videoId'];
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,168 +74,204 @@
         </div>
     </nav>
 
-    <section id="main">
-        <!--showcase----------------------->
-        <!--heading------------->
-        <h1 class="showcase-heading">New Release</h1>
-        
-        <ul id="autoWidth" class="cs-hidden">
-        
-        <!--box-1--------------------------->
-        <li class="item-a">
-            <!--showcase-box------------------->
-           <div class="showcase-box">
-               <img src="img/s-1.jpg"/>
-           </div>
-               </li>
-            <!--box-2--------------------------->
-            <li class="item-b">
-                <!--showcase-box------------------->
-               <div class="showcase-box">
-                   <img src="img/s-2.jpg"/>
-               </div>
-                   </li>
-                <!--box-3--------------------------->
-            <li class="item-c">
-                <!--showcase-box------------------->
-               <div class="showcase-box">
-                   <img src="img/s-3.jpg"/>
-               </div>
-                   </li>
-                <!--box-4--------------------------->
-            <li class="item-d">
-                <!--showcase-box------------------->
-               <div class="showcase-box">
-                   <img src="img/s-4.jpg"/>
-               </div>
-                   </li>
-                   <!--box-5--------------------------->
-            <li class="item-e">
-                <!--showcase-box------------------->
-               <div class="showcase-box">
-                   <img src="img/s-5.png"/>
-               </div>
-                   </li>
-          </ul>
-        
+          <!--explore content---------------------------->
+    <div class="movies-heading">
+        <h2>Explore</h2>
+    </div>
+    <section id="movies-list">
+        <!--box-1------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="img/l-1.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            </a>
+        </div>
+         <!--box-2------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="img/l-2.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            </a>
+        </div>
+         <!--box-3------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="img/l-3.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            </a>
+        </div>
+         <!--box-4------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="img/l-4.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            </a>
+        </div>
+         <!--box-5------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="img/l-5.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            </a>
+        </div>
+         <!--box-6------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="img/l-6.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            </a>
+        </div>
+         <!--box-7------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="img/l-7.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            </a>
+        </div>
+         <!--box-8------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="img/l-8.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            </a>
+        </div>
+        <!--box-9------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="img/s-1.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            </a>
+        </div>
+        <!--box-10------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="img/s-2.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            </a>
+        </div>
+        <!--box-11------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="img/s-3.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            </a>
+        </div>
+        <!--box-12------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="img/s-4.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            </a>
+        </div>
+        <!--box-13------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="img/s-5.png">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            </a>
+        </div>
+        <!--box-14------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="img/l-1.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            </a>
+        </div>
+        <!--box-15------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="img/s-1.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            </a>
+        </div>
     </section>
-    <!--latest-movies---------------------->
-    <section id="latest">
-        <h2 class="latest-heading">Latest Movies</h2>
-        <!--slider------------------->
-        <ul id="autoWidth2" class="cs-hidden">
-            <!--slide-box-1------------------>
-            <li class="item-a">
-                <div class="latest-box">
-                    <!--img-------->
-                    <div class="latest-b-img">
-                        <img src="img/m-1.jpg">
-                    </div>
-                    <!--text---------->
-                    <div class="latest-b-text">
-                        <strong>Kin 2018</strong>
-                        <p>Action Movie</p>
-                    </div>
-                </div>
-            </li>
-    <!--slide-box-2------------------>
-    <li class="item-b">
-        <div class="latest-box">
-            <!--img-------->
-            <div class="latest-b-img">
-                <img src="img/m-2.jpg">
-            </div>
-            <!--text---------->
-            <div class="latest-b-text">
-                <strong>Kin 2018</strong>
-                <p>Action Movie</p>
-            </div>
-        </div>
-    </li>
-    <!--slide-box-3------------------>
-    <li class="item-c">
-        <div class="latest-box">
-            <!--img-------->
-            <div class="latest-b-img">
-                <img src="img/m-3.jpg">
-            </div>
-            <!--text---------->
-            <div class="latest-b-text">
-                <strong>Kin 2018</strong>
-                <p>Action Movie</p>
-            </div>
-        </div>
-    </li>
-    <!--slide-box-4------------------>
-    <li class="item-d">
-        <div class="latest-box">
-            <!--img-------->
-            <div class="latest-b-img">
-                <img src="img/m-4.jpg">
-            </div>
-            <!--text---------->
-            <div class="latest-b-text">
-                <strong>Kin 2018</strong>
-                <p>Action Movie</p>
-            </div>
-        </div>
-    </li>
-    <!--slide-box-5------------------>
-    <li class="item-e">
-        <div class="latest-box">
-            <!--img-------->
-            <div class="latest-b-img">
-                <img src="img/m-5.jpg">
-            </div>
-            <!--text---------->
-            <div class="latest-b-text">
-                <strong>Kin 2018</strong>
-                <p>Action Movie</p>
-            </div>
-        </div>
-    </li>
-    <!--slide-box-6------------------>
-    <li class="item-f">
-        <div class="latest-box">
-            <!--img-------->
-            <div class="latest-b-img">
-                <img src="img/m-6.jpg">
-            </div>
-            <!--text---------->
-            <div class="latest-b-text">
-                <strong>Kin 2018</strong>
-                <p>Action Movie</p>
-            </div>
-        </div>
-    </li>
-    <!--slide-box-7------------------>
-    <li class="item-g">
-        <div class="latest-box">
-            <!--img-------->
-            <div class="latest-b-img">
-                <img src="img/m-7.jpeg">
-            </div>
-            <!--text---------->
-            <div class="latest-b-text">
-                <strong>Kin 2018</strong>
-                <p>Action Movie</p>
-            </div>
-        </div>
-    </li>
-          </ul>
+    <!--btns--------------->
+    <div class="btns">
+        <a href="#">Previous</a>
+        <a href="#">Next</a>
+    </div>
+    <!--footer------------------>
+    <footer>
+        <p>Going To Internet, Ltd Consumer Website</p>
+        <p>Copyright 2020 - GoingToInternet</p>
+    </footer>
+
     </section>
-    <!--slider script---------------------------->
-    <script>
-        $(document).ready(function() {
-        $('#autoWidth,#autoWidth2').lightSlider({
-            autoWidth:true,
-            loop:true,
-            onSliderLoad: function() {
-                $('#autoWidth,#autoWidth2').removeClass('cS-hidden');
-        } 
-    });  
-  });
-    </script>
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -238,7 +303,8 @@
             </div>
         </div>
     </div>
-    <!-- ini akhir body modal -->               
+    <!-- ini akhir body modal -->  
+    
     
 </body>
 </html>

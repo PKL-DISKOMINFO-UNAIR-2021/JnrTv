@@ -31,9 +31,17 @@ Route::get('/coba1', function(){
 Route::get('/coba2', function(){
     return view('explore');
 });
+<<<<<<< Updated upstream
 Route::get('/about', function(){
     return view('about');
+<<<<<<< HEAD
 });
 Route::get('/newrelease', function(){
     return view('newrelease');
+=======
+=======
+Route::get('/coba3', function(){
+    return view('testapi');
+>>>>>>> Stashed changes
+>>>>>>> 5dc73f3c5a6f9ab49c87edb9e96fd754dd6c81eb
 });
