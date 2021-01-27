@@ -12,6 +12,7 @@
       <link rel="stylesheet" type="text/css" href="{{ asset('/Bootstrap/Bootstrap/css/all.min.css') }}">
       <link rel="stylesheet" href="/css/home.css">
       <link rel="stylesheet" href="/css/channel.css">
+      <link rel="stylesheet" href="/css/newrelease.css">
       <link rel="stylesheet" href="/css/card.css">
       <link rel="stylesheet" href="/css/about.css">
       <link rel="stylesheet" href="/css/lightslider.css">
@@ -85,9 +86,9 @@
             </a>
         </div>
          <!--box-2------------------------>
-         <div class="movies-box">
+         <div class="channel-box">
             <!--img------------>
-            <div class="channel-img">
+            <div class="movies-img">
                 <img src="img/kominfosby.jpg">
             </div>
             <!--text--------->
@@ -96,9 +97,9 @@
             </a>
         </div>
          <!--box-3------------------------>
-        <div class="movies-box">
+        <div class="channel-box">
             <!--img------------>
-            <div class="channel-img">
+            <div class="movies-img">
                 <img src="img/kominfojateng.jpg">
             </div>
             <!--text--------->
@@ -107,9 +108,9 @@
             </a>
         </div>
          <!--box-4------------------------>
-         <div class="movies-box">
+         <div class="channel-box">
             <!--img------------>
-            <div class="channel-img">
+            <div class="movies-img">
                 <img src="img/kominfopusat.jpg">
             </div>
             <!--text--------->
