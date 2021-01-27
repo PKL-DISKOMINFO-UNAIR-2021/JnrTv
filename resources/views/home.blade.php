@@ -12,8 +12,8 @@
       <link rel="stylesheet" type="text/css" href="{{ asset('/Bootstrap/Bootstrap/css/all.min.css') }}">
       <link rel="stylesheet" href="/css/home.css">
       <link rel="stylesheet" href="/css/style.css">
-      
-    <link rel="stylesheet" href="/css/lightslider.css">
+      <link rel="stylesheet" href="/css/lightslider.css">
+
     <!--------->
     <title>Home</title>
     <!-- Font -->
@@ -44,8 +44,8 @@
     </nav>
     <div class="nav2">
             <ul class="nav justify-content-center">
-                <li class="nav-item"><a class="nav-link" href="#">NEW RELEASE</a></li>
-                 <li class="nav-item"> <a class="nav-link" href="#">CHANNEL</a></li>
+                <li class="nav-item"><a class="nav-link" href="/newrelease">NEW RELEASE</a></li>
+                 <li class="nav-item"> <a class="nav-link" href="/channel">CHANNEL</a></li>
         <li class="nav-item">
             <a class="nav-link" href="/about">ABOUT</a>
             </li>
