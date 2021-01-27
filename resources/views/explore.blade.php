@@ -41,6 +41,7 @@ $latestvideo4 = $result['items'][4]['id']['videoId'];
     <link rel="stylesheet" type="text/css" href="{{ asset('/Bootstrap/Bootstrap/css/all.min.css') }}">
     <link rel="stylesheet" href="/css/home.css">
     <link rel="stylesheet" href="/css/explore.css">
+    <link rel="stylesheet" href="/css/Style.css">
     <link rel="stylesheet" href="/css/lightslider.css">
     <!----js link----->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -73,6 +74,16 @@ $latestvideo4 = $result['items'][4]['id']['videoId'];
             </div>
         </div>
     </nav>
+    
+    <!--Bannerr--> 
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img class="d-block w-100" src="img/bannerexplore.jpg" alt="First slide">
+            </div>
+            </div>
+            
+        </div>
+        </div>
 
           <!--explore content---------------------------->
     <div class="movies-heading">

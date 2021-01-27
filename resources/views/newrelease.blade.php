@@ -15,7 +15,7 @@
       <link rel="stylesheet" href="/css/card.css">
       <link rel="stylesheet" href="/css/explore.css">
       <link rel="stylesheet" href="/css/about.css">
-    <link rel="stylesheet" href="/css/lightslider.css">
+      <link rel="stylesheet" href="/css/lightslider.css">
     <!--------->
     <title>Home</title>
     <!-- Font -->
