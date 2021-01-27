@@ -36,15 +36,10 @@ Route::get('/about', function(){
 });
 Route::get('/newrelease', function(){
     return view('newrelease');
-=======
-=======
-Route::get('/coba3', function(){
-    return view('testapi');
->>>>>>> Stashed changes
->>>>>>> 5dc73f3c5a6f9ab49c87edb9e96fd754dd6c81eb
-=======
 });
 Route::get('/coba3', function(){
     return view('testapi');
->>>>>>> Stashed changes
+});
+Route::get('/coba3', function(){
+    return view('testapi');
 });
