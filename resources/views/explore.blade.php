@@ -260,11 +260,7 @@ $latestvideo4 = $result['items'][4]['id']['videoId'];
             </a>
         </div>
     </section>
-    <!--btns--------------->
-    <div class="btns">
-        <a href="#">Previous</a>
-        <a href="#">Next</a>
-    </div>
+
     <!--footer------------------>
     <footer>
         <p>Going To Internet, Ltd Consumer Website</p>

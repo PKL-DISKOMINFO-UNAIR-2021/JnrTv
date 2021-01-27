@@ -89,27 +89,6 @@ a{
     border-radius: 0px 0px 10px 10px;
     box-shadow: 5px 10px 30px rgba(0,0,0,0.4);
 }
-.btns{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.btns a{
-    width: 130px;
-    height: 40px;
-    border:none;
-    outline: none;
-    color: #ffffff;
-    background-color: #3963f0;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1rem;
-}
-.btns a:hover{
-    background-color: #284fd1;
-}
 footer{
     display: flex;
     justify-content: space-around;
