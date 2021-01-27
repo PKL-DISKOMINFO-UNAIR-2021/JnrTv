@@ -11,6 +11,10 @@
       <link rel="stylesheet" type="text/css" href="{{ asset('/fontawesome-free-5.12.1-web/css/all.min.css') }}">
       <link rel="stylesheet" type="text/css" href="{{ asset('/Bootstrap/Bootstrap/css/all.min.css') }}">
       <link rel="stylesheet" href="/css/home.css">
+<<<<<<< HEAD
+=======
+      <link rel="stylesheet" href="/css/style.css">
+>>>>>>> dddf9aebba76b0b156916dc23e6f4e1ce917f095
       <link rel="stylesheet" href="/css/lightslider.css">
 
     
@@ -44,8 +48,8 @@
     </nav>
     <div class="nav2">
             <ul class="nav justify-content-center">
-                <li class="nav-item"><a class="nav-link" href="#">NEW RELEASE</a></li>
-                 <li class="nav-item"> <a class="nav-link" href="#">CHANNEL</a></li>
+                <li class="nav-item"><a class="nav-link" href="/newrelease">NEW RELEASE</a></li>
+                 <li class="nav-item"> <a class="nav-link" href="/channel">CHANNEL</a></li>
         <li class="nav-item">
             <a class="nav-link" href="/about">ABOUT</a>
             </li>
