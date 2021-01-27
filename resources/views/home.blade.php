@@ -24,7 +24,7 @@
         <a class="navbar-brand text-black" href="# " >JatimTV</a>
         <ul>
             <li class="home"><a href="">HOME</a></li>
-            <li class="explore"><a href="">EXPLORE</a></li>
+            <li ><a href="">EXPLORE</a></li>
         </ul>
             <form class="form-inline my-2 my-lg-0 ml-auto">
             <div class="search">
