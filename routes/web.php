@@ -34,3 +34,6 @@ Route::get('/coba2', function(){
 Route::get('/about', function(){
     return view('about');
 });
+Route::get('/newrelease', function(){
+    return view('newrelease');
+});
