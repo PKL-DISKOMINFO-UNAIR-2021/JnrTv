@@ -25,7 +25,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light  fixed-top shadow-sm p-3 mb-5 bg-white">
-        <a class="navbar-brand text-black" href="# " >JatimTV</a>
+    <img class="logo" src="img/logo.png" href="/">
         <ul>
             <li class="home"><a href="/">HOME</a></li>
             <li class="explore"><a href="/explore">EXPLORE</a></li>
@@ -81,8 +81,7 @@
                 <img src="img/kominfojabar.jpg">
             </div>
             <!--text--------->
-            <a href="#">
-                YouTube Channel Dinas Komunikasi dan Informatika Provinsi Jawa Barat
+            <a href="https://diskominfo.jabarprov.go.id/">Dinas Komunikasi dan Informatika Provinsi Jawa Barat
             </a>
         </div>
          <!--box-2------------------------>
@@ -92,8 +91,8 @@
                 <img src="img/kominfosby.jpg">
             </div>
             <!--text--------->
-            <a href="#">
-                YouTube Channel Dinas Komunikasi dan Informatika Kota Surabaya
+            <a href="https://dinkominfo.surabaya.go.id/">
+               Dinas Komunikasi dan Informatika Kota Surabaya
             </a>
         </div>
          <!--box-3------------------------>
@@ -103,8 +102,8 @@
                 <img src="img/kominfojateng.jpg">
             </div>
             <!--text--------->
-            <a href="#">
-            YouTube Channel Dinas Komunikasi dan Informatika Provinsi Jawa Tengah
+            <a href="https://diskominfo.jatengprov.go.id/">
+            Dinas Komunikasi dan Informatika Provinsi Jawa Tengah
             </a>
         </div>
          <!--box-4------------------------>
@@ -114,8 +113,8 @@
                 <img src="img/kominfopusat.jpg">
             </div>
             <!--text--------->
-            <a href="#">
-                YouTube Channel Kementrian Komunikasi dan Informatika Republik Indonesia
+            <a href="https://kominfo.go.id/profil">
+                Kementrian Komunikasi dan Informatika Republik Indonesia
             </a>
         </div>
 

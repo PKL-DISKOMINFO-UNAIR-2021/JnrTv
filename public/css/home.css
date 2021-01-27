@@ -16,7 +16,10 @@ nav {
     align-items: center;
     color: rgb(87, 86, 86);
 }
-
+.logo {
+    height: 30px;
+    margin: 5px;
+}
 nav ul{
     display: flex;
     list-style: none;

@@ -21,7 +21,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light  fixed-top shadow-sm p-3 mb-5 bg-white">
-        <a class="navbar-brand text-black" href="# " >JatimTV</a>
+    <img class="logo" src="img/logo.png" href="/">
         <ul>
             <li class="home"><a href="/">HOME</a></li>
             <li class="explore"><a href="/explore">EXPLORE</a></li>
