@@ -40,6 +40,3 @@ Route::get('/newrelease', function(){
 Route::get('/coba3', function(){
     return view('testapi');
 });
-Route::get('/coba3', function(){
-    return view('testapi');
-});
