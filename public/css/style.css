@@ -1,3 +1,6 @@
+.carousel-inner{
+    margin-top: -15px;
+}
 .carousel-item {
     height: 400px;
 }
