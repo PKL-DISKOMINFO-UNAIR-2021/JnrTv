@@ -13,7 +13,7 @@
       <link rel="stylesheet" href="/css/home.css">
       <link rel="stylesheet" href="/css/style.css">
       <link rel="stylesheet" href="/css/card.css">
-      <link rel="stylesheet" href="/css/slider.css">
+      <link rel="stylesheet" href="/css/explore.css">
     <link rel="stylesheet" href="/css/lightslider.css">
     <!--------->
     <title>Home</title>

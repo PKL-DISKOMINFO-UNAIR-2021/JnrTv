@@ -5,14 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, intial-scale=1.0">
     <title>Personal Website</title>
-    <link rel="stylesheet" href="/css/slider.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ asset('/fontawesome-free-5.12.1-web/css/all.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('/Bootstrap/Bootstrap/css/all.min.css') }}">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/explore.css">
     <link rel="stylesheet" href="/css/lightslider.css">
     <!----js link----->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/js/home.js"></script>
     <script type="text/javascript" src="/js/JQuery3.3.1.js"></script> 
     <script type="text/javascript" src="/js/lightslider.js"></script> 
 	
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light  fixed-top shadow-sm p-3 mb-5 bg-white">
+        <a class="navbar-brand text-black" href="# " >JatimTV</a>
+        <ul>
+            <li class="home"><a href="/">HOME</a></li>
+            <li class="explore"><a href="/coba2">EXPLORE</a></li>
+        </ul>
+            <form class="form-inline my-2 my-lg-0 ml-auto">
+            <div class="search">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            </div>
+            <button class="btn bg-dark text-white my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <div class="icon ml-4">
+            <h5>
+                <i class="fas fa-bell mr-3" data-toggle="tooltip" title="notifications"></i> <!-- tooltip dibuat untuk memeberitahu makna icon -->
+                <a href="" data-toggle="modal" data-target="#exampleModal">SIGN IN</a>
+            </h5>
+            </div>
+        </div>
+    </nav>
+
     <section id="main">
         <!--showcase----------------------->
         <!--heading------------->
@@ -175,6 +207,38 @@
     });  
   });
     </script>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">SIGN IN</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            <div class="modal-body">
+            <!-- ini body modal -->
+            <form >
+            {{ csrf_field() }}
+            <div class="form-group">
+                <label for="email">EMAIL</label>
+                <input type="email"  required="required" placeholder="Email" name="email" class="form-control form-control-sm" id="email">
+            </div>
+                    
+            <div class="form-group">
+                <label for="password">PASSWORD</label>
+                <input type="password" required="required" placeholder="Password" name="password" class="form-control form-control-sm" id="password">
+            </div>
+
+            <div class="bawah">
+                <a class="signup" href="">Sign Up</a>
+                <a class="forgot" href="">Forgot Password</a>
+            </div>
+        </div>
+    </div>
+    <!-- ini akhir body modal -->               
     
 </body>
 </html>
