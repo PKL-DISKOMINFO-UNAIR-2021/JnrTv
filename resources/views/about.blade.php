@@ -23,7 +23,7 @@
     <nav class="navbar navbar-expand-lg navbar-light  fixed-top shadow-sm p-3 mb-5 bg-white">
         <a class="navbar-brand text-black" href="# " >JatimTV</a>
         <ul>
-            <li class="home"><a href="/home">HOME</a></li>
+            <li class="home"><a href="/">HOME</a></li>
             <li class="explore"><a href="/explore">EXPLORE</a></li>
         </ul>
             <form class="form-inline my-2 my-lg-0 ml-auto">
