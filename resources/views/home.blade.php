@@ -66,7 +66,7 @@
                 <h2> <span class="font-weight-bold">SELAMAT DATANG DI JATIM TV</span></h5>
                 <p>Streaming Informasi dan Video dari Dinas KOMINFO Prov. JAWA TIMUR</p>
                 <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="#" role="button">NEW RELEASE</a>
+                    <a class="btn btn-primary btn-lg" href="/newrelease" role="button">NEW RELEASE</a>
                 </p>
             </div>
             </div>
