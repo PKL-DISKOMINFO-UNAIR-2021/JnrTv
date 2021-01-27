@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE-edge">
 <meta name="viewport" content="width=device-width, intial-scale=1.0">
-<title>Personal Website</title>
+<title>Home</title>
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -25,7 +25,7 @@
         <a class="navbar-brand text-black" href="# " >JatimTV</a>
         <ul>
             <li class="home"><a href="">HOME</a></li>
-            <li class="explore"><a href="/coba2">EXPLORE</a></li>
+            <li class="explore"><a href="/explore">EXPLORE</a></li>
         </ul>
             <form class="form-inline my-2 my-lg-0 ml-auto">
             <div class="search">
@@ -76,7 +76,7 @@
                 <h2> <span class="font-weight-bold">KUNJUNGI CHANNEL YOUTUBE KAMI</span></h5>
                 <p>Streaming Informasi dan Video dari Youtube KOMINFO Prov. JAWA TIMUR</p>
                 <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="#" role="button">GO TO YOUTUBE</a>
+                    <a class="btn btn-primary btn-lg" href="https://www.youtube.com/channel/UCEe1ees-scoEkTQv3he9PJw" role="button">GO TO YOUTUBE</a>
                 </p>
             </div>
             </div>
@@ -95,7 +95,7 @@
 <section id="main">
         <!--showcase----------------------->
         <!--heading------------->
-        <h1 class="showcase-heading">Showcase</h1>
+        <h1 class="showcase-heading">NEW RELEASE</h1>
         
         <ul id="autoWidth" class="cs-hidden">
         
@@ -139,7 +139,7 @@
     </section>
     <!--latest-movies---------------------->
     <section id="latest">
-        <h2 class="latest-heading">Latest Movies</h2>
+        <h2 class="latest-heading">CHANNEL</h2>
         <!--slider------------------->
         <ul id="autoWidth2" class="cs-hidden">
             <!--slide-box-1------------------>
@@ -355,5 +355,11 @@
         });  
     });
     </script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
 </body>
 </html>

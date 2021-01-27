@@ -16,19 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
-Route::get('/test2', function () {
-    return view('test');
-});
-Route::get('/coba', function () {
-    return view('coba');
-});
-Route::get('/test', function(){
-    return view('test');
-});
-Route::get('/coba1', function(){
+
+Route::get('/youtubegj', function(){
     return view('gridview');
 });
-Route::get('/coba2', function(){
+Route::get('/explore', function(){
     return view('explore');
 });
 Route::get('/about', function(){

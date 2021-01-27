@@ -17,7 +17,7 @@
       <link rel="stylesheet" href="/css/about.css">
       <link rel="stylesheet" href="/css/lightslider.css">
     <!--------->
-    <title>Home</title>
+    <title>New Release</title>
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
@@ -27,8 +27,8 @@
     <nav class="navbar navbar-expand-lg navbar-light  fixed-top shadow-sm p-3 mb-5 bg-white">
         <a class="navbar-brand text-black" href="# " >JatimTV</a>
         <ul>
-            <li class="home"><a href="">HOME</a></li>
-            <li class="explore"><a href="/coba2">EXPLORE</a></li>
+            <li class="home"><a href="/home">HOME</a></li>
+            <li class="explore"><a href="/explore">EXPLORE</a></li>
         </ul>
             <form class="form-inline my-2 my-lg-0 ml-auto">
             <div class="search">
@@ -46,9 +46,9 @@
     </nav>
     <div class="nav2">
             <ul class="nav justify-content-center">
-                <li class="active"><a class="nav-link" href="#">NEW RELEASE</a></li>
-                 <li class="nav-item"> <a class="nav-link" href="#">CHANNEL</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+                <li class="active"><a class="nav-link" href="/newrelease">NEW RELEASE</a></li>
+                 <li class="nav-item"> <a class="nav-link" href="/channel">CHANNEL</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about">ABOUT</a></li>
         </ul>
         </div>
 
