@@ -11,9 +11,7 @@
       <link rel="stylesheet" type="text/css" href="{{ asset('/fontawesome-free-5.12.1-web/css/all.min.css') }}">
       <link rel="stylesheet" type="text/css" href="{{ asset('/Bootstrap/Bootstrap/css/all.min.css') }}">
       <link rel="stylesheet" href="/css/home.css">
-      <link rel="stylesheet" href="/css/style.css">
-      
-    <link rel="stylesheet" href="/css/lightslider.css">
+    
     <!--------->
     <title>Home</title>
     <!-- Font -->
