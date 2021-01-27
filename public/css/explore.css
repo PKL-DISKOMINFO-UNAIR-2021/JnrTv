@@ -34,7 +34,7 @@ a{
 }
 .movies-box{
     height: 300px;
-    width:700px;
+    width:400px;
     display: flex;
     justify-content: space-between;
     align-items: center;
