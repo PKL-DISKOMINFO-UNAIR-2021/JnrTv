@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -12,6 +13,8 @@
       <link rel="stylesheet" href="/css/home.css">
       <link rel="stylesheet" href="/css/style.css">
       <link rel="stylesheet" href="/css/card.css">
+      <link rel="stylesheet" href="/css/slider.css">
+    <link rel="stylesheet" href="/css/lightslider.css">
     <!--------->
     <title>Home</title>
     <!-- Font -->
@@ -24,7 +27,7 @@
         <a class="navbar-brand text-black" href="# " >JatimTV</a>
         <ul>
             <li class="home"><a href="">HOME</a></li>
-            <li class="explore"><a href="">EXPLORE</a></li>
+            <li class="explore"><a href="/coba2">EXPLORE</a></li>
         </ul>
             <form class="form-inline my-2 my-lg-0 ml-auto">
             <div class="search">
@@ -89,6 +92,172 @@
             <span class="sr-only">Next</span>
         </a>
         </div>
+
+        <section id="main">
+        <!--showcase----------------------->
+        <!--heading------------->
+        <h1 class="showcase-heading">New Release</h1>
+        
+        <ul id="autoWidth" class="cs-hidden">
+        
+        <!--box-1--------------------------->
+        <li class="item-a">
+            <!--showcase-box------------------->
+           <div class="showcase-box">
+               <img src="img/s-1.jpg"/>
+           </div>
+               </li>
+            <!--box-2--------------------------->
+            <li class="item-b">
+                <!--showcase-box------------------->
+               <div class="showcase-box">
+                   <img src="img/s-2.jpg"/>
+               </div>
+                   </li>
+                <!--box-3--------------------------->
+            <li class="item-c">
+                <!--showcase-box------------------->
+               <div class="showcase-box">
+                   <img src="img/s-3.jpg"/>
+               </div>
+                   </li>
+                <!--box-4--------------------------->
+            <li class="item-d">
+                <!--showcase-box------------------->
+               <div class="showcase-box">
+                   <img src="img/s-4.jpg"/>
+               </div>
+                   </li>
+                   <!--box-5--------------------------->
+            <li class="item-e">
+                <!--showcase-box------------------->
+               <div class="showcase-box">
+                   <img src="img/s-5.png"/>
+               </div>
+                   </li>
+          </ul>
+        
+        </section>
+
+        <!--latest-movies---------------------->
+        <section id="latest">
+        <h2 class="latest-heading">Latest Movies</h2>
+        <!--slider------------------->
+        <ul id="autoWidth2" class="cs-hidden">
+            <!--slide-box-1------------------>
+            <li class="item-a">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="img/m-1.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>Kin 2018</strong>
+                        <p>Action Movie</p>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-2------------------>
+            <li class="item-b">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="img/m-2.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>Kin 2018</strong>
+                        <p>Action Movie</p>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-3------------------>
+            <li class="item-c">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="img/m-3.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>Kin 2018</strong>
+                        <p>Action Movie</p>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-4------------------>
+            <li class="item-d">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="img/m-4.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>Kin 2018</strong>
+                        <p>Action Movie</p>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-5------------------>
+            <li class="item-e">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="img/m-5.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>Kin 2018</strong>
+                        <p>Action Movie</p>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-6------------------>
+            <li class="item-f">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="img/m-6.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>Kin 2018</strong>
+                        <p>Action Movie</p>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-7------------------>
+            <li class="item-g">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="img/m-7.jpeg">
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>Kin 2018</strong>
+                        <p>Action Movie</p>
+                    </div>
+                </div>
+            </li>
+                </ul>
+        </section>
+        
+        <!--slider script---------------------------->
+    <script>
+        $(document).ready(function() {
+        $('#autoWidth,#autoWidth2').lightSlider({
+            autoWidth:true,
+            loop:true,
+            onSliderLoad: function() {
+                $('#autoWidth,#autoWidth2').removeClass('cS-hidden');
+            } 
+        });  
+    });
+    </script>
+
         <!-- Card -->
         
         <div class="card" style="width: 15rem;">
@@ -166,6 +335,8 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="/node_modules/jquery/dist/jquery.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="/js/home.js"></script> 
+    <script type="text/javascript" src="/js/home.js"></script>
+    <script type="text/javascript" src="/js/JQuery3.3.1.js"></script> 
+    <script type="text/javascript" src="/js/lightslider.js"></script>  
 </body>
 </html>

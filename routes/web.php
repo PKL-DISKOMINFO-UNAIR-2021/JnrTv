@@ -28,3 +28,6 @@ Route::get('/test', function(){
 Route::get('/coba1', function(){
     return view('gridview');
 });
+Route::get('/coba2', function(){
+    return view('slider');
+});
