@@ -38,6 +38,3 @@ Route::get('/channel', function(){
 Route::get('/master', function(){
     return view('layout/master');
 });
-Route::get('/test', function(){
-    return view('testmaster');
-});
