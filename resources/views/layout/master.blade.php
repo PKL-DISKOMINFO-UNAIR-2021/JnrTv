@@ -57,11 +57,11 @@
         <div class="footer-left">
             <img src="img/logo.png" href="/">
             <div class="footer-links">
-                <a href="#" class="link1">Home</a>
-                <a href="">Explore</a>
-                <a href="">New Release</a>
-                <a href="">Channel</a>
-                <a href="">About</a>
+                <a href="/" class="link1">Home</a>
+                <a href="/explore">Explore</a>
+                <a href="/newrelease">New Release</a>
+                <a href="/channel">Channel</a>
+                <a href="/about">About</a>
             </div>
         </div>
         <div class="footer-center">
