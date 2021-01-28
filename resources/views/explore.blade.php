@@ -42,6 +42,7 @@ $latestvideo4 = $result['items'][4]['id']['videoId'];
     <link rel="stylesheet" href="/css/home.css">
     <link rel="stylesheet" href="/css/explore.css">
     <link rel="stylesheet" href="/css/Style.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/lightslider.css">
     <!----js link----->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -272,13 +273,48 @@ $latestvideo4 = $result['items'][4]['id']['videoId'];
         </div>
     </section>
 
-    <!--footer------------------>
-    <footer>
-        <p>Going To Internet, Ltd Consumer Website</p>
-        <p>Copyright 2020 - GoingToInternet</p>
+    <footer class="footer">
+        <div class="footer-left">
+            <img src="img/logo.png" href="/">
+            <div class="footer-links">
+                <a href="#" class="link1">Home</a>
+                <a href="">Explore</a>
+                <a href="">New Release</a>
+                <a href="">Channel</a>
+                <a href="">About</a>
+            </div>
+        </div>
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Jl. A. Yani 242 - 244, Surabaya. </span></p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>(031) 8294608</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p> kominfo@jatimprov.go.id</p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-follow-us">
+            <span>Follow Us</span>
+            Please Follow us on our Social Media Profile in order to keep updated.
+            </p>
+            <div class="footer-social">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-youtube"></i></a>
+                
+            </div>
+        </div>
     </footer>
+    <div class="footer2">
+        <p><span><i class="fas fa-copyright"></i>Powered by</span>PKL Sistem Informasi Unair 2021</p>
 
-    </section>
+    </div>
   
     
     

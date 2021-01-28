@@ -92,18 +92,7 @@ a{
     border-radius: 0px 0px 10px 10px;
     box-shadow: 5px 10px 30px rgba(0,0,0,0.4);
 }
-footer{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-top: 1px solid rgba(0,0,0,0.1);
- 
-}
-footer p{
-    color:#5e5e5e;
-    margin: 10px 0px;
-    font-size: 0.9rem;
-}
+
 nav .menu-btn{
     display: none;
 }
@@ -205,9 +194,5 @@ nav .menu-btn{
     .movies-box a{
         width:65%;
     }
-    footer{
-        justify-content: space-between;
-        padding:0px 20px;
-        text-align: center;
-    }
+
 }

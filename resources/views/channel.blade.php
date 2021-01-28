@@ -13,6 +13,7 @@
       <link rel="stylesheet" href="/css/home.css">
       <link rel="stylesheet" href="/css/channel.css">
       <link rel="stylesheet" href="/css/newrelease.css">
+      <link rel="stylesheet" href="/css/footer.css">
       <link rel="stylesheet" href="/css/card.css">
       <link rel="stylesheet" href="/css/about.css">
       <link rel="stylesheet" href="/css/lightslider.css">

@@ -106,9 +106,5 @@ a{
     .movies-box a{
         width:65%;
     }
-    footer{
-        justify-content: space-between;
-        padding:0px 20px;
-        text-align: center;
-    }
+
 }
