@@ -95,7 +95,8 @@
 <section id="main">
         <!--showcase----------------------->
         <!--heading------------->
-        <h1 class="showcase-heading">NEW RELEASE</h1>
+        <a class="showcase-heading">NEW RELEASE</a>
+        <a class="showcase-heading-kanan" href="/newrelease" style="float:right;">VIEW ALL</a>
         
         <ul id="autoWidth" class="cs-hidden">
         
@@ -139,7 +140,8 @@
     </section>
     <!--latest-movies---------------------->
     <section id="latest">
-        <h2 class="latest-heading">CHANNEL</h2>
+        <a class="latest-heading">CHANNEL</a>
+        <a class="showcase-heading-kanan" href="/channel" style="float:right;">VIEW ALL</a>
         <!--slider------------------->
         <ul id="autoWidth2" class="cs-hidden">
             <!--slide-box-1------------------>
@@ -243,9 +245,11 @@
           </ul>
     </section>
     <!--movies---------------------------->
-    <div class="movies-heading">
-        <h2>Movies</h2>
-    </div>
+    <section id="top">
+    <a class="latest-heading">EXPLORE</a>
+    <a class="showcase-heading-kanan" href="/channel" style="float:right;">VIEW ALL</a>
+    </section>
+    
     <section id="movies-list">
         <!--box-1------------------------>
         <div class="movies-box">
