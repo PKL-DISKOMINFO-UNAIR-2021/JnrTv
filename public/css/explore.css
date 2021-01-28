@@ -1,9 +1,4 @@
-body{
-    margin:0px;
-    padding: 0px;
-    font-family: poppins;
-    background-color: rgba(151,151,151,0.03);
-}
+
 *{
     box-sizing: border-box;
 }
@@ -16,6 +11,10 @@ a{
 #main{
     padding-top: 80px;
     background-color: #ffffff;
+}
+
+.carousel-item {
+    height: 400px;
 }
 .movies-heading h2{
     font-weight: 400;
