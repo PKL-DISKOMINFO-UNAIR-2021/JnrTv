@@ -12,8 +12,8 @@
       <link rel="stylesheet" type="text/css" href="{{ asset('/Bootstrap/Bootstrap/css/all.min.css') }}">
       <link rel="stylesheet" href="/css/home.css">
       <link rel="stylesheet" href="/css/channel.css">
-      <link rel="stylesheet" href="/css/newrelease.css">
       <link rel="stylesheet" href="/css/footer.css">
+      <link rel="stylesheet" href="/css/newrelease.css">
       <link rel="stylesheet" href="/css/card.css">
       <link rel="stylesheet" href="/css/about.css">
       <link rel="stylesheet" href="/css/lightslider.css">
@@ -119,54 +119,51 @@
             </a>
         </div>
 
-    <!--footer------------------>
-    <footer>
-        <p>Going To Internet, Ltd Consumer Website</p>
-        <p>Copyright 2020 - GoingToInternet</p>
-    </footer>
-
-    </section>
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">SIGN IN</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-            <div class="modal-body">
-            <!-- ini body modal -->
-            <form >
-            {{ csrf_field() }}
-            <div class="form-group">
-                <label for="email">EMAIL</label>
-                <input type="email"  required="required" placeholder="Email" name="email" class="form-control form-control-sm" id="email">
-            </div>
-                    
-            <div class="form-group">
-                <label for="password">PASSWORD</label>
-                <input type="password" required="required" placeholder="Password" name="password" class="form-control form-control-sm" id="password">
-            </div>
-
-            <div class="bawah">
-                <a class="signup" href="">Sign Up</a>
-                <a class="forgot" href="">Forgot Password</a>
+        <footer class="footer" >
+        <div class="footer-left">
+            <img src="img/logo.png" href="/">
+            <div class="footer-links">
+                <a href="#" class="link1">Home</a>
+                <a href="">Explore</a>
+                <a href="">New Release</a>
+                <a href="">Channel</a>
+                <a href="">About</a>
             </div>
         </div>
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Jl. A. Yani 242 - 244, Surabaya. </span></p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>(031) 8294608</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p> kominfo@jatimprov.go.id</p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-follow-us">
+            <span>Follow Us</span>
+            Please Follow us on our Social Media Profile in order to keep updated.
+            </p>
+            <div class="footer-social">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-youtube"></i></a>
+                
+            </div>
+        </div>
+    </footer>
+    <div class="footer2">
+        <p><span><i class="fas fa-copyright"></i>Powered by</span>PKL Sistem Informasi Unair 2021</p>
+
     </div>
-    <!-- ini akhir body modal -->  
-    
-        
-    <!----- Java Script------>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="/node_modules/jquery/dist/jquery.js"></script>
+
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="/js/home.js"></script>
-    <script type="text/javascript" src="/js/JQuery3.3.1.js"></script> 
-    <script type="text/javascript" src="/js/lightslider.js"></script>  
+    
 </body>
 </html>

@@ -1,15 +1,22 @@
 @extends('layout/master')
-
 @section('linkcss')
-    <link rel="stylesheet" href="/css/newrelease.css">
-    <link rel="stylesheet" href="/css/card.css">
-    <link rel="stylesheet" href="/css/explore.css">
-    <link rel="stylesheet" href="/css/about.css">
-    <link rel="stylesheet" href="/css/lightslider.css">
-@endsection
-@section('title','newrelease')
-
-@section('isi')
+<link rel="stylesheet" href="/css/newrelease.css">
+      <link rel="stylesheet" href="/css/card.css">
+      <link rel="stylesheet" href="/css/explore.css">
+      <link rel="stylesheet" href="/css/about.css">
+      <link rel="stylesheet" href="/css/lightslider.css">
+      @endsection
+      @section('title','newrelease')
+      @section('nav2')
+    <div class="nav2">
+            <ul class="nav justify-content-center">
+                <li class="active"><a class="nav-link" href="/newrelease">NEW RELEASE</a></li>
+                 <li class="nav-item"> <a class="nav-link" href="/channel">CHANNEL</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about">ABOUT</a></li>
+        </ul>
+        </div>
+    @endsection
+    @section('isi')
         <!-- label -->
     <section class="label">
         <div class="container">
@@ -142,5 +149,4 @@
         </div>
         
     </section>
-        
 @endsection

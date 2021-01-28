@@ -13,7 +13,9 @@
     padding: 25px 20px;
     margin-top: 10px;
 }
-
+.footer img{
+    width: 100px;
+}
 .footer .footer-left,
 .footer .footer-center,
 .footer .footer-right {
