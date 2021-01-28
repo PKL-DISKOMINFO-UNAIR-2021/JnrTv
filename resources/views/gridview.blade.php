@@ -12,10 +12,10 @@ function get_curl ($url){
 
 }
 
-$result = get_curl('https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=UCEe1ees-scoEkTQv3he9PJw&key=AIzaSyCSy4GQvyGWZOa0sDXxDUye6JMIl_f2VZQ');
+$result = get_curl('https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=UCEe1ees-scoEkTQv3he9PJw&key=AIzaSyBj_nuoEMPsKH-_Kc9hGpgIlxJE5jDX0yA');
 
 //latest video
-$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCSy4GQvyGWZOa0sDXxDUye6JMIl_f2VZQ&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=date';
+$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyBj_nuoEMPsKH-_Kc9hGpgIlxJE5jDX0yA&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=date';
 $result = get_curl($urlvideo);
 
 $latestvideo = $result['items'][0]['id']['videoId'];
