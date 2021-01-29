@@ -35,6 +35,6 @@ Route::get('/coba3', function(){
 Route::get('/channel', function(){
     return view('channel');
 });
-Route::get('/master', function(){
-    return view('layout/master');
+Route::get('/nav', function(){
+    return view('navbar');
 });
