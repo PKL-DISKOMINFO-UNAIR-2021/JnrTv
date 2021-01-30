@@ -12,34 +12,34 @@
   <body>
     <nav>
       <div class="menu-icon">
-        <span class="fas fa-bars"></span></div>
-        <div class="logo">
-            <img class="logo1" src="img/logo.png" href="/">
-        </div>
-        <div class="nav-items">
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">EXPLORE</a></li>
-        <li><a href="#">NEW RELEASE</a></li>
-        <li><a href="#">CHANNEL</a></li>
-        <li><a href="#">ABOUT</a></li>
-        </div>
-        <div class="search-icon">
-        <span class="fas fa-search"></span></div>
-        <div class="cancel-icon">
-        <span class="fas fa-times"></span></div>
-        <form action="#">
-                <input type="search" class="search-data" placeholder="Search" required>
-                <button type="submit" class="fas fa-search"></button>
-            </form>
-            <div class="icon">
-                <a class="notif" href=""><i class="fas fa-bell" data-toggle="tooltip" title="notifications" id="notif"></i></a>
-                <a class="signin" href="" data-toggle="modal" data-target="#exampleModal">SIGN IN</a>
-            </div>
-        </nav>
-            <div class="content">
-            <header class="space">Responsive Navbar with Search Box</header>
-            <div class="space text">using HTML CSS & JavaScript</div>
-    </div>
+<span class="fas fa-bars"></span></div>
+<div class="logo">
+<img class="logo1" src="img/logo.png" href="/">
+</div>
+<div class="nav-items">
+<li><a class="active"href="#">HOME</a></li>
+<li><a href="#">EXPLORE</a></li>
+<li><a href="#">NEW RELEASE</a></li>
+<li><a href="#">CHANNEL</a></li>
+<li><a href="#">ABOUT</a></li>
+<hr>
+<li><a class="fas" href="#"><i class="fas fa-bell mr-3" data-toggle="tooltip" title="notifications"></i></a></li>
+<li ><a class="signin" href="#">SIGN IN</a></li>
+</div>
+<div class="search-icon">
+<span class="fas fa-search"></span></div>
+<div class="cancel-icon">
+<span class="fas fa-times"></span></div>
+<form action="#">
+        <input type="search" class="search-data" placeholder="Search" required>
+        <button type="submit" class="fas fa-search"></button>
+      </form>
+</nav>
+    <div class="content">
+      <header class="space">Responsive Navbar with Search Box</header>
+      <div class="space text">
+using HTML CSS & JavaScript</div>
+</div>
 <script>
     const menuBtn = document.querySelector(".menu-icon span");
     const searchBtn = document.querySelector(".search-icon");
