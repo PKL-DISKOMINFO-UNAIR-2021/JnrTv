@@ -13,6 +13,7 @@
 <link rel="stylesheet" type="text/css" href="{{ asset('/Bootstrap/Bootstrap/css/all.min.css') }}">
 <link rel="stylesheet" href="/css/home.css">
 <link rel="stylesheet" href="/css/footer.css">
+<link rel="stylesheet" href="/css/nav.css">
 
 <script type="text/javascript" src="/js/JQuery3.3.1.js"></script> 
 <script type="text/javascript" src="/js/lightslider.js"></script>
@@ -28,26 +29,34 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light  fixed-top shadow-sm p-3 mb-5 bg-white">
-        <img class="logo" src="img/logo.png" href="/">
-        <ul>
-            <li class="home"><a href="/">HOME</a></li>
-            <li class="explore"><a href="/explore">EXPLORE</a></li>
-        </ul>
-            <form class="form-inline my-2 my-lg-0 ml-auto">
-            <div class="search">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            </div>
-            <button class="btn bg-dark text-white my-2 my-sm-0" type="submit">Search</button>
+ <!-- Navbar -->
+ <nav  class="navbar fixed-top shadow-sm">
+      <div class="menu-icon">
+      <span class="fas fa-bars"></span></div>
+      <div class="logo">  
+        <img class="logo1" src="img/logo.png" href="/">
+      </div>
+      <div class="nav-items">
+        <li><a class="active"href="#">HOME</a></li>
+        <li><a href="#">EXPLORE</a></li>
+        <li><a href="#">NEW RELEASE</a></li>
+        <li><a href="#">CHANNEL</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <hr>
+        <li><a class="fas" href="#"><i class="fas fa-bell mr-3" data-toggle="tooltip" title="notifications"></i></a></li>
+        <li ><a class="signin" href="#">SIGN IN</a></li>
+      </div>
+      <div class="search-icon">
+        <span class="fas fa-search"></span>
+      </div>
+      <div class="cancel-icon">
+        <span class="fas fa-times"></span>
+      </div>
+      <form action="#">
+              <input type="search" class="search-data" placeholder="Search" required>
+              <button type="submit" class="fas fa-search"></button>
             </form>
-            <div class="icon ml-4">
-            <h5>
-                <i class="fas fa-bell mr-3" data-toggle="tooltip" title="notifications"></i> <!-- tooltip dibuat untuk memeberitahu makna icon -->
-                <a href="" data-toggle="modal" data-target="#exampleModal">SIGN IN</a>
-            </h5>
-            </div>
-        </div>
-    </nav>
+  </nav>  <!-- akhir Navbar -->
     
     @yield('nav2')
     
@@ -96,7 +105,33 @@
 
     </div>
 
-
+<!-- Script Navbar -->
+<script>
+    const menuBtn = document.querySelector(".menu-icon span");
+    const searchBtn = document.querySelector(".search-icon");
+    const cancelBtn = document.querySelector(".cancel-icon");
+    const items = document.querySelector(".nav-items");
+    const form = document.querySelector("form");
+    menuBtn.onclick = ()=>{
+      items.classList.add("active");
+      menuBtn.classList.add("hide");
+      searchBtn.classList.add("hide");
+      cancelBtn.classList.add("show");
+    }
+    cancelBtn.onclick = ()=>{
+      items.classList.remove("active");
+      menuBtn.classList.remove("hide");
+      searchBtn.classList.remove("hide");
+      cancelBtn.classList.remove("show");
+      form.classList.remove("active");
+      cancelBtn.style.color = "#ff3d00";
+    }
+    searchBtn.onclick = ()=>{
+      form.classList.add("active");
+      searchBtn.classList.add("hide");
+      cancelBtn.classList.add("show");
+    }
+  </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     
     </body>

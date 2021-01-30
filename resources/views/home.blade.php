@@ -3,18 +3,6 @@
 <link rel="stylesheet" href="/css/lightslider.css">
 @endsection
 @section('title','home')
-@section('nav2')
-
-    <div class="nav2">
-            <ul class="nav justify-content-center">
-                <li class="nav-item"><a class="nav-link" href="/newrelease">NEW RELEASE</a></li>
-                 <li class="nav-item"> <a class="nav-link" href="/channel">CHANNEL</a></li>
-        <li class="nav-item">
-            <a class="nav-link" href="/about">ABOUT</a>
-            </li>
-        </ul>
-    </div>
-@endsection
 @section('isi')
     <!-- Carousel -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">

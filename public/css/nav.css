@@ -13,12 +13,13 @@ hr{
   display: none;
 }
 nav{
-  background: #F9F9F9;
+  background-color: #F9F9F9;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   height: 70px;
   padding: 0 50px;
+  margin-bottom: 10px;
 }
 nav .logo1{
   width: 100px;
@@ -123,6 +124,14 @@ nav .search-icon{
   nav .logo{
     flex: 2;
     text-align: center;
+  }
+  .fixed-top {
+    position: fixed;
+    top: 0;
+    padding: 0;
+    right: 0;
+    left: 0;
+    z-index: $zindex-fixed;
   }
   nav .nav-items li a.active{
     padding: 3px 7px;
