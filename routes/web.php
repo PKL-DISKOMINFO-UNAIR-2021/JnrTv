@@ -38,3 +38,6 @@ Route::get('/channel', function(){
 Route::get('/nav', function(){
     return view('navbar');
 });
+Route::get('/viewvid', function(){
+    return view('viewvideo');
+});
