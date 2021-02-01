@@ -43,108 +43,108 @@
         <div class="movies-box">
             <!--img------------>
             <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/l-1.jpg">
+                <div class="quality">Live Record</div>
+                <img src="img/VAKSIN AMAN DAN HALAL PROVINSI JAWA TIMUR.jpg">
             </div>
             <!--text--------->
             <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            VAKSIN AMAN DAN HALAL PROVINSI JAWA TIMUR
             </a>
         </div>
          <!--box-2------------------------>
          <div class="movies-box">
             <!--img------------>
             <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/l-2.jpg">
+                <div class="quality">Live Record</div>
+                <img src="img/DOA BERSAMA AKHIR TAHUN 2020 & MENYONGSONG JATIM BANGKIT TAHUN 2021.jpg">
             </div>
             <!--text--------->
             <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            DOA BERSAMA AKHIR TAHUN 2020 & MENYONGSONG JATIM BANGKIT TAHUN 2021
             </a>
         </div>
          <!--box-3------------------------>
          <div class="movies-box">
             <!--img------------>
             <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/l-3.jpg">
+                <div class="quality">Live Record</div>
+                <img src="img/PERINGATAN HARI IBU KE-92 dan HUT DHARMA WANITA PERSATUAN KE-21 TH.2020.jpg">
             </div>
             <!--text--------->
             <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            PERINGATAN HARI IBU KE-92 dan HUT DHARMA WANITA PERSATUAN KE-21 TH.2020
             </a>
         </div>
          <!--box-4------------------------>
          <div class="movies-box">
             <!--img------------>
             <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/l-4.jpg">
+                <div class="quality">Live Record</div>
+                <img src="img/EAST JAVA TOURISM AWARD 2020.jpg">
             </div>
             <!--text--------->
             <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            EAST JAVA TOURISM AWARD 2020
             </a>
         </div>
          <!--box-5------------------------>
          <div class="movies-box">
             <!--img------------>
             <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/l-5.jpg">
+                <div class="quality">Live Record</div>
+                <img src="img/GRAND FINAL 3D COMPETITION 2020.jpg">
             </div>
             <!--text--------->
             <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            GRAND FINAL 3D COMPETITION 2020
             </a>
         </div>
          <!--box-6------------------------>
          <div class="movies-box">
             <!--img------------>
             <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/l-6.jpg">
+                <div class="quality">Live Record</div>
+                <img src="img/PEMBUKAAN OPOP EXPO 2020 PESANTREN BERDAYA MASYARAKAT SEJAHTERA.jpg">
             </div>
             <!--text--------->
             <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            PEMBUKAAN OPOP EXPO 2020 PESANTREN BERDAYA MASYARAKAT SEJAHTERA
             </a>
         </div>
          <!--box-7------------------------>
          <div class="movies-box">
             <!--img------------>
             <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/l-7.jpg">
+                <div class="quality">Live Record</div>
+                <img src="img/HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020.jpg">
             </div>
             <!--text--------->
             <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020
             </a>
         </div>
          <!--box-8------------------------>
          <div class="movies-box">
             <!--img------------>
             <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/l-8.jpg">
+                <div class="quality">Live Record</div>
+                <img src="img/RAPAT KERJA DAERAH 2020-LEMBAGA PENGEMBANGAN TILAWATIL QURAN ( LPTQ ) DI JAWA TIMUR.jpg">
             </div>
             <!--text--------->
             <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            RAPAT KERJA DAERAH 2020-LEMBAGA PENGEMBANGAN TILAWATIL QURAN ( LPTQ ) DI JAWA TIMUR
             </a>
         </div>
         <!--box-9------------------------>
         <div class="movies-box">
             <!--img------------>
             <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/s-1.jpg">
+                <div class="quality">Live Record</div>
+                <img src="img/PERINGATAN HARI DISABILITAS INTERNATIONAL 2020-DINAS SOSIAL PROVINSI JAWA TIMUR .jpg">
             </div>
             <!--text--------->
             <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            PERINGATAN HARI DISABILITAS INTERNATIONAL 2020-DINAS SOSIAL PROVINSI JAWA TIMUR 
             </a>
         </div>
         

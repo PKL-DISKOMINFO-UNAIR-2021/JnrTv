@@ -4,3 +4,8 @@
 .carousel-item {
     height: 400px;
 }
+
+.movies-box p {
+    font-size: 12px;
+    text-align: left;
+}
