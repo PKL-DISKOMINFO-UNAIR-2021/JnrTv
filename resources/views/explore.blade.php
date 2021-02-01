@@ -27,68 +27,68 @@
         <div class="movies-box">
             <!--img------------>
             <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/l-1.jpg">
+                <div class="quality">Live Record</div>
+                <img src="img/UPACARA HARI PAHLAWAN 10 N0VEMBER 2020 - TUGU PAHLAWAN SURABAYA.jpg">
             </div>
             <!--text--------->
             <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            UPACARA HARI PAHLAWAN 10 N0VEMBER 2020 - TUGU PAHLAWAN SURABAYA
             </a>
         </div>
          <!--box-2------------------------>
          <div class="movies-box">
             <!--img------------>
             <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/l-2.jpg">
+                <div class="quality">Live Record</div>
+                <img src="img/UPACARA PERINGATAN HARI SUMPAH PEMUDA KE-92 DI GEDUNG NEGARA GRAHADI JAWA TIMUR 28 OKTOBER 2020.jpg">
             </div>
             <!--text--------->
             <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            UPACARA PERINGATAN HARI SUMPAH PEMUDA KE-92 DI GEDUNG NEGARA GRAHADI JAWA TIMUR 28 OKTOBER 2020
             </a>
         </div>
          <!--box-3------------------------>
          <div class="movies-box">
             <!--img------------>
             <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/l-3.jpg">
+                <div class="quality">Live Record</div>
+                <img src="img/HUT JAWA TIMUR KE-75 12 OKTOBER 2020, GEDUNG NEGARA GRAHADI SURABAYA.jpg">
             </div>
             <!--text--------->
             <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            HUT JAWA TIMUR KE-75 12 OKTOBER 2020, GEDUNG NEGARA GRAHADI SURABAYA
             </a>
         </div>
          <!--box-4------------------------>
          <div class="movies-box">
             <!--img------------>
             <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/l-4.jpg">
+                <div class="quality">Live Record</div>
+                <img src="img/Talenta Milenial Job Center di era New Normal 13 Oktober 2020.jpg">
             </div>
             <!--text--------->
             <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            Talenta Milenial Job Center di era New Normal 13 Oktober 2020
             </a>
         </div>
          <!--box-5------------------------>
          <div class="movies-box">
             <!--img------------>
             <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/l-5.jpg">
+                <div class="quality">Live Record</div>
+                <img src="img/KOPILABORASI SAMBANG PESANTREN - POMOSDA NGANJUK 9 OKTOBER 2020.jpg">
             </div>
             <!--text--------->
             <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            KOPILABORASI SAMBANG PESANTREN - POMOSDA NGANJUK 9 OKTOBER 2020
             </a>
         </div>
          <!--box-6------------------------>
          <div class="movies-box">
             <!--img------------>
             <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/l-6.jpg">
+                <div class="quality">Live Record</div>
+                <img src="img/SEMINAR ONLINE PENANGGULANGAN BENCANA Provinsi Jawa Timur Tahun 2020.jpg">
             </div>
             <!--text--------->
             <a href="#">
@@ -99,109 +99,38 @@
          <div class="movies-box">
             <!--img------------>
             <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/l-7.jpg">
+                <div class="quality">Live Record</div>
+                <img src="img/LIVE STREAMING UPACARA PERINGATAN HUT KE-75 KEMERDEKAAN RI, GEDUNG NEGARA GRAHADI.jpg">
             </div>
             <!--text--------->
             <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            LIVE STREAMING UPACARA PERINGATAN HUT KE-75 KEMERDEKAAN RI, GEDUNG NEGARA GRAHADI
             </a>
         </div>
          <!--box-8------------------------>
          <div class="movies-box">
             <!--img------------>
             <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/l-8.jpg">
+                <div class="quality">Live Record</div>
+                <img src="img/HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020.jpg">
             </div>
             <!--text--------->
             <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020
             </a>
         </div>
         <!--box-9------------------------>
         <div class="movies-box">
             <!--img------------>
             <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/s-1.jpg">
+                <div class="quality">Live Record</div>
+                <img src="img/KOPILABORASI, GOTONG ROYONG LAWAN COVID 19.jpg">
             </div>
             <!--text--------->
             <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            KOPILABORASI, GOTONG ROYONG LAWAN COVID 19
             </a>
         </div>
-        <!--box-10------------------------>
-        <div class="movies-box">
-            <!--img------------>
-            <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/s-2.jpg">
-            </div>
-            <!--text--------->
-            <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
-            </a>
-        </div>
-        <!--box-11------------------------>
-        <div class="movies-box">
-            <!--img------------>
-            <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/s-3.jpg">
-            </div>
-            <!--text--------->
-            <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
-            </a>
-        </div>
-        <!--box-12------------------------>
-        <div class="movies-box">
-            <!--img------------>
-            <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/s-4.jpg">
-            </div>
-            <!--text--------->
-            <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
-            </a>
-        </div>
-        <!--box-13------------------------>
-        <div class="movies-box">
-            <!--img------------>
-            <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/s-5.png">
-            </div>
-            <!--text--------->
-            <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
-            </a>
-        </div>
-        <!--box-14------------------------>
-        <div class="movies-box">
-            <!--img------------>
-            <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/l-1.jpg">
-            </div>
-            <!--text--------->
-            <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
-            </a>
-        </div>
-        <!--box-15------------------------>
-        <div class="movies-box">
-            <!--img------------>
-            <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/s-1.jpg">
-            </div>
-            <!--text--------->
-            <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
-            </a>
-        </div>
+        
     </section>
 @endsection
