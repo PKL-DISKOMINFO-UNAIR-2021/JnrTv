@@ -9,9 +9,6 @@
 body{
   background: #f2f2f2;
 }
-hr{
-  display: none;
-}
 nav{
   background-color: #F9F9F9;
   display: flex;
@@ -52,7 +49,7 @@ nav .nav-items li a{
   text-decoration: none;
 }
 nav .nav-items li a.fas{
-  margin-left: 80px;
+  margin-left: 280px;
 }
 nav .nav-items li a:hover{
   color: #ff3d00;
@@ -131,7 +128,6 @@ nav .search-icon{
     padding: 0;
     right: 0;
     left: 0;
-    z-index: $zindex-fixed;
   }
   nav .nav-items li a.active{
     padding: 3px 7px;
@@ -145,9 +141,7 @@ nav .search-icon{
     color: #f2f2f2;
 
   }
-  hr{
-    display: flex;
-  }
+
   nav .nav-items li a.fas{
     margin-left: 0;
   }
