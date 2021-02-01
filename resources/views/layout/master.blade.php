@@ -39,16 +39,10 @@
       <div class="nav-items">
         <li><a class="active"href="/">HOME</a></li>
         <li><a href="/explore">EXPLORE</a></li>
-<<<<<<< HEAD
         <li><a href="/newrelease">NEW RELEASE</a></li>
         <li><a href="/channel">CHANNEL</a></li>
         <li><a href="/about">ABOUT</a></li>
         <hr>
-=======
-        <li><a href="#">NEW RELEASE</a></li>
-        <li><a href="#">CHANNEL</a></li>
-        <li><a href="#">ABOUT</a></li>
->>>>>>> c7513650cc909afecb7ad3f5f2456aa21f681faf
         <li><a class="fas" href="#"><i class="fas fa-bell mr-3" data-toggle="tooltip" title="notifications"></i></a></li>
         <li ><a class="signin" href="#">SIGN IN</a></li>
       </div>
