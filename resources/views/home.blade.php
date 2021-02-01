@@ -56,35 +56,35 @@
         <li class="item-a">
             <!--showcase-box------------------->
            <div class="showcase-box">
-               <img src="img/s-1.jpg"/>
+               <img src="img/VAKSIN AMAN DAN HALAL PROVINSI JAWA TIMUR.jpg"/>
            </div>
                </li>
             <!--box-2--------------------------->
             <li class="item-b">
                 <!--showcase-box------------------->
                <div class="showcase-box">
-                   <img src="img/s-2.jpg"/>
+                   <img src="img/DOA BERSAMA AKHIR TAHUN 2020 & MENYONGSONG JATIM BANGKIT TAHUN 2021.jpg"/>
                </div>
                    </li>
                 <!--box-3--------------------------->
             <li class="item-c">
                 <!--showcase-box------------------->
                <div class="showcase-box">
-                   <img src="img/s-3.jpg"/>
+                   <img src="img/PERINGATAN HARI IBU KE-92 dan HUT DHARMA WANITA PERSATUAN KE-21 TH.2020.jpg"/>
                </div>
                    </li>
                 <!--box-4--------------------------->
             <li class="item-d">
                 <!--showcase-box------------------->
                <div class="showcase-box">
-                   <img src="img/s-4.jpg"/>
+                   <img src="img/EAST JAVA TOURISM AWARD 2020.jpg"/>
                </div>
                    </li>
                    <!--box-5--------------------------->
             <li class="item-e">
                 <!--showcase-box------------------->
                <div class="showcase-box">
-                   <img src="img/s-5.png"/>
+                   <img src="img/GRAND FINAL 3D COMPETITION 2020.jpg"/>
                </div>
                    </li>
           </ul>
@@ -101,12 +101,12 @@
                 <div class="latest-box">
                     <!--img-------->
                     <div class="latest-b-img">
-                        <img src="img/m-1.jpg">
+                        <img src="img/chn1.jpg">
                     </div>
                     <!--text---------->
                     <div class="latest-b-text">
-                        <strong>Kin 2018</strong>
-                        <p>Action Movie</p>
+                        <strong>Dinas Komunikasi dan Informatika Kota Surabaya</strong>
+                        <p>Youtube Channel</p>
                     </div>
                 </div>
             </li>
@@ -115,12 +115,12 @@
         <div class="latest-box">
             <!--img-------->
             <div class="latest-b-img">
-                <img src="img/m-2.jpg">
+                <img src="img/chn2.jpg">
             </div>
             <!--text---------->
             <div class="latest-b-text">
-                <strong>Kin 2018</strong>
-                <p>Action Movie</p>
+                <strong>Dinas Komunikasi dan Informatika Republik Indonesia</strong>
+                <p>Youtube Channel</p>
             </div>
         </div>
     </li>
@@ -129,12 +129,12 @@
         <div class="latest-box">
             <!--img-------->
             <div class="latest-b-img">
-                <img src="img/m-3.jpg">
+                <img src="img/chn3.jpg">
             </div>
             <!--text---------->
             <div class="latest-b-text">
-                <strong>Kin 2018</strong>
-                <p>Action Movie</p>
+                <strong>Dinas Komunikasi dan Informatika Prov. Jawa Barat</strong>
+                <p>Youtube Channel</p>
             </div>
         </div>
     </li>
@@ -143,12 +143,12 @@
         <div class="latest-box">
             <!--img-------->
             <div class="latest-b-img">
-                <img src="img/m-4.jpg">
+                <img src="img/chn4.jpg">
             </div>
             <!--text---------->
             <div class="latest-b-text">
-                <strong>Kin 2018</strong>
-                <p>Action Movie</p>
+                <strong>Dinas Komunikasi dan Informatika Prov. Jawa Tengah</strong>
+                <p>Youtube Channel</p>
             </div>
         </div>
     </li>
@@ -157,12 +157,12 @@
         <div class="latest-box">
             <!--img-------->
             <div class="latest-b-img">
-                <img src="img/m-5.jpg">
+                <img src="img/chn5.jpg">
             </div>
             <!--text---------->
             <div class="latest-b-text">
-                <strong>Kin 2018</strong>
-                <p>Action Movie</p>
+                <strong>Dinas Komunikasi dan Informatika Kota DKI Jakarta</strong>
+                <p>Youtube Channel</p>
             </div>
         </div>
     </li>
@@ -171,26 +171,12 @@
         <div class="latest-box">
             <!--img-------->
             <div class="latest-b-img">
-                <img src="img/m-6.jpg">
+                <img src="img/chn6.jpg">
             </div>
             <!--text---------->
             <div class="latest-b-text">
-                <strong>Kin 2018</strong>
-                <p>Action Movie</p>
-            </div>
-        </div>
-    </li>
-    <!--slide-box-7------------------>
-    <li class="item-g">
-        <div class="latest-box">
-            <!--img-------->
-            <div class="latest-b-img">
-                <img src="img/m-7.jpeg">
-            </div>
-            <!--text---------->
-            <div class="latest-b-text">
-                <strong>Kin 2018</strong>
-                <p>Action Movie</p>
+                <strong>Dinas Komunikasi dan Informatika DI Yogyakarta</strong>
+                <p>Youtube Channel</p>
             </div>
         </div>
     </li>
@@ -207,98 +193,39 @@
         <div class="movies-box">
             <!--img------------>
             <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/l-1.jpg">
+                <div class="quality">Live Record</div>
+                <img src="img/LIVE STREAMING UPACARA PERINGATAN HUT KE-75 KEMERDEKAAN RI, GEDUNG NEGARA GRAHADI.jpg">
             </div>
             <!--text--------->
             <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            LIVE STREAMING UPACARA PERINGATAN HUT KE-75 KEMERDEKAAN RI, GEDUNG NEGARA GRAHADI
             </a>
         </div>
          <!--box-2------------------------>
          <div class="movies-box">
             <!--img------------>
             <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/l-2.jpg">
+                <div class="quality">Live Record</div>
+                <img src="img/HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020.jpg">
             </div>
             <!--text--------->
             <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020
             </a>
         </div>
          <!--box-3------------------------>
          <div class="movies-box">
             <!--img------------>
             <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/l-3.jpg">
+                <div class="quality">Live Record</div>
+                <img src="img/KOPILABORASI, GOTONG ROYONG LAWAN COVID 19.jpg">
             </div>
             <!--text--------->
             <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            KOPILABORASI, GOTONG ROYONG LAWAN COVID 19
             </a>
         </div>
-         <!--box-4------------------------>
-         <div class="movies-box">
-            <!--img------------>
-            <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/l-4.jpg">
-            </div>
-            <!--text--------->
-            <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
-            </a>
-        </div>
-         <!--box-5------------------------>
-         <div class="movies-box">
-            <!--img------------>
-            <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/l-5.jpg">
-            </div>
-            <!--text--------->
-            <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
-            </a>
-        </div>
-         <!--box-6------------------------>
-         <div class="movies-box">
-            <!--img------------>
-            <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/l-6.jpg">
-            </div>
-            <!--text--------->
-            <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
-            </a>
-        </div>
-         <!--box-7------------------------>
-         <div class="movies-box">
-            <!--img------------>
-            <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/l-7.jpg">
-            </div>
-            <!--text--------->
-            <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
-            </a>
-        </div>
-         <!--box-8------------------------>
-         <div class="movies-box">
-            <!--img------------>
-            <div class="movies-img">
-                <div class="quality">HDRip</div>
-                <img src="img/l-8.jpg">
-            </div>
-            <!--text--------->
-            <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
-            </a>
-        </div>
+        
     </section>
     <script>
         $(document).ready(function() {

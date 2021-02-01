@@ -29,7 +29,7 @@
       </div>
       <div class="nav-items">
         <li><a class="active"href="#">HOME</a></li>
-        <li><a href="#">EXPLORE</a></li>
+        <li><a href="/explore">EXPLORE</a></li>
         <li><a href="#">NEW RELEASE</a></li>
         <li><a href="#">CHANNEL</a></li>
         <li><a href="#">ABOUT</a></li>
