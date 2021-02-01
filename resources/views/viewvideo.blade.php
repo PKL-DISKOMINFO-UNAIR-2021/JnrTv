@@ -1,12 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video</title>
-    <link rel="stylesheet" href="/css/viewvid.css">
-</head>
-<body>
+@extends('layout/master')
+@section('linkcss')
+<link rel="stylesheet" href="/css/viewvid.css">
+@endsection
+@section('title','video')
+@section('nav')
+<div class="nav-items">
+        <li><a href="/">HOME</a></li>
+        <li><a href="/explore">EXPLORE</a></li>
+        <li><a href="/newrelease">NEW RELEASE</a></li>
+        <li><a href="/about">ABOUT</a></li>
+        <hr>
+        <li><a class="fas" href="#"><i class="fas fa-bell mr-3" data-toggle="tooltip" title="notifications"></i></a></li>
+        <li ><a class="signin" href="#">SIGN IN</a></li>
+      </div>
+@endsection
+@section('isi')
+
     <div class="container">
         <div class="row">
             <div class="col">
@@ -51,5 +60,4 @@
             </div>
         </div>
     </div>
-</body>
-</html>
+@endsection
