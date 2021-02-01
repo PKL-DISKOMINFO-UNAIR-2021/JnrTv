@@ -36,16 +36,7 @@
       <div class="logo">  
         <img class="logo1" src="img/logo.png" href="/">
       </div>
-      <div class="nav-items">
-        <li><a class="active"href="/">HOME</a></li>
-        <li><a href="/explore">EXPLORE</a></li>
-        <li><a href="/newrelease">NEW RELEASE</a></li>
-        <li><a href="/channel">CHANNEL</a></li>
-        <li><a href="/about">ABOUT</a></li>
-        <hr>
-        <li><a class="fas" href="#"><i class="fas fa-bell mr-3" data-toggle="tooltip" title="notifications"></i></a></li>
-        <li ><a class="signin" href="#">SIGN IN</a></li>
-      </div>
+      @yield('nav')
       <div class="search-icon">
         <span class="fas fa-search"></span>
       </div>
@@ -58,7 +49,6 @@
             </form>
   </nav>  <!-- akhir Navbar -->
     
-    @yield('nav2')
     
     @yield('isi')
 

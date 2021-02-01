@@ -7,6 +7,17 @@
     <link rel="stylesheet" href="/css/lightslider.css">
     @endsection
     @section('title','explore')
+    @section('nav')
+<div class="nav-items">
+        <li><a href="/">HOME</a></li>
+        <li><a class="active" href="/explore">EXPLORE</a></li>
+        <li><a href="/newrelease">NEW RELEASE</a></li>
+        <li><a href="/about">ABOUT</a></li>
+        <hr>
+        <li><a class="fas" href="#"><i class="fas fa-bell mr-3" data-toggle="tooltip" title="notifications"></i></a></li>
+        <li ><a class="signin" href="#">SIGN IN</a></li>
+      </div>
+@endsection
     @section('isi')
     <!--Bannerr--> 
         <div class="carousel-inner">
