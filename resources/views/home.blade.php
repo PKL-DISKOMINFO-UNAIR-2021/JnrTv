@@ -93,7 +93,7 @@
     <!--latest-movies---------------------->
     <section id="latest">
         <a class="latest-heading">CHANNEL</a>
-        <a class="showcase-heading-kanan" href="/channel" style="float:right;">VIEW ALL</a>
+        
         <!--slider------------------->
         <ul id="autoWidth2" class="cs-hidden">
             <!--slide-box-1------------------>
@@ -185,7 +185,7 @@
     <!--movies---------------------------->
     <section id="top">
     <a class="latest-heading">EXPLORE</a>
-    <a class="showcase-heading-kanan" href="/channel" style="float:right;">VIEW ALL</a>
+    <a class="showcase-heading-kanan" href="/explore" style="float:right;">VIEW ALL</a>
     </section>
     
     <section id="movies-list">
