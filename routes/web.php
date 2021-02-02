@@ -16,7 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
-
 Route::get('/youtubegj', function(){
     return view('gridview');
 });
@@ -41,10 +40,3 @@ Route::get('/nav', function(){
 Route::get('/viewvid', function(){
     return view('viewvideo');
 });
-Route::get('/auth/redirect/{provider}', 'GoogleLoginController@redirect');
-Route::get('/callback/{provider}', 'GoogleLoginController@callback');
-
-
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
