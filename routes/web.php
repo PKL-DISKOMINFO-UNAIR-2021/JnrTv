@@ -41,3 +41,7 @@ Route::get('/nav', function(){
 Route::get('/viewvid', function(){
     return view('viewvideo');
 });
+Route::get('/login', function(){
+    return view('login');
+});
+
