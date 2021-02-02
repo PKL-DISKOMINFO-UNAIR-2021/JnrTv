@@ -41,7 +41,10 @@ Route::get('/nav', function(){
 Route::get('/viewvid', function(){
     return view('viewvideo');
 });
-Route::get('/login', function(){
-    return view('login');
-});
+Route::get('/auth/redirect/{provider}', 'GoogleLoginController@redirect');
+Route::get('/callback/{provider}', 'GoogleLoginController@callback');
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
