@@ -52,48 +52,63 @@
     
     @yield('isi')
 
-    <footer class="footer" >
-        <div class="footer-left">
-            <img src="img/logo.png" href="/">
-            <div class="footer-links">
-                <a href="/" class="link1">Home</a>
-                <a href="/explore">Explore</a>
-                <a href="/newrelease">New Release</a>
-                <a href="/channel">Channel</a>
-                <a href="/about">About</a>
-            </div>
-        </div>
-        <div class="footer-center">
-            <div>
-                <i class="fa fa-map-marker"></i>
-                <p><span>Jl. A. Yani 242 - 244, Surabaya. </span></p>
-            </div>
-            <div>
-                <i class="fa fa-phone"></i>
-                <p>(031) 8294608</p>
-            </div>
-            <div>
-                <i class="fa fa-envelope"></i>
-                <p> kominfo@jatimprov.go.id</p>
-            </div>
-        </div>
-        <div class="footer-right">
-            <p class="footer-follow-us">
-            <span>Follow Us</span>
-            Please Follow us on our Social Media Profile in order to keep updated.
-            </p>
-            <div class="footer-social">
-                <a href="http://kominfo.jatimprov.go.id/"><i class="fas fa-globe"></i></a>
-                <a href="https://www.instagram.com/kominfojatim/"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.youtube.com/channel/UCEe1ees-scoEkTQv3he9PJw"><i class="fab fa-youtube"></i></a>
-                
-            </div>
-        </div>
-    </footer>
-    <div class="footer2">
-        <p><span><i class="fas fa-copyright"></i>Powered by</span>PKL Sistem Informasi Unair 2021</p>
+    <footer class="footer-distributed">
+ 
+ <div class="footer-left">
 
-    </div>
+   <img src="img/logo.png" href="/">
+
+       <p class="footer-links">
+       <a href="/">Home</a>
+     ·
+       <a href="/explore">Explore</a>
+     ·
+       <a href="/newrelease">New Release</a>
+     ·
+       <a href="/about">About</a>
+       </p>
+   
+       <p class="footer-company-name">Kominfo-Jatim &copy; 2021</p>
+ </div>
+ 
+<div class="footer-center">
+ 
+     <div>
+           <i class="fa fa-map-marker"></i>
+           <p><span>Jl. A. Yani 242 - 244, Surabaya. </span></p>
+       </div>
+       <div>
+           <i class="fa fa-phone"></i>
+           <p>(031) 8294608</p>
+       </div>
+       <div>
+           <i class="fa fa-envelope"></i>
+           <p> kominfo@jatimprov.go.id</p>
+       </div>
+
+</div>
+<div class="footer-right">
+
+   <p class="footer-company-about">
+   <span>Follow Us</span>
+   Please Follow us on our Social Media Profile in order to keep updated.
+   </p>
+
+   <div class="footer-icons">
+ 
+           <a href="http://kominfo.jatimprov.go.id/"><i class="fas fa-globe"></i></a>
+           <a href="https://www.instagram.com/kominfojatim/"><i class="fab fa-instagram"></i></a>
+           <a href="https://www.youtube.com/channel/UCEe1ees-scoEkTQv3he9PJw"><i class="fab fa-youtube"></i></a>
+
+   </div>
+
+</div>
+
+</footer>
+<div class="footer2">
+   <p><span><i class="fas fa-copyright"></i>Powered by</span>PKL Sistem Informasi Unair 2021</p>
+
+</div>
 
 <!-- Script Navbar -->
 <script>

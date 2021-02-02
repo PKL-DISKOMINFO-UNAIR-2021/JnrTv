@@ -108,6 +108,9 @@ nav .cancel-icon,
 nav .search-icon{
   display: none;
 }
+
+
+
 @media (max-width: 1245px) {
   nav{
     padding: 0 50px;
@@ -226,6 +229,7 @@ nav .search-icon{
   nav .cancel-icon.show{
     display: block;
   }
+
 }
 .content{
   position: absolute;
@@ -249,7 +253,7 @@ nav .logo.space{
   color: red;
   padding: 0 5px 0 0;
 }
-@media (max-width: 980px){
+@media (max-width: 880px){
   nav .menu-icon,
   nav .cancel-icon,
   nav .search-icon{
@@ -259,6 +263,7 @@ nav .logo.space{
     right: 30px;
     width: 70%;
   }
+
 }
 @media (max-width: 350px){
   nav .menu-icon,
@@ -273,6 +278,7 @@ nav .logo.space{
   nav .nav-items{
     padding: 0;
   }
+ 
 }
 .content{
   position: absolute;

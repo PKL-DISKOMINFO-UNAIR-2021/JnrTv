@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('/fontawesome-free-5.12.1-web/css/all.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('/Bootstrap/Bootstrap/css/all.min.css') }}">
     <!-- Css -->
-    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/banner.css">
     <!-- js -->
     <script type="text/javascript" src="/js/JQuery3.3.1.js"></script> 
     <script type="text/javascript" src="/js/lightslider.js"></script>
@@ -20,67 +20,65 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
   </head>
   <body>
-    <!-- Navbar -->
-    <nav  class="navbar fixed-top shadow-sm p-3">
-      <div class="menu-icon">
-      <span class="fas fa-bars"></span></div>
-      <div class="logo">  
-        <img class="logo1" src="img/logo.png" href="/">
-      </div>
-      <div class="nav-items">
-        <li><a class="active"href="#">HOME</a></li>
-        <li><a href="/explore">EXPLORE</a></li>
-        <li><a href="#">NEW RELEASE</a></li>
-        <li><a href="#">CHANNEL</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <hr>
-        <li><a class="fas" href="#"><i class="fas fa-bell mr-3" data-toggle="tooltip" title="notifications"></i></a></li>
-        <li ><a class="signin" href="#">SIGN IN</a></li>
-      </div>
-      <div class="search-icon">
-        <span class="fas fa-search"></span>
-      </div>
-      <div class="cancel-icon">
-        <span class="fas fa-times"></span>
-      </div>
-      <form action="#">
-              <input type="search" class="search-data" placeholder="Search" required>
-              <button type="submit" class="fas fa-search"></button>
-            </form>
-  </nav>  <!-- akhir Navbar -->
-  <div class="content">
-      <header class="space">Responsive Navbar with Search Box</header>
-      <div class="space text">
-using HTML CSS & JavaScript</div>
-</div>
 
-<!-- Script Navbar -->
-<script>
-    const menuBtn = document.querySelector(".menu-icon span");
-    const searchBtn = document.querySelector(".search-icon");
-    const cancelBtn = document.querySelector(".cancel-icon");
-    const items = document.querySelector(".nav-items");
-    const form = document.querySelector("form");
-    menuBtn.onclick = ()=>{
-      items.classList.add("active");
-      menuBtn.classList.add("hide");
-      searchBtn.classList.add("hide");
-      cancelBtn.classList.add("show");
-    }
-    cancelBtn.onclick = ()=>{
-      items.classList.remove("active");
-      menuBtn.classList.remove("hide");
-      searchBtn.classList.remove("hide");
-      cancelBtn.classList.remove("show");
-      form.classList.remove("active");
-      cancelBtn.style.color = "#ff3d00";
-    }
-    searchBtn.onclick = ()=>{
-      form.classList.add("active");
-      searchBtn.classList.add("hide");
-      cancelBtn.classList.add("show");
-    }
-  </script>
+    <!-- Navbar -->
+		<footer class="footer-distributed">
+ 
+		  <div class="footer-left">
+ 
+        <img src="img/logo.png" href="/">
+  
+            <p class="footer-links">
+            <a href="/">Home</a>
+          ·
+            <a href="/explore">Explore</a>
+          ·
+            <a href="/newrelease">New Release</a>
+          ·
+            <a href="/about">About</a>
+            </p>
+        
+            <p class="footer-company-name">Kominfo-Jatim &copy; 2021</p>
+      </div>
+      
+    <div class="footer-center">
+      
+          <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Jl. A. Yani 242 - 244, Surabaya. </span></p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>(031) 8294608</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p> kominfo@jatimprov.go.id</p>
+            </div>
+
+    </div>
+		<div class="footer-right">
+ 
+        <p class="footer-company-about">
+        <span>Follow Us</span>
+        Please Follow us on our Social Media Profile in order to keep updated.
+        </p>
+    
+        <div class="footer-icons">
+      
+                <a href="http://kominfo.jatimprov.go.id/"><i class="fas fa-globe"></i></a>
+                <a href="https://www.instagram.com/kominfojatim/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCEe1ees-scoEkTQv3he9PJw"><i class="fab fa-youtube"></i></a>
+    
+        </div>
+ 
+    </div>
+    
+    </footer>
+    <div class="footer2">
+        <p><span><i class="fas fa-copyright"></i>Powered by</span>PKL Sistem Informasi Unair 2021</p>
+
+    </div>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
