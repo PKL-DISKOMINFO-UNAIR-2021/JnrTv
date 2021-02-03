@@ -16,7 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
-
 Route::get('/youtubegj', function(){
     return view('gridview');
 });
@@ -41,7 +40,3 @@ Route::get('/nav', function(){
 Route::get('/viewvid', function(){
     return view('viewvideo');
 });
-Route::get('/login', function(){
-    return view('login');
-});
-
