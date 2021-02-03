@@ -135,7 +135,7 @@
                 <img src="img/PERINGATAN HARI DISABILITAS INTERNATIONAL 2020-DINAS SOSIAL PROVINSI JAWA TIMUR .jpg">
             </div>
             <!--text--------->
-            <a href="#">
+            <a href="/RAPAT KERJA DAERAH 2020">
             PERINGATAN HARI DISABILITAS INTERNATIONAL 2020-DINAS SOSIAL PROVINSI JAWA TIMUR 
             </a>
         </div>

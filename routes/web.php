@@ -79,3 +79,7 @@ Route::get('/PEMBUKAAN OPOP EXPO 2020', function(){
 Route::get('/HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020', function(){
     return view('.new-release/HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020');
 });
+Route::get('/RAPAT KERJA DAERAH 2020', function(){
+    return view('.new-release/RAPAT KERJA DAERAH 2020');
+});
+
