@@ -67,35 +67,35 @@
         <li class="item-a">
             <!--showcase-box------------------->
            <div class="showcase-box">
-               <a href="/viewvid"><img src="img/VAKSIN AMAN DAN HALAL PROVINSI JAWA TIMUR.jpg"/></a>  
+               <a href="/VAKSIN AMAN DAN HALAL PROVINSI JAWA TIMUR"><img src="img/VAKSIN AMAN DAN HALAL PROVINSI JAWA TIMUR.jpg"/></a>  
            </div>
                </li>
             <!--box-2--------------------------->
             <li class="item-b">
                 <!--showcase-box------------------->
                <div class="showcase-box">
-                   <a href="/viewvid"><img src="img/DOA BERSAMA AKHIR TAHUN 2020 & MENYONGSONG JATIM BANGKIT TAHUN 2021.jpg"/></a>
+                   <a href="/DOA BERSAMA AKHIR TAHUN 2020 & MENYONGSONG JATIM BANGKIT TAHUN 2021"><img src="img/DOA BERSAMA AKHIR TAHUN 2020 & MENYONGSONG JATIM BANGKIT TAHUN 2021.jpg"/></a>
                </div>
                    </li>
                 <!--box-3--------------------------->
             <li class="item-c">
                 <!--showcase-box------------------->
                <div class="showcase-box">
-                   <a href="/viewvid"><img src="img/PERINGATAN HARI IBU KE-92 dan HUT DHARMA WANITA PERSATUAN KE-21 TH.2020.jpg"/></a>
+                   <a href="/PERINGATAN HARI IBU KE-92 dan HUT DHARMA WANITA PERSATUAN KE-21 TH.2020"><img src="img/PERINGATAN HARI IBU KE-92 dan HUT DHARMA WANITA PERSATUAN KE-21 TH.2020.jpg"/></a>
                </div>
                    </li>
                 <!--box-4--------------------------->
             <li class="item-d">
                 <!--showcase-box------------------->
                <div class="showcase-box">
-                   <a href="/viewvid"><img src="img/EAST JAVA TOURISM AWARD 2020.jpg"/></a>
+                   <a href="/EAST JAVA TOURISM AWARD 2020"><img src="img/EAST JAVA TOURISM AWARD 2020.jpg"/></a>
                </div>
                    </li>
                    <!--box-5--------------------------->
             <li class="item-e">
                 <!--showcase-box------------------->
                <div class="showcase-box">
-                   <a href="/viewvid"><img src="img/GRAND FINAL 3D COMPETITION 2020.jpg"/></a>
+                   <a href="/GRAND FINAL 3D COMPETITION 2020"><img src="img/GRAND FINAL 3D COMPETITION 2020.jpg"/></a>
                </div>
                    </li>
           </ul>

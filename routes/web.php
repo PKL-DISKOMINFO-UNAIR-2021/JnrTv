@@ -43,3 +43,18 @@ Route::get('/viewvid', function(){
 Route::get('/ISTIGHOTSAH-KUBRO-ONLINE-DALAM-MENGHADAPI-WABAH-COVID-19', function(){
     return view('.youtube-video/ISTIGHOTSAH-KUBRO-ONLINE-DALAM-MENGHADAPI-WABAH-COVID-19');
 });
+Route::get('/VAKSIN AMAN DAN HALAL PROVINSI JAWA TIMUR', function(){
+    return view('.new-release/VAKSIN AMAN DAN HALAL PROVINSI JAWA TIMUR');
+});
+Route::get('/DOA BERSAMA AKHIR TAHUN 2020 & MENYONGSONG JATIM BANGKIT TAHUN 2021', function(){
+    return view('.new-release/DOA BERSAMA AKHIR TAHUN 2020 & MENYONGSONG JATIM BANGKIT TAHUN 2021');
+});
+Route::get('/PERINGATAN HARI IBU KE-92 dan HUT DHARMA WANITA PERSATUAN KE-21 TH.2020', function(){
+    return view('.new-release/PERINGATAN HARI IBU KE-92 dan HUT DHARMA WANITA PERSATUAN KE-21 TH.2020');
+});
+Route::get('/EAST JAVA TOURISM AWARD 2020', function(){
+    return view('.new-release/EAST JAVA TOURISM AWARD 2020');
+});
+Route::get('/GRAND FINAL 3D COMPETITION 2020', function(){
+    return view('.new-release/GRAND FINAL 3D COMPETITION 2020');
+});
