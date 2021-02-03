@@ -74,7 +74,7 @@
             <li class="item-b">
                 <!--showcase-box------------------->
                <div class="showcase-box">
-                   <a href="/viewvid"><img src="img/DOA BERSAMA AKHIR TAHUN 2020 & MENYONGSONG JATIM BANGKIT TAHUN 2021.jpg"/></a>
+                   <a href="/viewvid1"><img src="img/DOA BERSAMA AKHIR TAHUN 2020 & MENYONGSONG JATIM BANGKIT TAHUN 2021.jpg"/></a>
                </div>
                    </li>
                 <!--box-3--------------------------->
