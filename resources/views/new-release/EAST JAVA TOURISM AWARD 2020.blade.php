@@ -18,12 +18,12 @@ $channelname = $result['items'][0]['snippet']['title'];
 $subscriber = $result['items'][0]['statistics']['subscriberCount'];
 
 //videdo
-$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCHzjzVt26LyEnQLDFzTnMuhmzYM5afMy4&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=date';
+$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCHzjzVt26LyEnQLDFzTnMuhmzYM5afMy4&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=10&part=snippet&order=date';
 $result = get_curl($urlvideo);
 
-$latestvideo3 = $result['items'][3]['id']['videoId'];
-$judul3 = $result['items'][3]['snippet']['title'];
-$desc3 = $result['items'][3]['snippet']['description'];
+$latestvideo3 = $result['items'][5]['id']['videoId'];
+$judul3 = $result['items'][5]['snippet']['title'];
+$desc3 = $result['items'][5]['snippet']['description'];
 
 //recommedation based highest viewcount video
 $urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCHzjzVt26LyEnQLDFzTnMuhmzYM5afMy4&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=viewCount';

@@ -39,7 +39,7 @@
                 <img src="img/VAKSIN AMAN DAN HALAL PROVINSI JAWA TIMUR.jpg">
             </div>
             <!--text--------->
-            <a href="#">
+            <a href="/VAKSIN AMAN DAN HALAL PROVINSI JAWA TIMUR">
             VAKSIN AMAN DAN HALAL PROVINSI JAWA TIMUR
             </a>
         </div>
@@ -51,7 +51,7 @@
                 <img src="img/DOA BERSAMA AKHIR TAHUN 2020 & MENYONGSONG JATIM BANGKIT TAHUN 2021.jpg">
             </div>
             <!--text--------->
-            <a href="#">
+            <a href="/DOA BERSAMA AKHIR TAHUN 2020 & MENYONGSONG JATIM BANGKIT TAHUN 2021">
             DOA BERSAMA AKHIR TAHUN 2020 & MENYONGSONG JATIM BANGKIT TAHUN 2021
             </a>
         </div>
@@ -63,7 +63,7 @@
                 <img src="img/PERINGATAN HARI IBU KE-92 dan HUT DHARMA WANITA PERSATUAN KE-21 TH.2020.jpg">
             </div>
             <!--text--------->
-            <a href="#">
+            <a href="/PERINGATAN HARI IBU KE-92 dan HUT DHARMA WANITA PERSATUAN KE-21 TH 2020">
             PERINGATAN HARI IBU KE-92 dan HUT DHARMA WANITA PERSATUAN KE-21 TH.2020
             </a>
         </div>
@@ -75,7 +75,7 @@
                 <img src="img/EAST JAVA TOURISM AWARD 2020.jpg">
             </div>
             <!--text--------->
-            <a href="#">
+            <a href="/EAST JAVA TOURISM AWARD 2020">
             EAST JAVA TOURISM AWARD 2020
             </a>
         </div>
@@ -87,7 +87,7 @@
                 <img src="img/GRAND FINAL 3D COMPETITION 2020.jpg">
             </div>
             <!--text--------->
-            <a href="#">
+            <a href="/GRAND FINAL 3D COMPETITION 2020">
             GRAND FINAL 3D COMPETITION 2020
             </a>
         </div>
@@ -99,7 +99,7 @@
                 <img src="img/PEMBUKAAN OPOP EXPO 2020 PESANTREN BERDAYA MASYARAKAT SEJAHTERA.jpg">
             </div>
             <!--text--------->
-            <a href="#">
+            <a href="/PEMBUKAAN OPOP EXPO 2020">
             PEMBUKAAN OPOP EXPO 2020 PESANTREN BERDAYA MASYARAKAT SEJAHTERA
             </a>
         </div>
@@ -111,7 +111,7 @@
                 <img src="img/HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020.jpg">
             </div>
             <!--text--------->
-            <a href="#">
+            <a href="/HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020">
             HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020
             </a>
         </div>

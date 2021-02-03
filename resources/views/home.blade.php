@@ -81,7 +81,7 @@
             <li class="item-c">
                 <!--showcase-box------------------->
                <div class="showcase-box">
-                   <a href="/PERINGATAN HARI IBU KE-92 dan HUT DHARMA WANITA PERSATUAN KE-21 TH.2020"><img src="img/PERINGATAN HARI IBU KE-92 dan HUT DHARMA WANITA PERSATUAN KE-21 TH.2020.jpg"/></a>
+                   <a href="/PERINGATAN HARI IBU KE-92 dan HUT DHARMA WANITA PERSATUAN KE-21 TH 2020"><img src="img/PERINGATAN HARI IBU KE-92 dan HUT DHARMA WANITA PERSATUAN KE-21 TH.2020.jpg"/></a>
                </div>
                    </li>
                 <!--box-4--------------------------->
