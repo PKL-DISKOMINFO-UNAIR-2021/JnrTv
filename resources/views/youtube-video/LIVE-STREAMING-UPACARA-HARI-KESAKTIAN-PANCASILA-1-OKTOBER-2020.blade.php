@@ -11,7 +11,6 @@ function get_curl ($url){
     
     return json_decode($result, true);
 }
-
 $result = get_curl('https://www.googleapis.com/youtube/v3/channels?key=AIzaSyCHzjzVt26LyEnQLDFzTnMuhmzYM5afMy4&id=UCEe1ees-scoEkTQv3he9PJw&part=snippet,statistics');
 $youtubeprofilepict = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
 $channelname = $result['items'][0]['snippet']['title'];
@@ -21,12 +20,8 @@ $subscriber = $result['items'][0]['statistics']['subscriberCount'];
 $urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCHzjzVt26LyEnQLDFzTnMuhmzYM5afMy4&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=date';
 $result = get_curl($urlvideo);
 
-$latestvideo1 = $result['items'][1]['id']['videoId'];
-$judul1 = $result['items'][1]['snippet']['title'];
-$desc1 = $result['items'][1]['snippet']['description'];
-
-$recom2 = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
-$judulrecom2 = $result['items'][0]['snippet']['title'];
+$latestvideo = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
+$judul = $result['items'][0]['snippet']['title'];
 
 //recommedation based highest viewcount video
 $urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCHzjzVt26LyEnQLDFzTnMuhmzYM5afMy4&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=viewCount';
@@ -35,8 +30,12 @@ $result = get_curl($urlrecom);
 $recom = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
 $judulrecom = $result['items'][0]['snippet']['title'];
 
-$recom1 = $result['items'][1]['snippet']['thumbnails']['medium']['url'];
+$recom1 = $result['items'][1]['id']['videoId'];
 $judulrecom1 = $result['items'][1]['snippet']['title'];
+$desc = $result['items'][1]['snippet']['description'];
+
+$recom2 = $result['items'][2]['snippet']['thumbnails']['medium']['url'];
+$judulrecom2 = $result['items'][2]['snippet']['title'];
 
 $recom3 = $result['items'][3]['snippet']['thumbnails']['medium']['url'];
 $judulrecom3 = $result['items'][3]['snippet']['title'];
@@ -67,14 +66,14 @@ $judulrecom4 = $result['items'][4]['snippet']['title'];
         <div class="row">
             <div class="col">
                 <div class="feature-img">
-                    <iframe src="https://youtube.com/embed/<?= $latestvideo1; ?>?rel=0" allowfullscreen width="100%"></iframe>
-                    <h2> <?= $judul1; ?> </h2>
+                    <iframe src="https://youtube.com/embed/<?= $recom1; ?>?rel=0" allowfullscreen width="100%"></iframe>
+                    <h2> <?= $judulrecom1; ?> </h2>
                     <div class= "akun-profile">
                         <img src= <?= $youtubeprofilepict; ?>>
                         <h2> <span class="font-weight-bold"> <?= $channelname; ?></span>
                         <br> <?= $subscriber;  ?> Subcriber </h2>
                     </div>
-                    <p> <?= $desc1; ?> </p>
+                    <p> <?= $desc; ?> </p>
                 </div>
             </div>
 
@@ -89,9 +88,9 @@ $judulrecom4 = $result['items'][4]['snippet']['title'];
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
-                        <img src=<?= $recom1; ?>>
+                        <img src=<?= $latestvideo; ?>>
                     </div>
-                    <p> <?= $judulrecom1; ?> </p>
+                    <p> <?= $judul; ?> </p>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
