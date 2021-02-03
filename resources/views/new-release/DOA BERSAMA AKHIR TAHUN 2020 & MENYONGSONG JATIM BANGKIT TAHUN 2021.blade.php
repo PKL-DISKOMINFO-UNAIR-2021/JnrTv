@@ -85,25 +85,25 @@ $judulrecom4 = $result['items'][4]['snippet']['title'];
                     <div class="small-img">
                         <img src=<?= $recom; ?>>
                     </div>
-                    <p> <?= $judulrecom; ?> </p>
+                    <a href="/ISTIGHOTSAH-KUBRO-ONLINE-DALAM-MENGHADAPI-WABAH-COVID-19"><p> <?= $judulrecom; ?> </p></a>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
                         <img src=<?= $recom1; ?>>
                     </div>
-                    <p> <?= $judulrecom1; ?> </p>
+                    <a href="/LIVE-STREAMING-UPACARA-HARI-KESAKTIAN-PANCASILA-1-OKTOBER-2020"><p> <?= $judulrecom1; ?> </p></a>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
                         <img src=<?= $recom2; ?>>
                     </div>
-                    <p> <?= $judulrecom2; ?> </p>
+                    <a href="/VAKSIN AMAN DAN HALAL PROVINSI JAWA TIMUR"><p> <?= $judulrecom2; ?> </p></a>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
                         <img src=<?= $recom3; ?>>
                     </div>
-                    <p> <?= $judulrecom3; ?> </p>
+                    <a href="/ISTIGHOTSAH KUBRO ONLINE (TRIAL)"><p> <?= $judulrecom3; ?> </p></a>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
