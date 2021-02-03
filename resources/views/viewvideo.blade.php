@@ -12,17 +12,37 @@ function get_curl ($url){
     return json_decode($result, true);
 }
 
-$result = get_curl('https://www.googleapis.com/youtube/v3/channels?key=AIzaSyCSy4GQvyGWZOa0sDXxDUye6JMIl_f2VZQ&id=UCEe1ees-scoEkTQv3he9PJw&part=snippet,statistics');
+$result = get_curl('https://www.googleapis.com/youtube/v3/channels?key=AIzaSyCHzjzVt26LyEnQLDFzTnMuhmzYM5afMy4&id=UCEe1ees-scoEkTQv3he9PJw&part=snippet,statistics');
 $youtubeprofilepict = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
 $channelname = $result['items'][0]['snippet']['title'];
 $subscriber = $result['items'][0]['statistics']['subscriberCount'];
-//latest video
-$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyBj_nuoEMPsKH-_Kc9hGpgIlxJE5jDX0yA&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=date';
+
+//videdo
+$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCHzjzVt26LyEnQLDFzTnMuhmzYM5afMy4&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=date';
 $result = get_curl($urlvideo);
 
 $latestvideo = $result['items'][0]['id']['videoId'];
 $judul = $result['items'][0]['snippet']['title'];
 $desc = $result['items'][0]['snippet']['description'];
+
+//recommedation based highest viewcount video
+$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCHzjzVt26LyEnQLDFzTnMuhmzYM5afMy4&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=viewCount';
+$result = get_curl($urlrecom);
+
+$recom = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
+$judulrecom = $result['items'][0]['snippet']['title'];
+
+$recom1 = $result['items'][1]['snippet']['thumbnails']['medium']['url'];
+$judulrecom1 = $result['items'][1]['snippet']['title'];
+
+$recom2 = $result['items'][2]['snippet']['thumbnails']['medium']['url'];
+$judulrecom2 = $result['items'][2]['snippet']['title'];
+
+$recom3 = $result['items'][3]['snippet']['thumbnails']['medium']['url'];
+$judulrecom3 = $result['items'][3]['snippet']['title'];
+
+$recom4 = $result['items'][4]['snippet']['thumbnails']['medium']['url'];
+$judulrecom4 = $result['items'][4]['snippet']['title'];
 
 
 ?>@extends('layout/master')
@@ -63,33 +83,33 @@ $desc = $result['items'][0]['snippet']['description'];
                 <h1>Recommendation</h1>
                 <div class="small-img-row">
                     <div class="small-img">
-                        <img src="/img/pic2.png">
+                        <img src=<?= $recom; ?>>
                     </div>
-                    <p>Title <br> bawahe title </p>
+                    <p> <?= $judulrecom; ?> </p>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
-                        <img src="/img/pic3.png">
+                        <img src=<?= $recom1; ?>>
                     </div>
-                    <p>Title <br> bawahe title </p>
+                    <p> <?= $judulrecom1; ?> </p>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
-                        <img src="/img/pic4.png">
+                        <img src=<?= $recom2; ?>>
                     </div>
-                    <p>Title <br> bawahe title </p>
+                    <p> <?= $judulrecom2; ?> </p>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
-                        <img src="/img/pic3.png">
+                        <img src=<?= $recom3; ?>>
                     </div>
-                    <p>Title <br> bawahe title </p>
+                    <p> <?= $judulrecom3; ?> </p>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
-                        <img src="/img/pic2.png">
+                        <img src=<?= $recom4; ?>>
                     </div>
-                    <p>Title <br> bawahe title </p>
+                    <p> <?= $judulrecom4; ?> </p>
                 </div>
             </div>
         </div>
