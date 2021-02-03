@@ -41,6 +41,7 @@ $recom3 = $result['items'][3]['id']['videoId'];
 $judulrecom3 = $result['items'][3]['snippet']['title'];
 $desc = $result['items'][3]['snippet']['description'];
 
+$recom4 = $result['items'][4]['snippet']['thumbnails']['medium']['url'];
 $judulrecom4 = $result['items'][4]['snippet']['title'];
 
 
