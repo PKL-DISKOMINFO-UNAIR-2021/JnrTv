@@ -25,6 +25,9 @@ $latestvideo1 = $result['items'][1]['id']['videoId'];
 $judul1 = $result['items'][1]['snippet']['title'];
 $desc1 = $result['items'][1]['snippet']['description'];
 
+$recom2 = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
+$judulrecom2 = $result['items'][0]['snippet']['title'];
+
 //recommedation based highest viewcount video
 $urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCHzjzVt26LyEnQLDFzTnMuhmzYM5afMy4&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=viewCount';
 $result = get_curl($urlrecom);
@@ -34,9 +37,6 @@ $judulrecom = $result['items'][0]['snippet']['title'];
 
 $recom1 = $result['items'][1]['snippet']['thumbnails']['medium']['url'];
 $judulrecom1 = $result['items'][1]['snippet']['title'];
-
-$recom2 = $result['items'][2]['snippet']['thumbnails']['medium']['url'];
-$judulrecom2 = $result['items'][2]['snippet']['title'];
 
 $recom3 = $result['items'][3]['snippet']['thumbnails']['medium']['url'];
 $judulrecom3 = $result['items'][3]['snippet']['title'];
