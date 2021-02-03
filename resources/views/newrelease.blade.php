@@ -123,7 +123,7 @@
                 <img src="img/RAPAT KERJA DAERAH 2020-LEMBAGA PENGEMBANGAN TILAWATIL QURAN ( LPTQ ) DI JAWA TIMUR.jpg">
             </div>
             <!--text--------->
-            <a href="#">
+            <a href="/RAPAT KERJA DAERAH 2020">
             RAPAT KERJA DAERAH 2020-LEMBAGA PENGEMBANGAN TILAWATIL QURAN ( LPTQ ) DI JAWA TIMUR
             </a>
         </div>
@@ -135,11 +135,7 @@
                 <img src="img/PERINGATAN HARI DISABILITAS INTERNATIONAL 2020-DINAS SOSIAL PROVINSI JAWA TIMUR .jpg">
             </div>
             <!--text--------->
-<<<<<<< HEAD
-            <a href="/ERINGATAN HARI DISABILITAS INTERNATIONAL 2020">
-=======
-            <a href="/RAPAT KERJA DAERAH 2020">
->>>>>>> 956d010b833786e6b0ef8f838f618cc19969c617
+            <a href="/PERINGATAN HARI DISABILITAS INTERNATIONAL 2020">
             PERINGATAN HARI DISABILITAS INTERNATIONAL 2020-DINAS SOSIAL PROVINSI JAWA TIMUR 
             </a>
         </div>
