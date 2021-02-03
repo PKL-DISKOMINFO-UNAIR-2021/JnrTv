@@ -40,3 +40,6 @@ Route::get('/nav', function(){
 Route::get('/viewvid', function(){
     return view('viewvideo');
 });
+Route::get('/ISTIGHOTSAH-KUBRO-ONLINE-DALAM-MENGHADAPI-WABAH-COVID-19', function(){
+    return view('.youtube-video/ISTIGHOTSAH-KUBRO-ONLINE-DALAM-MENGHADAPI-WABAH-COVID-19');
+});
