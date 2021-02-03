@@ -61,12 +61,9 @@ Route::get('/EAST JAVA TOURISM AWARD 2020', function(){
 Route::get('/GRAND FINAL 3D COMPETITION 2020', function(){
     return view('.new-release/GRAND FINAL 3D COMPETITION 2020');
 });
-<<<<<<< HEAD
 Route::get('/ISTIGHOTSAH KUBRO ONLINE (TRIAL)', function(){
     return view('.youtube-video/ISTIGHOTSAH KUBRO ONLINE (TRIAL)');
 });
 Route::get('/UPACARA PERINGATAN HARI SUMPAH PEMUDA KE-92 DI GEDUNG NEGARA GRAHADI JAWA TIMUR 28 OKTOBER 2020', function(){
     return view('.youtube-video/UPACARA PERINGATAN HARI SUMPAH PEMUDA KE-92 DI GEDUNG NEGARA GRAHADI JAWA TIMUR 28 OKTOBER 2020');
 });
-=======
->>>>>>> daa56ae485cc7ed691f4b002be8cf88c61fd6d76
