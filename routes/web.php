@@ -60,7 +60,6 @@ Route::get('/EAST JAVA TOURISM AWARD 2020', function(){
 });
 Route::get('/GRAND FINAL 3D COMPETITION 2020', function(){
     return view('.new-release/GRAND FINAL 3D COMPETITION 2020');
-<<<<<<< HEAD
 });
 Route::get('/ISTIGHOTSAH KUBRO ONLINE (TRIAL)', function(){
     return view('.youtube-video/ISTIGHOTSAH KUBRO ONLINE (TRIAL)');
@@ -74,14 +73,9 @@ Route::get('/PEMBUKAAN OPOP EXPO 2020', function(){
 Route::get('/HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020', function(){
     return view('.new-release/HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020');
 });
-||||||| parent of 356c858 (newrelease tampilan)
-});
-=======
-});
 Route::get('/PEMBUKAAN OPOP EXPO 2020', function(){
     return view('.new-release/PEMBUKAAN OPOP EXPO 2020');
 });
 Route::get('/HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020', function(){
     return view('.new-release/HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020');
 });
->>>>>>> 356c858 (newrelease tampilan)
