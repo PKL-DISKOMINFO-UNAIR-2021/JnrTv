@@ -54,7 +54,7 @@
                 <img src="img/UPACARA PERINGATAN HARI SUMPAH PEMUDA KE-92 DI GEDUNG NEGARA GRAHADI JAWA TIMUR 28 OKTOBER 2020.jpg">
             </div>
             <!--text--------->
-            <a href="#">
+            <a href="/UPACARA PERINGATAN HARI SUMPAH PEMUDA KE-92 DI GEDUNG NEGARA GRAHADI JAWA TIMUR 28 OKTOBER 2020">
             UPACARA PERINGATAN HARI SUMPAH PEMUDA KE-92 DI GEDUNG NEGARA GRAHADI JAWA TIMUR 28 OKTOBER 2020
             </a>
         </div>
@@ -66,7 +66,7 @@
                 <img src="img/HUT JAWA TIMUR KE-75 12 OKTOBER 2020, GEDUNG NEGARA GRAHADI SURABAYA.jpg">
             </div>
             <!--text--------->
-            <a href="#">
+            <a href="/HUT JAWA TIMUR KE-75 12 OKTOBER 2020, GEDUNG NEGARA GRAHADI SURABAYA">
             HUT JAWA TIMUR KE-75 12 OKTOBER 2020, GEDUNG NEGARA GRAHADI SURABAYA
             </a>
         </div>
@@ -78,7 +78,7 @@
                 <img src="img/Talenta Milenial Job Center di era New Normal 13 Oktober 2020.jpg">
             </div>
             <!--text--------->
-            <a href="#">
+            <a href="/Talenta Milenial Job Center di era New Normal 13 Oktober 2020">
             Talenta Milenial Job Center di era New Normal 13 Oktober 2020
             </a>
         </div>
@@ -90,7 +90,7 @@
                 <img src="img/KOPILABORASI SAMBANG PESANTREN - POMOSDA NGANJUK 9 OKTOBER 2020.jpg">
             </div>
             <!--text--------->
-            <a href="#">
+            <a href="/KOPILABORASI SAMBANG PESANTREN - POMOSDA NGANJUK 9 OKTOBER 2020">
             KOPILABORASI SAMBANG PESANTREN - POMOSDA NGANJUK 9 OKTOBER 2020
             </a>
         </div>
@@ -102,8 +102,8 @@
                 <img src="img/SEMINAR ONLINE PENANGGULANGAN BENCANA Provinsi Jawa Timur Tahun 2020.jpg">
             </div>
             <!--text--------->
-            <a href="#">
-                Tin (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD
+            <a href="/SEMINAR ONLINE PENANGGULANGAN BENCANA (25 Agustus 2020)">
+                SEMINAR ONLINE PENANGGULANGAN BENCANA (25 Agustus 2020)
             </a>
         </div>
          <!--box-7------------------------>
