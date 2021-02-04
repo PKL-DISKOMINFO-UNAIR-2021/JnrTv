@@ -99,11 +99,11 @@
             <!--img------------>
             <div class="movies-img">
                 <div class="quality">Live Record</div>
-                <img src="img/SEMINAR ONLINE PENANGGULANGAN BENCANA Provinsi Jawa Timur Tahun 2020.jpg">
+                <img src="img/Launching Jawa Timur Belanja Online (JATIM BEJO), SI MASTER dan SI LAYAR.jpg">
             </div>
             <!--text--------->
             <a href="/SEMINAR ONLINE PENANGGULANGAN BENCANA (25 Agustus 2020)">
-                SEMINAR ONLINE PENANGGULANGAN BENCANA (25 Agustus 2020)
+            Launching Jawa Timur Belanja Online (JATIM BEJO), SI MASTER dan SI LAYAR
             </a>
         </div>
          <!--box-7------------------------>
