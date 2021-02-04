@@ -21,9 +21,9 @@ $subscriber = $result['items'][0]['statistics']['subscriberCount'];
 $urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyBIXfUwTaH32vqMXYr-4ZUNa3YRMnxEPaE&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=100&part=snippet&order=date';
 $result = get_curl($urlvideo);
 
-$explore = $result['items'][34]['id']['videoId'];
-$judul = $result['items'][34]['snippet']['title'];
-$desc = $result['items'][34]['snippet']['description'];
+$explore = $result['items'][37]['id']['videoId'];
+$judul = $result['items'][37]['snippet']['title'];
+$desc = $result['items'][37]['snippet']['description'];
 
 $recom2 = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
 $judulrecom2 = $result['items'][0]['snippet']['title'];
