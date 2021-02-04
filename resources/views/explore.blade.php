@@ -135,11 +135,11 @@
             <!--img------------>
             <div class="movies-img">
                 <div class="quality">Live Record</div>
-                <img src="img/KOPILABORASI, GOTONG ROYONG LAWAN COVID 19.jpg">
+                <img src="img/KHOTMIL QURAN KUBRO 2020 KALI NUZULUL QURAN ONLINE.jpg">
             </div>
             <!--text--------->
             <a href="#">
-            KOPILABORASI, GOTONG ROYONG LAWAN COVID 19
+            KHOTMIL QURAN KUBRO 2020 KALI NUZULUL QURAN ONLINE
             </a>
         </div>
         
