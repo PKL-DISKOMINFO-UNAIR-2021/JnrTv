@@ -11,7 +11,7 @@
         <li><a href="/about">ABOUT</a></li>
         <hr>
         <li><a class="fas" href="#"><i class="fas fa-bell mr-3" data-toggle="tooltip" title="notifications"></i></a></li>
-        <li ><a class="signin" href="#">SIGN IN</a></li>
+        <li ><a class="signin" href="/logins">SIGN IN</a></li>
       </div>
 @endsection
 @section('isi')

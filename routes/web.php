@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SocialController;
 
 /*
 |--------------------------------------------------------------------------
@@ -39,6 +40,9 @@ Route::get('/nav', function(){
 });
 Route::get('/viewvid', function(){
     return view('viewvideo');
+});
+Route::get('/logins', function(){
+    return view('login');
 });
 Route::get('/ISTIGHOTSAH-KUBRO-ONLINE-DALAM-MENGHADAPI-WABAH-COVID-19', function(){
     return view('.youtube-video/ISTIGHOTSAH-KUBRO-ONLINE-DALAM-MENGHADAPI-WABAH-COVID-19');
@@ -85,4 +89,11 @@ Route::get('/RAPAT KERJA DAERAH 2020', function(){
 Route::get('/PERINGATAN HARI DISABILITAS INTERNATIONAL 2020', function(){
     return view('.new-release/PERINGATAN HARI DISABILITAS INTERNATIONAL 2020');
 });
+Route::get('auth/google', [SocialController::class, 'redirectToGoogle']);
+Route::get('auth/google/callback', [SocialController::class, 'handleGoogleCallback']);
+Route::view('login','login');
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
