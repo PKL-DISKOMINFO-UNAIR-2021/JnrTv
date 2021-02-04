@@ -25,7 +25,7 @@ $recom2 = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
 $judulrecom2 = $result['items'][0]['snippet']['title'];
 
 //recommedation based highest viewcount video
-$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyAR7Di7jr5aSUUX00V4StsVZeqJiHKZMwI&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=viewCount';
+$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyAR7Di7jr5aSUUX00V4StsVZeqJiHKZMwI&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=10&part=snippet&order=viewCount';
 $result = get_curl($urlrecom);
 
 $explore = $result['items'][5]['id']['videoId'];
