@@ -112,6 +112,15 @@ Route::get('/Talenta Milenial Job Center di era New Normal 13 Oktober 2020', fun
 Route::get('/KOPILABORASI SAMBANG PESANTREN - POMOSDA NGANJUK 9 OKTOBER 2020', function(){
     return view('.Explore/KOPILABORASI SAMBANG PESANTREN - POMOSDA NGANJUK 9 OKTOBER 2020');
 });
-Route::get('/SEMINAR ONLINE PENANGGULANGAN BENCANA (25 Agustus 2020)', function(){
-    return view('.Explore/SEMINAR ONLINE PENANGGULANGAN BENCANA (25 Agustus 2020)');
+Route::get('/Launching Jawa Timur Belanja Online (JATIM BEJO), SI MASTER dan SI LAYAR', function(){
+    return view('.Explore/Launching Jawa Timur Belanja Online (JATIM BEJO), SI MASTER dan SI LAYAR');
+});
+Route::get('/LIVE STREAMING UPACARA PERINGATAN HUT KE-75 KEMERDEKAAN RI, GEDUNG NEGARA GRAHADI', function(){
+    return view('.Explore/LIVE STREAMING UPACARA PERINGATAN HUT KE-75 KEMERDEKAAN RI, GEDUNG NEGARA GRAHADI');
+});
+Route::get('/LIVE STREAMING UPACARA HARI KESAKTIAN PANCASILA 1 OKTOBER 2020', function(){
+    return view('.Explore/LIVE STREAMING UPACARA HARI KESAKTIAN PANCASILA 1 OKTOBER 2020');
+});
+Route::get('/KHOTMIL QURAN KUBRO 2020 KALI NUZULUL QURAN ONLINE', function(){
+    return view('.Explore/KHOTMIL QURAN KUBRO 2020 KALI NUZULUL QURAN ONLINE');
 });
