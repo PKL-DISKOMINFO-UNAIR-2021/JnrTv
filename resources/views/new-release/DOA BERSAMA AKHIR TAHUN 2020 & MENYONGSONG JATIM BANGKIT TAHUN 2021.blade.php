@@ -85,7 +85,7 @@ $judulrecom4 = $result['items'][4]['snippet']['title'];
                     <div class="small-img">
                         <img src=<?= $recom; ?>>
                     </div>
-                    <p> <?= $judulrecom; ?> </p>
+                    <a href="/ISTIGHOTSAH-KUBRO-ONLINE-DALAM-MENGHADAPI-WABAH-COVID-19"><p> <?= $judulrecom; ?> </p></a>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
