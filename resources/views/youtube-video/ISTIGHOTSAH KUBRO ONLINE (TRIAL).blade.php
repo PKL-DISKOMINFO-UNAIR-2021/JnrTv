@@ -86,31 +86,31 @@ $judulrecom4 = $result['items'][4]['snippet']['title'];
                     <div class="small-img">
                         <img src=<?= $recom; ?>>
                     </div>
-                    <p> <?= $judulrecom; ?> </p>
+                    <a href = "/ISTIGHOTSAH-KUBRO-ONLINE-DALAM-MENGHADAPI-WABAH-COVID-19"><p> <?= $judulrecom; ?> </p></a>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
                         <img src=<?= $recom1; ?>>
                     </div>
-                    <p> <?= $judulrecom1; ?> </p>
+                    <a href="/LIVE-STREAMING-UPACARA-HARI-KESAKTIAN-PANCASILA-1-OKTOBER-2020"><p> <?= $judulrecom1; ?> </p></a>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
                         <img src=<?= $recom2; ?>>
                     </div>
-                    <p> <?= $judulrecom2; ?> </p>
+                    <a href="/DOA BERSAMA AKHIR TAHUN 2020 & MENYONGSONG JATIM BANGKIT TAHUN 2021"> <p> <?= $judulrecom2; ?> </p></a>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
                         <img src=<?= $latestvideo; ?>>
                     </div>
-                    <p> <?= $judul; ?> </p>
+                    <a href= "/VAKSIN AMAN DAN HALAL PROVINSI JAWA TIMUR"> <p> <?= $judul; ?> </p> </a>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
                         <img src=<?= $recom4; ?>>
                     </div>
-                    <p> <?= $judulrecom4; ?> </p>
+                    <a href="/UPACARA PERINGATAN HARI SUMPAH PEMUDA KE-92 DI GEDUNG NEGARA GRAHADI JAWA TIMUR 28 OKTOBER 2020"><p> <?= $judulrecom4; ?> </p></a>
                 </div>
             </div>
         </div>
