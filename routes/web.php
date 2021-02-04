@@ -89,7 +89,6 @@ Route::get('/RAPAT KERJA DAERAH 2020', function(){
 Route::get('/PERINGATAN HARI DISABILITAS INTERNATIONAL 2020', function(){
     return view('.new-release/PERINGATAN HARI DISABILITAS INTERNATIONAL 2020');
 });
-<<<<<<< HEAD
 Route::get('auth/google', [SocialController::class, 'redirectToGoogle']);
 Route::get('auth/google/callback', [SocialController::class, 'handleGoogleCallback']);
 Route::view('login','login');
@@ -98,7 +97,6 @@ Route::view('login','login');
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-=======
 Route::get('/UPACARA HARI PAHLAWAN 10 N0VEMBER 2020 - TUGU PAHLAWAN SURABAYA', function(){
     return view('.Explore/UPACARA HARI PAHLAWAN 10 N0VEMBER 2020 - TUGU PAHLAWAN SURABAYA');
 });
@@ -117,4 +115,3 @@ Route::get('/KOPILABORASI SAMBANG PESANTREN - POMOSDA NGANJUK 9 OKTOBER 2020', f
 Route::get('/SEMINAR ONLINE PENANGGULANGAN BENCANA (25 Agustus 2020)', function(){
     return view('.Explore/SEMINAR ONLINE PENANGGULANGAN BENCANA (25 Agustus 2020)');
 });
->>>>>>> 7edd62206a1899733ed996a1ea9130b1101b8fd9
