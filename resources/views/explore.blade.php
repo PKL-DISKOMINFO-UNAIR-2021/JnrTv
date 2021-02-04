@@ -42,7 +42,7 @@
                 <img src="img/UPACARA HARI PAHLAWAN 10 N0VEMBER 2020 - TUGU PAHLAWAN SURABAYA.jpg">
             </div>
             <!--text--------->
-            <a href="#">
+            <a href="/UPACARA HARI PAHLAWAN 10 N0VEMBER 2020 - TUGU PAHLAWAN SURABAYA">
             UPACARA HARI PAHLAWAN 10 N0VEMBER 2020 - TUGU PAHLAWAN SURABAYA
             </a>
         </div>
