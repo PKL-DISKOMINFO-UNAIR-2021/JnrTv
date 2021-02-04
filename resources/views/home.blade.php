@@ -112,7 +112,7 @@
                 <div class="latest-box">
                     <!--img-------->
                     <div class="latest-b-img">
-                        <img src="img/chn1.jpg">
+                    <a href="/https://www.youtube.com/user/MediaCenterPemkotSby"> <img src="img/chn1.jpg"></a>
                     </div>
                     <!--text---------->
                     <div class="latest-b-text">
@@ -126,11 +126,11 @@
         <div class="latest-box">
             <!--img-------->
             <div class="latest-b-img">
-                <img src="img/chn2.jpg">
+            <a href="/https://www.youtube.com/channel/UC6673kwtPekbPTJgRsTSizQ"> <img src="img/chn2.jpg"></a>
             </div>
             <!--text---------->
             <div class="latest-b-text">
-                <strong>Dinas Komunikasi dan Informatika Republik Indonesia</strong>
+            <strong>Kementrian Komunikasi dan Informatika Republik Indonesia</strong>
                 <p>Youtube Channel</p>
             </div>
         </div>
@@ -140,7 +140,7 @@
         <div class="latest-box">
             <!--img-------->
             <div class="latest-b-img">
-                <img src="img/chn3.jpg">
+            <a href="/https://www.youtube.com/channel/UCokJ8jyd48UOGYJJdr_Wyqw"><img src="img/chn3.jpg"></a>
             </div>
             <!--text---------->
             <div class="latest-b-text">
