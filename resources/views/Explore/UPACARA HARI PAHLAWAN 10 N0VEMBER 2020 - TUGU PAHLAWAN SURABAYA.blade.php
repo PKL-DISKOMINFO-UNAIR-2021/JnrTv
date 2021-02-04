@@ -12,20 +12,24 @@ function get_curl ($url){
     return json_decode($result, true);
 }
 
-$result = get_curl('https://www.googleapis.com/youtube/v3/channels?key=AIzaSyCHzjzVt26LyEnQLDFzTnMuhmzYM5afMy4&id=UCEe1ees-scoEkTQv3he9PJw&part=snippet,statistics');
+$result = get_curl('https://www.googleapis.com/youtube/v3/channels?key=AIzaSyCkzIRgR4jtlfBFx6God6p_i-Zfn1pG4X0&id=UCEe1ees-scoEkTQv3he9PJw&part=snippet,statistics');
 $youtubeprofilepict = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
 $channelname = $result['items'][0]['snippet']['title'];
 $subscriber = $result['items'][0]['statistics']['subscriberCount'];
 
 //videdo
-$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCHzjzVt26LyEnQLDFzTnMuhmzYM5afMy4&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=date';
+$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCkzIRgR4jtlfBFx6God6p_i-Zfn1pG4X0&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=100&part=snippet&order=date';
 $result = get_curl($urlvideo);
 
-$latestvideo = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
-$judul = $result['items'][0]['snippet']['title'];
+$explore = $result['items'][37]['id']['videoId'];
+$judul = $result['items'][37]['snippet']['title'];
+$desc = $result['items'][37]['snippet']['description'];
+
+$recom2 = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
+$judulrecom2 = $result['items'][0]['snippet']['title'];
 
 //recommedation based highest viewcount video
-$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCHzjzVt26LyEnQLDFzTnMuhmzYM5afMy4&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=viewCount';
+$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCkzIRgR4jtlfBFx6God6p_i-Zfn1pG4X0&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=viewCount';
 $result = get_curl($urlrecom);
 
 $recom = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
@@ -34,18 +38,14 @@ $judulrecom = $result['items'][0]['snippet']['title'];
 $recom1 = $result['items'][1]['snippet']['thumbnails']['medium']['url'];
 $judulrecom1 = $result['items'][1]['snippet']['title'];
 
-$recom2 = $result['items'][2]['snippet']['thumbnails']['medium']['url'];
-$judulrecom2 = $result['items'][2]['snippet']['title'];
-
 $recom3 = $result['items'][3]['snippet']['thumbnails']['medium']['url'];
 $judulrecom3 = $result['items'][3]['snippet']['title'];
 
-$recom4 = $result['items'][4]['id']['videoId'];
+$recom4 = $result['items'][4]['snippet']['thumbnails']['medium']['url'];
 $judulrecom4 = $result['items'][4]['snippet']['title'];
-$desc = $result['items'][4]['snippet']['description'];
 
-?>
-@extends('layout/master')
+
+?>@extends('layout/master')
 @section('linkcss')
 <link rel="stylesheet" href="/css/viewvid.css">
 @endsection
@@ -67,8 +67,8 @@ $desc = $result['items'][4]['snippet']['description'];
         <div class="row">
             <div class="col">
                 <div class="feature-img">
-                    <iframe src="https://youtube.com/embed/<?= $recom4; ?>?rel=0" allowfullscreen width="100%"></iframe>
-                    <h2> <?= $judulrecom4; ?> </h2>
+                    <iframe src="https://youtube.com/embed/<?= $explore; ?>?rel=0" allowfullscreen width="100%"></iframe>
+                    <h2> <?= $judul; ?> </h2>
                     <div class= "akun-profile">
                         <img src= <?= $youtubeprofilepict; ?>>
                         <h2> <span class="font-weight-bold"> <?= $channelname; ?></span>
@@ -85,31 +85,31 @@ $desc = $result['items'][4]['snippet']['description'];
                     <div class="small-img">
                         <img src=<?= $recom; ?>>
                     </div>
-                    <p> <?= $judulrecom; ?> </p>
+                    <a href="/ISTIGHOTSAH-KUBRO-ONLINE-DALAM-MENGHADAPI-WABAH-COVID-19"><p> <?= $judulrecom; ?> </p></a>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
                         <img src=<?= $recom1; ?>>
                     </div>
-                    <p> <?= $judulrecom1; ?> </p>
+                    <a href="/LIVE-STREAMING-UPACARA-HARI-KESAKTIAN-PANCASILA-1-OKTOBER-2020"><p> <?= $judulrecom1; ?> </p></a>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
                         <img src=<?= $recom2; ?>>
                     </div>
-                    <p> <?= $judulrecom2; ?> </p>
+                    <a href="/DOA BERSAMA AKHIR TAHUN 2020 & MENYONGSONG JATIM BANGKIT TAHUN 2021"> <p> <?= $judulrecom2; ?> </p></a>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
                         <img src=<?= $recom3; ?>>
                     </div>
-                    <p> <?= $judulrecom3; ?> </p>
+                    <a href= "/ISTIGHOTSAH KUBRO ONLINE (TRIAL)"> <p> <?= $judulrecom3; ?> </p> </a>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
-                        <img src=<?= $latestvideo; ?>>
+                        <img src=<?= $recom4; ?>>
                     </div>
-                    <p> <?= $judul; ?> </p>
+                    <a href="/UPACARA PERINGATAN HARI SUMPAH PEMUDA KE-92 DI GEDUNG NEGARA GRAHADI JAWA TIMUR 28 OKTOBER 2020"><p> <?= $judulrecom4; ?> </p></a>
                 </div>
             </div>
         </div>

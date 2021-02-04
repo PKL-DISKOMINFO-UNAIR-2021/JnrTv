@@ -12,20 +12,20 @@ function get_curl ($url){
     return json_decode($result, true);
 }
 
-$result = get_curl('https://www.googleapis.com/youtube/v3/channels?key=AIzaSyCHzjzVt26LyEnQLDFzTnMuhmzYM5afMy4&id=UCEe1ees-scoEkTQv3he9PJw&part=snippet,statistics');
+$result = get_curl('https://www.googleapis.com/youtube/v3/channels?key=AIzaSyCkzIRgR4jtlfBFx6God6p_i-Zfn1pG4X0&id=UCEe1ees-scoEkTQv3he9PJw&part=snippet,statistics');
 $youtubeprofilepict = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
 $channelname = $result['items'][0]['snippet']['title'];
 $subscriber = $result['items'][0]['statistics']['subscriberCount'];
 
 //videdo
-$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCHzjzVt26LyEnQLDFzTnMuhmzYM5afMy4&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=date';
+$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCkzIRgR4jtlfBFx6God6p_i-Zfn1pG4X0&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=date';
 $result = get_curl($urlvideo);
 
 $latestvideo = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
 $judul = $result['items'][0]['snippet']['title'];
 
 //recommedation based highest viewcount video
-$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCHzjzVt26LyEnQLDFzTnMuhmzYM5afMy4&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=viewCount';
+$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCkzIRgR4jtlfBFx6God6p_i-Zfn1pG4X0&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=viewCount';
 $result = get_curl($urlrecom);
 
 $recom = $result['items'][0]['id']['videoId'];
@@ -85,31 +85,31 @@ $judulrecom4 = $result['items'][4]['snippet']['title'];
                     <div class="small-img">
                         <img src=<?= $latestvideo; ?>>
                     </div>
-                    <p> <?= $judul; ?> </p>
+                    <a href= "/VAKSIN AMAN DAN HALAL PROVINSI JAWA TIMUR"><p> <?= $judul; ?> </p></a>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
                         <img src=<?= $recom1; ?>>
                     </div>
-                    <p> <?= $judulrecom1; ?> </p>
+                    <a href="/LIVE-STREAMING-UPACARA-HARI-KESAKTIAN-PANCASILA-1-OKTOBER-2020"><p> <?= $judulrecom1; ?> </p></a>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
                         <img src=<?= $recom2; ?>>
                     </div>
-                    <p> <?= $judulrecom2; ?> </p>
+                    <a href="/DOA BERSAMA AKHIR TAHUN 2020 & MENYONGSONG JATIM BANGKIT TAHUN 2021"> <p> <?= $judulrecom2; ?> </p></a>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
                         <img src=<?= $recom3; ?>>
                     </div>
-                    <p> <?= $judulrecom3; ?> </p>
+                    <a href= "/ISTIGHOTSAH KUBRO ONLINE (TRIAL)"> <p> <?= $judulrecom3; ?> </p> </a>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
                         <img src=<?= $recom4; ?>>
                     </div>
-                    <p> <?= $judulrecom4; ?> </p>
+                    <a href="/UPACARA PERINGATAN HARI SUMPAH PEMUDA KE-92 DI GEDUNG NEGARA GRAHADI JAWA TIMUR 28 OKTOBER 2020"><p> <?= $judulrecom4; ?> </p></a>
                 </div>
             </div>
         </div>

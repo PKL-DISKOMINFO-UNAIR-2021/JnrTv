@@ -18,12 +18,15 @@ $channelname = $result['items'][0]['snippet']['title'];
 $subscriber = $result['items'][0]['statistics']['subscriberCount'];
 
 //videdo
-$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCkzIRgR4jtlfBFx6God6p_i-Zfn1pG4X0&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=date';
+$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCkzIRgR4jtlfBFx6God6p_i-Zfn1pG4X0&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=100&part=snippet&order=date';
 $result = get_curl($urlvideo);
 
-$latestvideo = $result['items'][0]['id']['videoId'];
-$judul = $result['items'][0]['snippet']['title'];
-$desc = $result['items'][0]['snippet']['description'];
+$explore = $result['items'][46]['id']['videoId'];
+$judul = $result['items'][46]['snippet']['title'];
+$desc = $result['items'][46]['snippet']['description'];
+
+$recom2 = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
+$judulrecom2 = $result['items'][0]['snippet']['title'];
 
 //recommedation based highest viewcount video
 $urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCkzIRgR4jtlfBFx6God6p_i-Zfn1pG4X0&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=viewCount';
@@ -35,9 +38,6 @@ $judulrecom = $result['items'][0]['snippet']['title'];
 $recom1 = $result['items'][1]['snippet']['thumbnails']['medium']['url'];
 $judulrecom1 = $result['items'][1]['snippet']['title'];
 
-$recom2 = $result['items'][2]['snippet']['thumbnails']['medium']['url'];
-$judulrecom2 = $result['items'][2]['snippet']['title'];
-
 $recom3 = $result['items'][3]['snippet']['thumbnails']['medium']['url'];
 $judulrecom3 = $result['items'][3]['snippet']['title'];
 
@@ -45,8 +45,7 @@ $recom4 = $result['items'][4]['snippet']['thumbnails']['medium']['url'];
 $judulrecom4 = $result['items'][4]['snippet']['title'];
 
 
-?>
-@extends('layout/master')
+?>@extends('layout/master')
 @section('linkcss')
 <link rel="stylesheet" href="/css/viewvid.css">
 @endsection
@@ -68,7 +67,7 @@ $judulrecom4 = $result['items'][4]['snippet']['title'];
         <div class="row">
             <div class="col">
                 <div class="feature-img">
-                    <iframe src="https://youtube.com/embed/<?= $latestvideo; ?>?rel=0" allowfullscreen width="100%"></iframe>
+                    <iframe src="https://youtube.com/embed/<?= $explore; ?>?rel=0" allowfullscreen width="100%"></iframe>
                     <h2> <?= $judul; ?> </h2>
                     <div class= "akun-profile">
                         <img src= <?= $youtubeprofilepict; ?>>
@@ -86,8 +85,8 @@ $judulrecom4 = $result['items'][4]['snippet']['title'];
                     <div class="small-img">
                         <img src=<?= $recom; ?>>
                     </div>
-                    <a href = "/ISTIGHOTSAH-KUBRO-ONLINE-DALAM-MENGHADAPI-WABAH-COVID-19"><p> <?= $judulrecom; ?> </p></a>                
-                    </div>
+                    <a href="/ISTIGHOTSAH-KUBRO-ONLINE-DALAM-MENGHADAPI-WABAH-COVID-19"><p> <?= $judulrecom; ?> </p></a>
+                </div>
                 <div class="small-img-row">
                     <div class="small-img">
                         <img src=<?= $recom1; ?>>
