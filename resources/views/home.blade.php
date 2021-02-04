@@ -208,7 +208,7 @@
                 <img src="img/LIVE STREAMING UPACARA PERINGATAN HUT KE-75 KEMERDEKAAN RI, GEDUNG NEGARA GRAHADI.jpg">
             </div>
             <!--text--------->
-            <a href="#">
+            <a href="/LIVE STREAMING UPACARA PERINGATAN HUT KE-75 KEMERDEKAAN RI, GEDUNG NEGARA GRAHADI">
             LIVE STREAMING UPACARA PERINGATAN HUT KE-75 KEMERDEKAAN RI, GEDUNG NEGARA GRAHADI
             </a>
         </div>
@@ -220,7 +220,7 @@
                 <img src="img/HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020.jpg">
             </div>
             <!--text--------->
-            <a href="#">
+            <a href="/LIVE STREAMING UPACARA HARI KESAKTIAN PANCASILA 1 OKTOBER 2020">
             HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020
             </a>
         </div>
@@ -232,7 +232,7 @@
                 <img src="img/KHOTMIL QURAN KUBRO 2020 KALI NUZULUL QURAN ONLINE.jpg">
             </div>
             <!--text--------->
-            <a href="#">
+            <a href="/KHOTMIL QURAN KUBRO 2020 KALI NUZULUL QURAN ONLINE">
             KHOTMIL QURAN KUBRO 2020 KALI NUZULUL QURAN ONLINE
             </a>
         </div>

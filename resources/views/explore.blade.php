@@ -102,7 +102,7 @@
                 <img src="img/Launching Jawa Timur Belanja Online (JATIM BEJO), SI MASTER dan SI LAYAR.jpg">
             </div>
             <!--text--------->
-            <a href="/SEMINAR ONLINE PENANGGULANGAN BENCANA (25 Agustus 2020)">
+            <a href="/Launching Jawa Timur Belanja Online (JATIM BEJO), SI MASTER dan SI LAYAR">
             Launching Jawa Timur Belanja Online (JATIM BEJO), SI MASTER dan SI LAYAR
             </a>
         </div>
@@ -114,7 +114,7 @@
                 <img src="img/LIVE STREAMING UPACARA PERINGATAN HUT KE-75 KEMERDEKAAN RI, GEDUNG NEGARA GRAHADI.jpg">
             </div>
             <!--text--------->
-            <a href="#">
+            <a href="/LIVE STREAMING UPACARA PERINGATAN HUT KE-75 KEMERDEKAAN RI, GEDUNG NEGARA GRAHADI">
             LIVE STREAMING UPACARA PERINGATAN HUT KE-75 KEMERDEKAAN RI, GEDUNG NEGARA GRAHADI
             </a>
         </div>
@@ -126,7 +126,7 @@
                 <img src="img/HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020.jpg">
             </div>
             <!--text--------->
-            <a href="#">
+            <a href="LIVE STREAMING UPACARA HARI KESAKTIAN PANCASILA 1 OKTOBER 2020">
             HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020
             </a>
         </div>
@@ -138,7 +138,7 @@
                 <img src="img/KHOTMIL QURAN KUBRO 2020 KALI NUZULUL QURAN ONLINE.jpg">
             </div>
             <!--text--------->
-            <a href="#">
+            <a href="/KHOTMIL QURAN KUBRO 2020 KALI NUZULUL QURAN ONLINE">
             KHOTMIL QURAN KUBRO 2020 KALI NUZULUL QURAN ONLINE
             </a>
         </div>

@@ -18,15 +18,19 @@ $channelname = $result['items'][0]['snippet']['title'];
 $subscriber = $result['items'][0]['statistics']['subscriberCount'];
 
 //videdo
-$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyAR7Di7jr5aSUUX00V4StsVZeqJiHKZMwI&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=date';
+$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyAR7Di7jr5aSUUX00V4StsVZeqJiHKZMwI&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=100&part=snippet&order=date';
 $result = get_curl($urlvideo);
 
-$latestvideo = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
-$judul = $result['items'][0]['snippet']['title'];
+$recom2 = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
+$judulrecom2 = $result['items'][0]['snippet']['title'];
 
 //recommedation based highest viewcount video
-$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyAR7Di7jr5aSUUX00V4StsVZeqJiHKZMwI&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=viewCount';
+$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyAR7Di7jr5aSUUX00V4StsVZeqJiHKZMwI&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=100&part=snippet&order=viewCount';
 $result = get_curl($urlrecom);
+
+$explore = $result['items'][10]['id']['videoId'];
+$judul = $result['items'][10]['snippet']['title'];
+$desc = $result['items'][10]['snippet']['description'];
 
 $recom = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
 $judulrecom = $result['items'][0]['snippet']['title'];
@@ -34,19 +38,14 @@ $judulrecom = $result['items'][0]['snippet']['title'];
 $recom1 = $result['items'][1]['snippet']['thumbnails']['medium']['url'];
 $judulrecom1 = $result['items'][1]['snippet']['title'];
 
-$recom2 = $result['items'][2]['snippet']['thumbnails']['medium']['url'];
-$judulrecom2 = $result['items'][2]['snippet']['title'];
-
-$recom3 = $result['items'][3]['id']['videoId'];
+$recom3 = $result['items'][3]['snippet']['thumbnails']['medium']['url'];
 $judulrecom3 = $result['items'][3]['snippet']['title'];
-$desc = $result['items'][3]['snippet']['description'];
 
 $recom4 = $result['items'][4]['snippet']['thumbnails']['medium']['url'];
 $judulrecom4 = $result['items'][4]['snippet']['title'];
 
 
-?>
-@extends('layout/master')
+?>@extends('layout/master')
 @section('linkcss')
 <link rel="stylesheet" href="/css/viewvid.css">
 @endsection
@@ -68,8 +67,8 @@ $judulrecom4 = $result['items'][4]['snippet']['title'];
         <div class="row">
             <div class="col">
                 <div class="feature-img">
-                    <iframe src="https://youtube.com/embed/<?= $recom3; ?>?rel=0" allowfullscreen width="100%"></iframe>
-                    <h2> <?= $judulrecom3; ?> </h2>
+                    <iframe src="https://youtube.com/embed/<?= $explore; ?>?rel=0" allowfullscreen width="100%"></iframe>
+                    <h2> <?= $judul; ?> </h2>
                     <div class= "akun-profile">
                         <img src= <?= $youtubeprofilepict; ?>>
                         <h2> <span class="font-weight-bold"> <?= $channelname; ?></span>
@@ -86,7 +85,7 @@ $judulrecom4 = $result['items'][4]['snippet']['title'];
                     <div class="small-img">
                         <img src=<?= $recom; ?>>
                     </div>
-                    <a href = "/ISTIGHOTSAH-KUBRO-ONLINE-DALAM-MENGHADAPI-WABAH-COVID-19"><p> <?= $judulrecom; ?> </p></a>
+                    <a href="/ISTIGHOTSAH-KUBRO-ONLINE-DALAM-MENGHADAPI-WABAH-COVID-19"><p> <?= $judulrecom; ?> </p></a>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
@@ -102,9 +101,9 @@ $judulrecom4 = $result['items'][4]['snippet']['title'];
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
-                        <img src=<?= $latestvideo; ?>>
+                        <img src=<?= $recom3; ?>>
                     </div>
-                    <a href= "/VAKSIN AMAN DAN HALAL PROVINSI JAWA TIMUR"> <p> <?= $judul; ?> </p> </a>
+                    <a href= "/ISTIGHOTSAH KUBRO ONLINE (TRIAL)"> <p> <?= $judulrecom3; ?> </p> </a>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
