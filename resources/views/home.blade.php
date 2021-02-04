@@ -154,7 +154,7 @@
         <div class="latest-box">
             <!--img-------->
             <div class="latest-b-img">
-                <img src="img/chn4.jpg">
+               <a href="https://www.youtube.com/channel/UC5iqvpvcHBoxZlK9MCO36lg"> <img src="img/chn4.jpg"></a>
             </div>
             <!--text---------->
             <div class="latest-b-text">
@@ -168,7 +168,7 @@
         <div class="latest-box">
             <!--img-------->
             <div class="latest-b-img">
-                <img src="img/chn5.jpg">
+                <a href="https://www.youtube.com/user/PemprovDKI"><img src="img/chn5.jpg"></a>
             </div>
             <!--text---------->
             <div class="latest-b-text">
@@ -182,7 +182,7 @@
         <div class="latest-box">
             <!--img-------->
             <div class="latest-b-img">
-                <img src="img/chn6.jpg">
+                <a href="https://www.youtube.com/channel/UCNfUw0R_8dIeMQQAYDDMihQ"><img src="img/chn6.jpg"></a>
             </div>
             <!--text---------->
             <div class="latest-b-text">
