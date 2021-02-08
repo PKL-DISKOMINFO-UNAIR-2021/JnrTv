@@ -7,5 +7,6 @@
 </head>
 <body>
     ADMIN
+    <a href="/coba">coba</a>
 </body>
 </html>
