@@ -124,3 +124,7 @@ Route::get('/LIVE STREAMING UPACARA HARI KESAKTIAN PANCASILA 1 OKTOBER 2020', fu
 Route::get('/KHOTMIL QURAN KUBRO 2020 KALI NUZULUL QURAN ONLINE', function(){
     return view('.Explore/KHOTMIL QURAN KUBRO 2020 KALI NUZULUL QURAN ONLINE');
 });
+// admin
+Route::get('/admin', function(){
+    return view('admin.admin');
+});
