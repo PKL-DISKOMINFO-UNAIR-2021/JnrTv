@@ -23,26 +23,28 @@
         </ol>
 
         <div class="carousel-inner">
+            @foreach($gambar as $g)
             <div class="carousel-item active">
-            <img class="d-block w-100" src="img/slide1.jpg" alt="First slide">
-            <div class="carousel-caption d-none d-md-block">
-                <h2> <span class="font-weight-bold">SELAMAT DATANG DI JATIM TV</span></h5>
-                <p>Streaming Informasi dan Video dari Dinas KOMINFO Prov. JAWA TIMUR</p>
-                <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="/newrelease" role="button">NEW RELEASE</a>
-                </p>
-            </div>
+                <img class="d-block w-100" src="{{ $g->file}}" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2> <span class="font-weight-bold">SELAMAT DATANG DI JATIM TV</span></h5>
+                        <p>Streaming Informasi dan Video dari Dinas KOMINFO Prov. JAWA TIMUR</p>
+                        <p class="lead">
+                            <a class="btn btn-primary btn-lg" href="/newrelease" role="button">NEW RELEASE</a>
+                        </p>
+                    </div>
             </div>
             <div class="carousel-item">
-            <img class="d-block w-100" src="img/slide2.jpg" alt="Second slide">
-            <div class="carousel-caption d-none d-md-block">
-                <h2> <span class="font-weight-bold">KUNJUNGI CHANNEL YOUTUBE KAMI</span></h5>
-                <p>Streaming Informasi dan Video dari Youtube KOMINFO Prov. JAWA TIMUR</p>
-                <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="https://www.youtube.com/channel/UCEe1ees-scoEkTQv3he9PJw" role="button">GO TO YOUTUBE</a>
-                </p>
+                <img class="d-block w-100" src="img/slide2.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2> <span class="font-weight-bold">KUNJUNGI CHANNEL YOUTUBE KAMI</span></h5>
+                    <p>Streaming Informasi dan Video dari Youtube KOMINFO Prov. JAWA TIMUR</p>
+                    <p class="lead">
+                        <a class="btn btn-primary btn-lg" href="https://www.youtube.com/channel/UCEe1ees-scoEkTQv3he9PJw" role="button">GO TO YOUTUBE</a>
+                    </p>
+                </div>
             </div>
-            </div>
+            @endforeach
             
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

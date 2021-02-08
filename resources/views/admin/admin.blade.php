@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    ADMIN
+    <a href="/carouselimg">Carousel Image</a>
 </body>
 </html>
