@@ -14,9 +14,8 @@ use App\Http\Controllers\SocialController;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', 'App\Http\Controllers\carouselController@index');
+
 Route::get('/youtubegj', function(){
     return view('gridview');
 });
@@ -128,3 +127,6 @@ Route::get('/KHOTMIL QURAN KUBRO 2020 KALI NUZULUL QURAN ONLINE', function(){
 Route::get('/admin', function(){
     return view('admin.admin');
 });
+Route::get('/carouselimg','App\Http\Controllers\cimgController@upload');
+Route::post('/carouselimg/proses','App\Http\Controllers\cimgController@proses_upload');
+Route::get('/carouselimg/hapus/{id}','App\Http\Controllers\cimgController@hapus');
