@@ -46,7 +46,8 @@ $judulrecom3 = $result['items'][3]['snippet']['title'];
 $recom4 = $result['items'][4]['snippet']['thumbnails']['medium']['url'];
 $judulrecom4 = $result['items'][4]['snippet']['title'];
 
-?>@extends('layout/master')
+?>
+@extends('layout/master')
 @section('linkcss')
 <link rel="stylesheet" href="/css/viewvid.css">
 @endsection

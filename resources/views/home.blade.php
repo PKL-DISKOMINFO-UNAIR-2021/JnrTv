@@ -11,7 +11,7 @@ function get_curl ($url){
     return json_decode($result, true);
 }
 //videdo
-$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyAR7Di7jr5aSUUX00V4StsVZeqJiHKZMwI&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=10&part=snippet&order=date';
+$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCk1rkP_6ue8Wy8SItlTGNoffT6ajmL8aQ&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=10&part=snippet&order=date';
 $result = get_curl($urlvideo);
 
 $latestvideo = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
