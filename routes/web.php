@@ -49,45 +49,41 @@ Route::get('/ISTIGHOTSAH-KUBRO-ONLINE-DALAM-MENGHADAPI-WABAH-COVID-19', function
 Route::get('/LIVE-STREAMING-UPACARA-HARI-KESAKTIAN-PANCASILA-1-OKTOBER-2020', function(){
     return view('.youtube-video/LIVE-STREAMING-UPACARA-HARI-KESAKTIAN-PANCASILA-1-OKTOBER-2020');
 });
-Route::get('/VAKSIN AMAN DAN HALAL PROVINSI JAWA TIMUR', function(){
-    return view('.new-release/VAKSIN AMAN DAN HALAL PROVINSI JAWA TIMUR');
+Route::get('/newrelease-item', function(){
+    return view('.new-release/newrelease-item');
 });
-Route::get('/DOA BERSAMA AKHIR TAHUN 2020 & MENYONGSONG JATIM BANGKIT TAHUN 2021', function(){
-    return view('.new-release/DOA BERSAMA AKHIR TAHUN 2020 & MENYONGSONG JATIM BANGKIT TAHUN 2021');
+Route::get('newrelease-item-1', function(){
+    return view('.new-release/newrelease-item-1');
 });
-Route::get('/PERINGATAN HARI IBU KE-92 dan HUT DHARMA WANITA PERSATUAN KE-21 TH 2020', function(){
-    return view('.new-release/PERINGATAN HARI IBU KE-92 dan HUT DHARMA WANITA PERSATUAN KE-21 TH 2020');
+Route::get('/newrelease-item-2', function(){
+    return view('.new-release/newrelease-item-2');
 });
-Route::get('/EAST JAVA TOURISM AWARD 2020', function(){
-    return view('.new-release/EAST JAVA TOURISM AWARD 2020');
+Route::get('/newrelease-item-3', function(){
+    return view('.new-release/newrelease-item-3');
 });
-Route::get('/GRAND FINAL 3D COMPETITION 2020', function(){
-    return view('.new-release/GRAND FINAL 3D COMPETITION 2020');
+Route::get('/newrelease-item-4', function(){
+    return view('.new-release/newrelease-item-4');
 });
 Route::get('/ISTIGHOTSAH KUBRO ONLINE (TRIAL)', function(){
     return view('.youtube-video/ISTIGHOTSAH KUBRO ONLINE (TRIAL)');
 });
+Route::get('/newrelease-item-5', function(){
+    return view('.new-release/newrelease-item-5');
+});
+Route::get('/newrelease-item-6', function(){
+    return view('.new-release/newrelease-item-6');
+});
+Route::get('/newrelease-item-7', function(){
+    return view('.new-release/newrelease-item-7');
+});
+Route::get('/newrelease-item-8', function(){
+    return view('.new-release/newrelease-item-8');
+});
+
 Route::get('/UPACARA PERINGATAN HARI SUMPAH PEMUDA KE-92 DI GEDUNG NEGARA GRAHADI JAWA TIMUR 28 OKTOBER 2020', function(){
     return view('.youtube-video/UPACARA-PERINGATAN-HARI-SUMPAH-PEMUDA-KE-92-DI-GEDUNG-NEGARA-GRAHADI-JAWA-TIMUR-28-OKTOBER-2020');
 });
-Route::get('/PEMBUKAAN OPOP EXPO 2020', function(){
-    return view('.new-release/PEMBUKAAN OPOP EXPO 2020');
-});
-Route::get('/HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020', function(){
-    return view('.new-release/HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020');
-});
-Route::get('/PEMBUKAAN OPOP EXPO 2020', function(){
-    return view('.new-release/PEMBUKAAN OPOP EXPO 2020');
-});
-Route::get('/HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020', function(){
-    return view('.new-release/HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020');
-});
-Route::get('/RAPAT KERJA DAERAH 2020', function(){
-    return view('.new-release/RAPAT KERJA DAERAH 2020');
-});
-Route::get('/PERINGATAN HARI DISABILITAS INTERNATIONAL 2020', function(){
-    return view('.new-release/PERINGATAN HARI DISABILITAS INTERNATIONAL 2020');
-});
+
 Route::get('auth/google', [SocialController::class, 'redirectToGoogle']);
 Route::get('auth/google/callback', [SocialController::class, 'handleGoogleCallback']);
 Route::view('login','login');

@@ -1,3 +1,49 @@
+<?php
+
+function get_curl ($url){
+
+    $curl = curl_init() ;
+    curl_setopt($curl, CURLOPT_URL, $url);
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+    $result = curl_exec($curl);
+    curl_close($curl);
+    
+    return json_decode($result, true);
+}
+
+//videdo
+$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyAR7Di7jr5aSUUX00V4StsVZeqJiHKZMwI&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=10&part=snippet&order=date';
+$result = get_curl($urlvideo);
+
+$latestvideo = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
+$judul = $result['items'][0]['snippet']['title'];
+
+$latestvideo1 = $result['items'][1]['snippet']['thumbnails']['medium']['url'];
+$judul1 = $result['items'][1]['snippet']['title'];
+
+$latestvideo2 = $result['items'][2]['snippet']['thumbnails']['medium']['url'];
+$judul2 = $result['items'][2]['snippet']['title'];
+
+$latestvideo3 = $result['items'][3]['snippet']['thumbnails']['medium']['url'];
+$judul3 = $result['items'][3]['snippet']['title'];
+
+$latestvideo4 = $result['items'][4]['snippet']['thumbnails']['medium']['url'];
+$judul4 = $result['items'][4]['snippet']['title'];
+
+$latestvideo5 = $result['items'][5]['snippet']['thumbnails']['medium']['url'];
+$judul5 = $result['items'][5]['snippet']['title'];
+
+$latestvideo6 = $result['items'][6]['snippet']['thumbnails']['medium']['url'];
+$judul6 = $result['items'][6]['snippet']['title'];
+
+$latestvideo7 = $result['items'][7]['snippet']['thumbnails']['medium']['url'];
+$judul7 = $result['items'][7]['snippet']['title'];
+
+$latestvideo8 = $result['items'][8]['snippet']['thumbnails']['medium']['url'];
+$judul8 = $result['items'][8]['snippet']['title'];
+
+?>
+
 @extends('layout/master')
 @section('linkcss')
 <link rel="stylesheet" href="/css/newrelease.css">
@@ -36,11 +82,11 @@
             <!--img------------>
             <div class="movies-img">
                 <div class="quality">Live Record</div>
-                <img src="img/VAKSIN AMAN DAN HALAL PROVINSI JAWA TIMUR.jpg">
+                <img src="<?= $latestvideo; ?>">
             </div>
             <!--text--------->
-            <a href="/VAKSIN AMAN DAN HALAL PROVINSI JAWA TIMUR">
-            VAKSIN AMAN DAN HALAL PROVINSI JAWA TIMUR
+            <a href="/newrelease-item">
+            <?= $judul; ?>
             </a>
         </div>
          <!--box-2------------------------>
@@ -48,11 +94,11 @@
             <!--img------------>
             <div class="movies-img">
                 <div class="quality">Live Record</div>
-                <img src="img/DOA BERSAMA AKHIR TAHUN 2020 & MENYONGSONG JATIM BANGKIT TAHUN 2021.jpg">
+                <img src="<?= $latestvideo1; ?>">
             </div>
             <!--text--------->
-            <a href="/DOA BERSAMA AKHIR TAHUN 2020 & MENYONGSONG JATIM BANGKIT TAHUN 2021">
-            DOA BERSAMA AKHIR TAHUN 2020 & MENYONGSONG JATIM BANGKIT TAHUN 2021
+            <a href="/newrelease-item-1">
+            <?= $judul1; ?>
             </a>
         </div>
          <!--box-3------------------------>
@@ -60,11 +106,11 @@
             <!--img------------>
             <div class="movies-img">
                 <div class="quality">Live Record</div>
-                <img src="img/PERINGATAN HARI IBU KE-92 dan HUT DHARMA WANITA PERSATUAN KE-21 TH.2020.jpg">
+                <img src="<?= $latestvideo2; ?>">
             </div>
             <!--text--------->
-            <a href="/PERINGATAN HARI IBU KE-92 dan HUT DHARMA WANITA PERSATUAN KE-21 TH 2020">
-            PERINGATAN HARI IBU KE-92 dan HUT DHARMA WANITA PERSATUAN KE-21 TH.2020
+            <a href="/newrelease-item-2">
+            <?= $judul2; ?>
             </a>
         </div>
          <!--box-4------------------------>
@@ -72,11 +118,11 @@
             <!--img------------>
             <div class="movies-img">
                 <div class="quality">Live Record</div>
-                <img src="img/EAST JAVA TOURISM AWARD 2020.jpg">
+                <img src="<?= $latestvideo3; ?>">
             </div>
             <!--text--------->
-            <a href="/EAST JAVA TOURISM AWARD 2020">
-            EAST JAVA TOURISM AWARD 2020
+            <a href="/newrelease-item-3">
+            <?= $judul3; ?>
             </a>
         </div>
          <!--box-5------------------------>
@@ -84,11 +130,11 @@
             <!--img------------>
             <div class="movies-img">
                 <div class="quality">Live Record</div>
-                <img src="img/GRAND FINAL 3D COMPETITION 2020.jpg">
+                <img src="<?= $latestvideo4; ?>">
             </div>
             <!--text--------->
-            <a href="/GRAND FINAL 3D COMPETITION 2020">
-            GRAND FINAL 3D COMPETITION 2020
+            <a href="/newrelease-item-4">
+            <?= $judul4; ?>
             </a>
         </div>
          <!--box-6------------------------>
@@ -96,11 +142,11 @@
             <!--img------------>
             <div class="movies-img">
                 <div class="quality">Live Record</div>
-                <img src="img/PEMBUKAAN OPOP EXPO 2020 PESANTREN BERDAYA MASYARAKAT SEJAHTERA.jpg">
+                <img src="<?= $latestvideo5; ?>">
             </div>
             <!--text--------->
-            <a href="/PEMBUKAAN OPOP EXPO 2020">
-            PEMBUKAAN OPOP EXPO 2020 PESANTREN BERDAYA MASYARAKAT SEJAHTERA
+            <a href="/newrelease-item-5">
+            <?= $judul5; ?>
             </a>
         </div>
          <!--box-7------------------------>
@@ -108,11 +154,11 @@
             <!--img------------>
             <div class="movies-img">
                 <div class="quality">Live Record</div>
-                <img src="img/HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020.jpg">
+                <img src="<?= $latestvideo6; ?>">
             </div>
             <!--text--------->
-            <a href="/HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020">
-            HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020
+            <a href="/newrelease-item-6">
+            <?= $judul6; ?>
             </a>
         </div>
          <!--box-8------------------------>
@@ -120,11 +166,11 @@
             <!--img------------>
             <div class="movies-img">
                 <div class="quality">Live Record</div>
-                <img src="img/RAPAT KERJA DAERAH 2020-LEMBAGA PENGEMBANGAN TILAWATIL QURAN ( LPTQ ) DI JAWA TIMUR.jpg">
+                <img src="<?= $latestvideo7; ?>">
             </div>
             <!--text--------->
-            <a href="/RAPAT KERJA DAERAH 2020">
-            RAPAT KERJA DAERAH 2020-LEMBAGA PENGEMBANGAN TILAWATIL QURAN ( LPTQ ) DI JAWA TIMUR
+            <a href="/newrelease-item-7">
+            <?= $judul7; ?>
             </a>
         </div>
         <!--box-9------------------------>
@@ -132,11 +178,11 @@
             <!--img------------>
             <div class="movies-img">
                 <div class="quality">Live Record</div>
-                <img src="img/PERINGATAN HARI DISABILITAS INTERNATIONAL 2020-DINAS SOSIAL PROVINSI JAWA TIMUR .jpg">
+                <img src="<?= $latestvideo8; ?>">
             </div>
             <!--text--------->
-            <a href="/PERINGATAN HARI DISABILITAS INTERNATIONAL 2020">
-            PERINGATAN HARI DISABILITAS INTERNATIONAL 2020-DINAS SOSIAL PROVINSI JAWA TIMUR 
+            <a href="/newrelease-item-8">
+            <?= $judul8; ?>
             </a>
         </div>
         
