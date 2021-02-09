@@ -109,11 +109,7 @@ $desc = $result['items'][4]['snippet']['description'];
                     <div class="small-img">
                         <img src="<?= $latestvideo; ?>">
                     </div>
-<<<<<<< HEAD:resources/views/youtube-video/Recomendation-Item5.blade.php
                     <a href= "/newrelease-item"><p> <?= $judul; ?> </p></a>
-=======
-                    <a href= "/VAKSIN AMAN DAN HALAL PROVINSI JAWA TIMUR"><p> "<?= $judul; ?>" </p></a>
->>>>>>> f5071b5cae1e41ce443fc5bf52b8f02b3b3ba2a6:resources/views/youtube-video/UPACARA-PERINGATAN-HARI-SUMPAH-PEMUDA-KE-92-DI-GEDUNG-NEGARA-GRAHADI-JAWA-TIMUR-28-OKTOBER-2020.blade.php
                 </div>
             </div>
         </div>
