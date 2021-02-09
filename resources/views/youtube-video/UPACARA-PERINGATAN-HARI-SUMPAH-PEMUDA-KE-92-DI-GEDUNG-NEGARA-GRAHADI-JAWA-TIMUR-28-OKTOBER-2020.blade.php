@@ -107,9 +107,9 @@ $desc = $result['items'][4]['snippet']['description'];
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
-                        <img src=<?= $latestvideo; ?>>
+                        <img src="<?= $latestvideo; ?>">
                     </div>
-                    <a href= "/VAKSIN AMAN DAN HALAL PROVINSI JAWA TIMUR"><p> <?= $judul; ?> </p></a>
+                    <a href= "/VAKSIN AMAN DAN HALAL PROVINSI JAWA TIMUR"><p> "<?= $judul; ?>" </p></a>
                 </div>
             </div>
         </div>
