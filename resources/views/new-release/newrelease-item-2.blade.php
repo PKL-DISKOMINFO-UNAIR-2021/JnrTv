@@ -26,7 +26,7 @@ $judul = $result['items'][2]['snippet']['title'];
 $desc = $result['items'][2]['snippet']['description'];
 
 //recommedation based highest viewcount video
-$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCk1rkP_6ue8Wy8SItlTGNoffT6ajmL8aQ&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=viewCount';
+$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyCk1rkP_6ue8Wy8SItlTGNoffT6ajmL8aQ&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=10&part=snippet&order=viewCount';
 $result = get_curl($urlrecom);
 
 $recom = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
@@ -35,8 +35,8 @@ $judulrecom = $result['items'][0]['snippet']['title'];
 $recom1 = $result['items'][1]['snippet']['thumbnails']['medium']['url'];
 $judulrecom1 = $result['items'][1]['snippet']['title'];
 
-$recom2 = $result['items'][2]['snippet']['thumbnails']['medium']['url'];
-$judulrecom2 = $result['items'][2]['snippet']['title'];
+$recom2 = $result['items'][5]['snippet']['thumbnails']['medium']['url'];
+$judulrecom2 = $result['items'][5]['snippet']['title'];
 
 $recom3 = $result['items'][3]['snippet']['thumbnails']['medium']['url'];
 $judulrecom3 = $result['items'][3]['snippet']['title'];
@@ -85,31 +85,31 @@ $judulrecom4 = $result['items'][4]['snippet']['title'];
                     <div class="small-img">
                         <img src=<?= $recom; ?>>
                     </div>
-                    <a href = "/ISTIGHOTSAH-KUBRO-ONLINE-DALAM-MENGHADAPI-WABAH-COVID-19"><p> <?= $judulrecom; ?> </p></a>                
+                    <a href="/Recomendation-Item1"><p> <?= $judulrecom; ?> </p></a>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
                         <img src=<?= $recom1; ?>>
                     </div>
-                    <a href="/LIVE-STREAMING-UPACARA-HARI-KESAKTIAN-PANCASILA-1-OKTOBER-2020"><p> <?= $judulrecom1; ?> </p></a>
+                    <a href="/Recomendation-Item2"><p> <?= $judulrecom1; ?> </p></a>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
                         <img src=<?= $recom2; ?>>
                     </div>
-                    <a href="/DOA BERSAMA AKHIR TAHUN 2020 & MENYONGSONG JATIM BANGKIT TAHUN 2021"> <p> <?= $judulrecom2; ?> </p></a>
+                    <a href="/Recomendation-Item3"> <p> <?= $judulrecom2; ?> </p></a>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
                         <img src=<?= $recom3; ?>>
                     </div>
-                    <a href= "/ISTIGHOTSAH KUBRO ONLINE (TRIAL)"> <p> <?= $judulrecom3; ?> </p> </a>
+                    <a href= "/Recomendation-Item4"> <p> <?= $judulrecom3; ?> </p> </a>
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
                         <img src=<?= $recom4; ?>>
                     </div>
-                    <a href="/UPACARA PERINGATAN HARI SUMPAH PEMUDA KE-92 DI GEDUNG NEGARA GRAHADI JAWA TIMUR 28 OKTOBER 2020"><p> <?= $judulrecom4; ?> </p></a>
+                    <a href="/Recomendation-Item5"><p> <?= $judulrecom4; ?> </p></a>
                 </div>
             </div>
         </div>
