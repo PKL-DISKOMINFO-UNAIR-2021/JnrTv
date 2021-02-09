@@ -64,9 +64,6 @@ Route::get('/newrelease-item-3', function(){
 Route::get('/newrelease-item-4', function(){
     return view('.new-release/newrelease-item-4');
 });
-Route::get('/ISTIGHOTSAH KUBRO ONLINE (TRIAL)', function(){
-    return view('.youtube-video/ISTIGHOTSAH KUBRO ONLINE (TRIAL)');
-});
 Route::get('/newrelease-item-5', function(){
     return view('.new-release/newrelease-item-5');
 });
@@ -80,6 +77,9 @@ Route::get('/newrelease-item-8', function(){
     return view('.new-release/newrelease-item-8');
 });
 
+Route::get('/ISTIGHOTSAH KUBRO ONLINE (TRIAL)', function(){
+    return view('.youtube-video/ISTIGHOTSAH KUBRO ONLINE (TRIAL)');
+});
 Route::get('/UPACARA PERINGATAN HARI SUMPAH PEMUDA KE-92 DI GEDUNG NEGARA GRAHADI JAWA TIMUR 28 OKTOBER 2020', function(){
     return view('.youtube-video/UPACARA-PERINGATAN-HARI-SUMPAH-PEMUDA-KE-92-DI-GEDUNG-NEGARA-GRAHADI-JAWA-TIMUR-28-OKTOBER-2020');
 });

@@ -21,9 +21,9 @@ $subscriber = $result['items'][0]['statistics']['subscriberCount'];
 $urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyAR7Di7jr5aSUUX00V4StsVZeqJiHKZMwI&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=20&part=snippet&order=date';
 $result = get_curl($urlvideo);
 
-$latestvideo6 = $result['items'][19]['id']['videoId'];
-$judul6 = $result['items'][19]['snippet']['title'];
-$desc6 = $result['items'][19]['snippet']['description'];
+$latestvideo = $result['items'][2]['id']['videoId'];
+$judul = $result['items'][2]['snippet']['title'];
+$desc = $result['items'][2]['snippet']['description'];
 
 //recommedation based highest viewcount video
 $urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyAR7Di7jr5aSUUX00V4StsVZeqJiHKZMwI&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=viewCount';
@@ -67,14 +67,14 @@ $judulrecom4 = $result['items'][4]['snippet']['title'];
         <div class="row">
             <div class="col">
                 <div class="feature-img">
-                    <iframe src="https://youtube.com/embed/<?= $latestvideo6; ?>?rel=0" allowfullscreen width="100%"></iframe>
-                    <h2> <?= $judul6; ?> </h2>
+                    <iframe src="https://youtube.com/embed/<?= $latestvideo; ?>?rel=0" allowfullscreen width="100%"></iframe>
+                    <h2> <?= $judul; ?> </h2>
                     <div class= "akun-profile">
                         <img src= <?= $youtubeprofilepict; ?>>
                         <h2> <span class="font-weight-bold"> <?= $channelname; ?></span>
                         <br> <?= $subscriber;  ?> Subcriber </h2>
                     </div>
-                    <p> <?= $desc6; ?> </p>
+                    <p> <?= $desc; ?> </p>
                 </div>
             </div>
 
