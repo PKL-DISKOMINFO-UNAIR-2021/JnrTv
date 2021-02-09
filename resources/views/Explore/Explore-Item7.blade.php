@@ -63,7 +63,7 @@ $judulrecom4 = $result['items'][4]['snippet']['title'];
 @endsection
 @section('isi')
 
-    <div class="container">
+<div class="container">
         <div class="row">
             <div class="col">
                 <div class="feature-img">
