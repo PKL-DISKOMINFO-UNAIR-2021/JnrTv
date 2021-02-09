@@ -1,3 +1,39 @@
+<?php
+
+function get_curl ($url){
+
+    $curl = curl_init() ;
+    curl_setopt($curl, CURLOPT_URL, $url);
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+    $result = curl_exec($curl);
+    curl_close($curl);
+    
+    return json_decode($result, true);
+}
+//videdo
+$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyAR7Di7jr5aSUUX00V4StsVZeqJiHKZMwI&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=10&part=snippet&order=date';
+$result = get_curl($urlvideo);
+
+$latestvideo = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
+$judul = $result['items'][0]['snippet']['title'];
+
+$latestvideo1 = $result['items'][1]['snippet']['thumbnails']['medium']['url'];
+$judul1 = $result['items'][1]['snippet']['title'];
+
+$latestvideo2 = $result['items'][2]['snippet']['thumbnails']['medium']['url'];
+$judul2 = $result['items'][2]['snippet']['title'];
+
+$latestvideo3 = $result['items'][3]['snippet']['thumbnails']['medium']['url'];
+$judul3 = $result['items'][3]['snippet']['title'];
+
+$latestvideo4 = $result['items'][4]['snippet']['thumbnails']['medium']['url'];
+$judul4 = $result['items'][4]['snippet']['title'];
+
+$latestvideo5 = $result['items'][5]['snippet']['thumbnails']['medium']['url'];
+$judul5 = $result['items'][5]['snippet']['title'];
+
+?>
+
 @extends('layout/master')
 @section('linkcss')
 <link rel="stylesheet" href="/css/lightslider.css">
@@ -69,35 +105,35 @@
         <li class="item-a">
             <!--showcase-box------------------->
            <div class="showcase-box">
-               <a href="/VAKSIN AMAN DAN HALAL PROVINSI JAWA TIMUR"><img src="img/VAKSIN AMAN DAN HALAL PROVINSI JAWA TIMUR.jpg"/></a>  
+               <a href="/newrelease-item"><img src="<?= $latestvideo; ?>"/></a>  
            </div>
                </li>
             <!--box-2--------------------------->
             <li class="item-b">
                 <!--showcase-box------------------->
                <div class="showcase-box">
-                   <a href="/DOA BERSAMA AKHIR TAHUN 2020 & MENYONGSONG JATIM BANGKIT TAHUN 2021"><img src="img/DOA BERSAMA AKHIR TAHUN 2020 & MENYONGSONG JATIM BANGKIT TAHUN 2021.jpg"/></a>
+                   <a href="/newrelease-item-1"><img src="<?= $latestvideo1; ?>"/></a>
                </div>
                    </li>
                 <!--box-3--------------------------->
             <li class="item-c">
                 <!--showcase-box------------------->
                <div class="showcase-box">
-                   <a href="/PERINGATAN HARI IBU KE-92 dan HUT DHARMA WANITA PERSATUAN KE-21 TH 2020"><img src="img/PERINGATAN HARI IBU KE-92 dan HUT DHARMA WANITA PERSATUAN KE-21 TH.2020.jpg"/></a>
+                   <a href="/newrelease-item-2"><img src="<?= $latestvideo2; ?>"/></a>
                </div>
                    </li>
                 <!--box-4--------------------------->
             <li class="item-d">
                 <!--showcase-box------------------->
                <div class="showcase-box">
-                   <a href="/EAST JAVA TOURISM AWARD 2020"><img src="img/EAST JAVA TOURISM AWARD 2020.jpg"/></a>
+                   <a href="/newrelease-item-3"><img src="<?= $latestvideo3; ?>"/></a>
                </div>
                    </li>
                    <!--box-5--------------------------->
             <li class="item-e">
                 <!--showcase-box------------------->
                <div class="showcase-box">
-                   <a href="/GRAND FINAL 3D COMPETITION 2020"><img src="img/GRAND FINAL 3D COMPETITION 2020.jpg"/></a>
+                   <a href="/newrelease-item-4"><img src="<?= $latestvideo4; ?>"/></a>
                </div>
                    </li>
           </ul>

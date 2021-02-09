@@ -18,12 +18,12 @@ $channelname = $result['items'][0]['snippet']['title'];
 $subscriber = $result['items'][0]['statistics']['subscriberCount'];
 
 //videdo
-$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyAR7Di7jr5aSUUX00V4StsVZeqJiHKZMwI&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=date';
+$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyAR7Di7jr5aSUUX00V4StsVZeqJiHKZMwI&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=20&part=snippet&order=date';
 $result = get_curl($urlvideo);
 
-$latestvideo2 = $result['items'][3]['id']['videoId'];
-$judul2 = $result['items'][3]['snippet']['title'];
-$desc2 = $result['items'][3]['snippet']['description'];
+$latestvideo5 = $result['items'][5]['id']['videoId'];
+$judul5 = $result['items'][5]['snippet']['title'];
+$desc5 = $result['items'][5]['snippet']['description'];
 
 //recommedation based highest viewcount video
 $urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyAR7Di7jr5aSUUX00V4StsVZeqJiHKZMwI&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=viewCount';
@@ -67,14 +67,14 @@ $judulrecom4 = $result['items'][4]['snippet']['title'];
         <div class="row">
             <div class="col">
                 <div class="feature-img">
-                    <iframe src="https://youtube.com/embed/<?= $latestvideo2; ?>?rel=0" allowfullscreen width="100%"></iframe>
-                    <h2> <?= $judul2; ?> </h2>
+                    <iframe src="https://youtube.com/embed/<?= $latestvideo5; ?>?rel=0" allowfullscreen width="100%"></iframe>
+                    <h2> <?= $judul5; ?> </h2>
                     <div class= "akun-profile">
                         <img src= <?= $youtubeprofilepict; ?>>
                         <h2> <span class="font-weight-bold"> <?= $channelname; ?></span>
                         <br> <?= $subscriber;  ?> Subcriber </h2>
                     </div>
-                    <p> <?= $desc2; ?> </p>
+                    <p> <?= $desc5; ?> </p>
                 </div>
             </div>
 
