@@ -11,7 +11,10 @@ function get_curl ($url){
     return json_decode($result, true);
 }
 //videdo
+<<<<<<< HEAD
 // KEY NYA BANYAK SCROLL KEBAWAH
+=======
+>>>>>>> 5f6ccf9c743bee2eea8c3e43469aba92d4bfbafb
 $urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyASe-WTBIXs1XGo_RsDDLV4MOV9e3ldxr8&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=10&part=snippet&order=date';
 $result = get_curl($urlvideo);
 

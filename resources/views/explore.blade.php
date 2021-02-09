@@ -12,7 +12,7 @@ function get_curl ($url){
 }
 
 #KEY NYA BANYAK SAMPAI BAWAH
-$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyDoWHAH4Ty3p-pzl8a8yy4m_tDQgqJtAUM&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=100&part=snippet&order=date';
+$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyASe-WTBIXs1XGo_RsDDLV4MOV9e3ldxr8&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=100&part=snippet&order=date';
 $result = get_curl($urlvideo);
 #THUMBNAIL CARD DAN JUDUL
 $judulitem1 = $result['items'][37]['snippet']['title'];
@@ -33,17 +33,17 @@ $thumbnailitem5 = $result['items'][46]['snippet']['thumbnails']['medium']['url']
 $judulitem6 = $result['items'][34]['snippet']['title'];
 $thumbnailitem6 = $result['items'][34]['snippet']['thumbnails']['medium']['url'];
 
-$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyDoWHAH4Ty3p-pzl8a8yy4m_tDQgqJtAUM&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=100&part=snippet&order=viewCount';
+$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyASe-WTBIXs1XGo_RsDDLV4MOV9e3ldxr8&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=100&part=snippet&order=viewCount';
 $result = get_curl($urlrecom);
 $judulitem7 = $result['items'][10]['snippet']['title'];
 $thumbnailitem7 = $result['items'][10]['snippet']['thumbnails']['medium']['url'];
 
-$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyDoWHAH4Ty3p-pzl8a8yy4m_tDQgqJtAUM&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=viewCount';
+$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyASe-WTBIXs1XGo_RsDDLV4MOV9e3ldxr8&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=viewCount';
 $result = get_curl($urlrecom);
 $thumbnailitem8 = $result['items'][1]['snippet']['thumbnails']['medium']['url'];
 $judulitem8 = $result['items'][1]['snippet']['title'];
 
-$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyDoWHAH4Ty3p-pzl8a8yy4m_tDQgqJtAUM&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=10&part=snippet&order=viewCount';
+$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyASe-WTBIXs1XGo_RsDDLV4MOV9e3ldxr8&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=10&part=snippet&order=viewCount';
 $result = get_curl($urlrecom);
 $judulitem9 = $result['items'][5]['snippet']['title'];
 $thumbnailitem9 = $result['items'][5]['snippet']['thumbnails']['medium']['url'];

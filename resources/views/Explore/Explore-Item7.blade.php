@@ -12,13 +12,13 @@ function get_curl ($url){
     return json_decode($result, true);
 }
 
-$result = get_curl('https://www.googleapis.com/youtube/v3/channels?key=AIzaSyDoWHAH4Ty3p-pzl8a8yy4m_tDQgqJtAUM&id=UCEe1ees-scoEkTQv3he9PJw&part=snippet,statistics');
+$result = get_curl('https://www.googleapis.com/youtube/v3/channels?key=AIzaSyASe-WTBIXs1XGo_RsDDLV4MOV9e3ldxr8&id=UCEe1ees-scoEkTQv3he9PJw&part=snippet,statistics');
 $youtubeprofilepict = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
 $channelname = $result['items'][0]['snippet']['title'];
 $subscriber = $result['items'][0]['statistics']['subscriberCount'];
 
 //Video
-$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyDoWHAH4Ty3p-pzl8a8yy4m_tDQgqJtAUM&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=100&part=snippet&order=viewCount';
+$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyASe-WTBIXs1XGo_RsDDLV4MOV9e3ldxr8&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=100&part=snippet&order=viewCount';
 $result = get_curl($urlrecom);
 
 $explore = $result['items'][10]['id']['videoId'];
@@ -26,7 +26,7 @@ $judul = $result['items'][10]['snippet']['title'];
 $desc = $result['items'][10]['snippet']['description'];
 
 //recommedation based highest viewcount video
-$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyDoWHAH4Ty3p-pzl8a8yy4m_tDQgqJtAUM&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=10&part=snippet&order=viewCount';
+$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyASe-WTBIXs1XGo_RsDDLV4MOV9e3ldxr8&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=10&part=snippet&order=viewCount';
 $result = get_curl($urlrecom);
 
 $recom = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
@@ -44,7 +44,6 @@ $judulrecom3 = $result['items'][3]['snippet']['title'];
 $recom4 = $result['items'][4]['snippet']['thumbnails']['medium']['url'];
 $judulrecom4 = $result['items'][4]['snippet']['title'];
 
-?>
 ?>@extends('layout/master')
 @section('linkcss')
 <link rel="stylesheet" href="/css/viewvid.css">

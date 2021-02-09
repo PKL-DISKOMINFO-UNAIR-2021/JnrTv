@@ -12,7 +12,7 @@ function get_curl ($url){
 }
 
 //videdo
-$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyDoWHAH4Ty3p-pzl8a8yy4m_tDQgqJtAUM&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=10&part=snippet&order=date';
+$urlvideo = 'https://www.googleapis.com/youtube/v3/search?AIzaSyASe-WTBIXs1XGo_RsDDLV4MOV9e3ldxr8&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=10&part=snippet&order=date';
 $result = get_curl($urlvideo);
 
 $latestvideo = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
