@@ -96,32 +96,32 @@ Route::view('login','login');
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/UPACARA HARI PAHLAWAN 10 N0VEMBER 2020 - TUGU PAHLAWAN SURABAYA', function(){
-    return view('.Explore/UPACARA HARI PAHLAWAN 10 N0VEMBER 2020 - TUGU PAHLAWAN SURABAYA');
+Route::get('/Explore-Item1', function(){
+    return view('.Explore/Explore-Item1');
 });
-Route::get('/UPACARA PERINGATAN HARI SUMPAH PEMUDA KE-92 DI GEDUNG NEGARA GRAHADI JAWA TIMUR 28 OKTOBER 2020', function(){
-    return view('.Explore/UPACARA PERINGATAN HARI SUMPAH PEMUDA KE-92 DI GEDUNG NEGARA GRAHADI JAWA TIMUR 28 OKTOBER 2020');
+Route::get('/Explore-Item2', function(){
+    return view('.Explore/Explore-Item2');
 });
-Route::get('/HUT JAWA TIMUR KE-75 12 OKTOBER 2020, GEDUNG NEGARA GRAHADI SURABAYA', function(){
-    return view('.Explore/HUT JAWA TIMUR KE-75 12 OKTOBER 2020, GEDUNG NEGARA GRAHADI SURABAYA');
+Route::get('/Explore-Item3', function(){
+    return view('.Explore/Explore-Item3');
 });
-Route::get('/Talenta Milenial Job Center di era New Normal 13 Oktober 2020', function(){
-    return view('.Explore/Talenta Milenial Job Center di era New Normal 13 Oktober 2020');
+Route::get('/Explore-Item4', function(){
+    return view('.Explore/Explore-Item4');
 });
-Route::get('/KOPILABORASI SAMBANG PESANTREN - POMOSDA NGANJUK 9 OKTOBER 2020', function(){
-    return view('.Explore/KOPILABORASI SAMBANG PESANTREN - POMOSDA NGANJUK 9 OKTOBER 2020');
+Route::get('/Explore-Item5', function(){
+    return view('.Explore/Explore-Item5');
 });
-Route::get('/Launching Jawa Timur Belanja Online (JATIM BEJO), SI MASTER dan SI LAYAR', function(){
-    return view('.Explore/Launching Jawa Timur Belanja Online (JATIM BEJO), SI MASTER dan SI LAYAR');
+Route::get('/Explore-Item6', function(){
+    return view('.Explore/Explore-Item6');
 });
-Route::get('/LIVE STREAMING UPACARA PERINGATAN HUT KE-75 KEMERDEKAAN RI, GEDUNG NEGARA GRAHADI', function(){
-    return view('.Explore/LIVE STREAMING UPACARA PERINGATAN HUT KE-75 KEMERDEKAAN RI, GEDUNG NEGARA GRAHADI');
+Route::get('/Explore-Item7', function(){
+    return view('.Explore/Explore-Item7');
 });
-Route::get('/LIVE STREAMING UPACARA HARI KESAKTIAN PANCASILA 1 OKTOBER 2020', function(){
-    return view('.Explore/LIVE STREAMING UPACARA HARI KESAKTIAN PANCASILA 1 OKTOBER 2020');
+Route::get('/Explore-Item8', function(){
+    return view('.Explore/Explore-Item8');
 });
-Route::get('/KHOTMIL QURAN KUBRO 2020 KALI NUZULUL QURAN ONLINE', function(){
-    return view('.Explore/KHOTMIL QURAN KUBRO 2020 KALI NUZULUL QURAN ONLINE');
+Route::get('/Explore-Item9', function(){
+    return view('.Explore/Explore-Item9');
 });
 // admin
 Route::get('/admin', function(){
