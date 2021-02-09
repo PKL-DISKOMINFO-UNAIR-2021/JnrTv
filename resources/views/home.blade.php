@@ -11,7 +11,8 @@ function get_curl ($url){
     return json_decode($result, true);
 }
 //videdo
-$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyDoWHAH4Ty3p-pzl8a8yy4m_tDQgqJtAUM&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=10&part=snippet&order=date';
+// KEY NYA BANYAK SCROLL KEBAWAH
+$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyASe-WTBIXs1XGo_RsDDLV4MOV9e3ldxr8&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=10&part=snippet&order=date';
 $result = get_curl($urlvideo);
 
 $latestvideo = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
@@ -32,6 +33,21 @@ $judul4 = $result['items'][4]['snippet']['title'];
 $latestvideo5 = $result['items'][5]['snippet']['thumbnails']['medium']['url'];
 $judul5 = $result['items'][5]['snippet']['title'];
 
+// Buat Explore bawah terakhir
+$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyASe-WTBIXs1XGo_RsDDLV4MOV9e3ldxr8&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=100&part=snippet&order=viewCount';
+$result = get_curl($urlrecom);
+$judulitem7 = $result['items'][10]['snippet']['title'];
+$thumbnailitem7 = $result['items'][10]['snippet']['thumbnails']['medium']['url'];
+
+$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyASe-WTBIXs1XGo_RsDDLV4MOV9e3ldxr8&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=viewCount';
+$result = get_curl($urlrecom);
+$thumbnailitem8 = $result['items'][1]['snippet']['thumbnails']['medium']['url'];
+$judulitem8 = $result['items'][1]['snippet']['title'];
+
+$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyASe-WTBIXs1XGo_RsDDLV4MOV9e3ldxr8&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=10&part=snippet&order=viewCount';
+$result = get_curl($urlrecom);
+$judulitem9 = $result['items'][5]['snippet']['title'];
+$thumbnailitem9 = $result['items'][5]['snippet']['thumbnails']['medium']['url'];
 ?>
 
 @extends('layout/master')
@@ -243,11 +259,11 @@ $judul5 = $result['items'][5]['snippet']['title'];
             <!--img------------>
             <div class="movies-img">
                 <div class="quality">Live Record</div>
-                <img src="img/LIVE STREAMING UPACARA PERINGATAN HUT KE-75 KEMERDEKAAN RI, GEDUNG NEGARA GRAHADI.jpg">
+                <img src=<?= $thumbnailitem7; ?>>
             </div>
             <!--text--------->
-            <a href="/LIVE STREAMING UPACARA PERINGATAN HUT KE-75 KEMERDEKAAN RI, GEDUNG NEGARA GRAHADI">
-            LIVE STREAMING UPACARA PERINGATAN HUT KE-75 KEMERDEKAAN RI, GEDUNG NEGARA GRAHADI
+            <a href="/Explore-Item7">
+            <?= $judulitem7; ?>
             </a>
         </div>
          <!--box-2------------------------>
@@ -255,11 +271,11 @@ $judul5 = $result['items'][5]['snippet']['title'];
             <!--img------------>
             <div class="movies-img">
                 <div class="quality">Live Record</div>
-                <img src="img/HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020.jpg">
+                <img src=<?= $thumbnailitem8; ?>>
             </div>
             <!--text--------->
-            <a href="/LIVE STREAMING UPACARA HARI KESAKTIAN PANCASILA 1 OKTOBER 2020">
-            HARI KESETIAKAWANAN SOSIAL NASIONAL PROVINSI JAWA TIMUR 12 DESEMBER 2020
+            <a href="/Explore-Item8">
+            <?= $judulitem8; ?>
             </a>
         </div>
          <!--box-3------------------------>
@@ -267,11 +283,11 @@ $judul5 = $result['items'][5]['snippet']['title'];
             <!--img------------>
             <div class="movies-img">
                 <div class="quality">Live Record</div>
-                <img src="img/KHOTMIL QURAN KUBRO 2020 KALI NUZULUL QURAN ONLINE.jpg">
+                <img src=<?= $thumbnailitem9; ?>>
             </div>
             <!--text--------->
-            <a href="/KHOTMIL QURAN KUBRO 2020 KALI NUZULUL QURAN ONLINE">
-            KHOTMIL QURAN KUBRO 2020 KALI NUZULUL QURAN ONLINE
+            <a href="/Explore-Item9">
+            <?= $judulitem9; ?>
             </a>
         </div>
         
