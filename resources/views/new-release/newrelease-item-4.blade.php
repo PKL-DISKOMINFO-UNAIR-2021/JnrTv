@@ -67,14 +67,14 @@ $judulrecom4 = $result['items'][4]['snippet']['title'];
         <div class="row">
             <div class="col">
                 <div class="feature-img">
-                    <iframe src="https://youtube.com/embed/<?= $latestvideo3; ?>?rel=0" allowfullscreen width="100%"></iframe>
-                    <h2> <?= $judul3; ?> </h2>
+                    <iframe src="https://youtube.com/embed/<?= $latestvideo; ?>?rel=0" allowfullscreen width="100%"></iframe>
+                    <h2> <?= $judul; ?> </h2>
                     <div class= "akun-profile">
                         <img src= <?= $youtubeprofilepict; ?>>
                         <h2> <span class="font-weight-bold"> <?= $channelname; ?></span>
                         <br> <?= $subscriber;  ?> Subcriber </h2>
                     </div>
-                    <p> <?= $desc3; ?> </p>
+                    <p> <?= $desc; ?> </p>
                 </div>
             </div>
 
