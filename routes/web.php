@@ -43,11 +43,11 @@ Route::get('/viewvid', function(){
 Route::get('/logins', function(){
     return view('login');
 });
-Route::get('/ISTIGHOTSAH-KUBRO-ONLINE-DALAM-MENGHADAPI-WABAH-COVID-19', function(){
-    return view('.youtube-video/ISTIGHOTSAH-KUBRO-ONLINE-DALAM-MENGHADAPI-WABAH-COVID-19');
+Route::get('/Recomendation-Item1', function(){
+    return view('.youtube-video/Recomendation-Item1');
 });
-Route::get('/LIVE-STREAMING-UPACARA-HARI-KESAKTIAN-PANCASILA-1-OKTOBER-2020', function(){
-    return view('.youtube-video/LIVE-STREAMING-UPACARA-HARI-KESAKTIAN-PANCASILA-1-OKTOBER-2020');
+Route::get('/Recomendation-Item2', function(){
+    return view('.youtube-video/Recomendation-Item2');
 });
 Route::get('/newrelease-item', function(){
     return view('.new-release/newrelease-item');
@@ -76,12 +76,14 @@ Route::get('/newrelease-item-7', function(){
 Route::get('/newrelease-item-8', function(){
     return view('.new-release/newrelease-item-8');
 });
-
-Route::get('/ISTIGHOTSAH KUBRO ONLINE (TRIAL)', function(){
-    return view('.youtube-video/ISTIGHOTSAH KUBRO ONLINE (TRIAL)');
+Route::get('/Recomendation-Item3', function(){
+    return view('.youtube-video/Recomendation-Item3');
 });
-Route::get('/UPACARA PERINGATAN HARI SUMPAH PEMUDA KE-92 DI GEDUNG NEGARA GRAHADI JAWA TIMUR 28 OKTOBER 2020', function(){
-    return view('.youtube-video/UPACARA-PERINGATAN-HARI-SUMPAH-PEMUDA-KE-92-DI-GEDUNG-NEGARA-GRAHADI-JAWA-TIMUR-28-OKTOBER-2020');
+Route::get('/Recomendation-Item4', function(){
+    return view('.youtube-video/Recomendation-Item4');
+});
+Route::get('/Recomendation-Item5', function(){
+    return view('.youtube-video/Recomendation-Item5');
 });
 
 Route::get('auth/google', [SocialController::class, 'redirectToGoogle']);
