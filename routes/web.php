@@ -19,12 +19,21 @@ Route::get('/', 'App\Http\Controllers\carouselController@index');
 Route::get('/youtubegj', function(){
     return view('gridview');
 });
+
+
 Route::get('/explore', function(){
     return view('explore');
 });
-Route::get('/about', function(){
-    return view('about');
-});
+// About
+
+Route::get('/about','App\Http\Controllers\AboutController@index');
+Route::get('/admin/about','App\Http\Controllers\EditAboutController@index');
+Route::get('/admin/about/tambah','App\Http\Controllers\EditAboutController@tambah');
+Route::post('/admin/about/store','App\Http\Controllers\EditAboutController@store');
+Route::get('/admin/about/edit/{id}','App\Http\Controllers\EditAboutController@edit');
+Route::post('/admin/about/update/{id}','App\Http\Controllers\EditAboutController@update');
+Route::get('/admin/about/hapus/{id}','App\Http\Controllers\EditAboutController@hapus');
+
 Route::get('/newrelease', function(){
     return view('newrelease');
 });

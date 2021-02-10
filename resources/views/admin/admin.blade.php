@@ -6,11 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-<<<<<<< HEAD
     ADMIN
     <a href="/coba">coba</a>
-=======
     <a href="/carouselimg">Carousel Image</a>
->>>>>>> a14b103f29bac25e3f38c9cad4951712832464d9
 </body>
 </html>
