@@ -18,12 +18,11 @@ $channelname = $result['items'][0]['snippet']['title'];
 $subscriber = $result['items'][0]['statistics']['subscriberCount'];
 
 //videdo
-$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyASe-WTBIXs1XGo_RsDDLV4MOV9e3ldxr8&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=viewCount';
+$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyASe-WTBIXs1XGo_RsDDLV4MOV9e3ldxr8&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=5&part=snippet&order=date';
 $result = get_curl($urlrecom);
 
-$explore = $result['items'][1]['id']['videoId'];
-$judul = $result['items'][1]['snippet']['title'];
-$desc = $result['items'][1]['snippet']['description'];
+$recom1 = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
+$judulrecom1 = $result['items'][0]['snippet']['title'];
 
 //recommedation based highest viewcount video
 $urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyASe-WTBIXs1XGo_RsDDLV4MOV9e3ldxr8&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=10&part=snippet&order=viewCount';
@@ -32,8 +31,9 @@ $result = get_curl($urlrecom);
 $recom = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
 $judulrecom = $result['items'][0]['snippet']['title'];
 
-$recom1 = $result['items'][1]['snippet']['thumbnails']['medium']['url'];
-$judulrecom1 = $result['items'][1]['snippet']['title'];
+$explore = $result['items'][1]['id']['videoId'];
+$judul = $result['items'][1]['snippet']['title'];
+$desc = $result['items'][1]['snippet']['description'];
 
 $recom2 = $result['items'][5]['snippet']['thumbnails']['medium']['url'];
 $judulrecom2 = $result['items'][5]['snippet']['title'];
