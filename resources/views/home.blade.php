@@ -308,8 +308,8 @@ $thumbnailitem9 = $result['items'][5]['snippet']['thumbnails']['medium']['url'];
                 <img src="img/playlist1.jpg">
             </div>
             <!--text--------->
-            <a href="/">
-            MOST VIEW
+            <a href="/relevance">
+            RELEVANCE VIDEO
             </a>
         </div>
          <!--box-2------------------------>
@@ -320,7 +320,7 @@ $thumbnailitem9 = $result['items'][5]['snippet']['thumbnails']['medium']['url'];
                 <img src= "img/playlist2.jpg">
             </div>
             <!--text--------->
-            <a href="/">
+            <a href="/mostrating">
             MOST RATING
             </a>
         </div>
