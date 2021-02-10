@@ -12,13 +12,13 @@ function get_curl ($url){
     return json_decode($result, true);
 }
 
-$result = get_curl('https://www.googleapis.com/youtube/v3/channels?key=AIzaSyDoWHAH4Ty3p-pzl8a8yy4m_tDQgqJtAUM&id=UCEe1ees-scoEkTQv3he9PJw&part=snippet,statistics');
+$result = get_curl('https://www.googleapis.com/youtube/v3/channels?key=AIzaSyASe-WTBIXs1XGo_RsDDLV4MOV9e3ldxr8&id=UCEe1ees-scoEkTQv3he9PJw&part=snippet,statistics');
 $youtubeprofilepict = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
 $channelname = $result['items'][0]['snippet']['title'];
 $subscriber = $result['items'][0]['statistics']['subscriberCount'];
 
 //videdo
-$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyDoWHAH4Ty3p-pzl8a8yy4m_tDQgqJtAUM&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=20&part=snippet&order=date';
+$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyASe-WTBIXs1XGo_RsDDLV4MOV9e3ldxr8&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=20&part=snippet&order=date';
 $result = get_curl($urlvideo);
 
 $latestvideo5 = $result['items'][5]['id']['videoId'];
@@ -26,7 +26,7 @@ $judul5 = $result['items'][5]['snippet']['title'];
 $desc5 = $result['items'][5]['snippet']['description'];
 
 //recommedation based highest viewcount video
-$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyDoWHAH4Ty3p-pzl8a8yy4m_tDQgqJtAUM&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=10&part=snippet&order=viewCount';
+$urlrecom = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyASe-WTBIXs1XGo_RsDDLV4MOV9e3ldxr8&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=10&part=snippet&order=viewCount';
 $result = get_curl($urlrecom);
 
 $recom = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
