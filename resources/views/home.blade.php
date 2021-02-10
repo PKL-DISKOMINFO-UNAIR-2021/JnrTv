@@ -292,6 +292,41 @@ $thumbnailitem9 = $result['items'][5]['snippet']['thumbnails']['medium']['url'];
         </div>
         
     </section>
+    
+    <!--PLAYLIST-->
+    <section id="top">
+    <a class="latest-heading">PLAYLIST</a>
+    <a class="showcase-heading-kanan" href="/explore" style="float:right;">VIEW ALL</a>
+    </section>
+    
+    <section id="movies-list">
+        <!--box-1------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">Playlist 6 Video</div>
+                <img src="img/playlist1.jpg">
+            </div>
+            <!--text--------->
+            <a href="/">
+            MOST VIEW
+            </a>
+        </div>
+         <!--box-2------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">Playlist 6 Video</div>
+                <img src= "img/playlist2.jpg">
+            </div>
+            <!--text--------->
+            <a href="/">
+            MOST RATING
+            </a>
+        </div>
+         
+        
+    </section>
     <script>
         $(document).ready(function() {
         $('#autoWidth,#autoWidth2').lightSlider({
