@@ -12,7 +12,7 @@ function get_curl ($url){
 }
 //videdo
 // KEY NYA BANYAK SCROLL KEBAWAH
-$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyASe-WTBIXs1XGo_RsDDLV4MOV9e3ldxr8&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=10&part=snippet&order=date';
+$urlvideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyASg5H9-aCZli13Ya86cXli9vICianX7DY&channelId=UCEe1ees-scoEkTQv3he9PJw&maxResults=10&part=snippet&order=date';
 $result = get_curl($urlvideo);
 
 $latestvideo = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
@@ -290,6 +290,41 @@ $thumbnailitem9 = $result['items'][5]['snippet']['thumbnails']['medium']['url'];
             <?= $judulitem9; ?>
             </a>
         </div>
+        
+    </section>
+    
+    <!--PLAYLIST-->
+    <section id="top">
+    <a class="latest-heading">PLAYLIST</a>
+    <a class="showcase-heading-kanan" href="/explore" style="float:right;">VIEW ALL</a>
+    </section>
+    
+    <section id="movies-list">
+        <!--box-1------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">Playlist 6 Video</div>
+                <img src="img/playlist1.jpg">
+            </div>
+            <!--text--------->
+            <a href="/relevance">
+            RELEVANCE VIDEO
+            </a>
+        </div>
+         <!--box-2------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">Playlist 6 Video</div>
+                <img src= "img/playlist2.jpg">
+            </div>
+            <!--text--------->
+            <a href="/mostrating">
+            MOST RATING
+            </a>
+        </div>
+         
         
     </section>
     <script>

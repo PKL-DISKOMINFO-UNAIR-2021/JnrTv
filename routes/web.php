@@ -52,6 +52,15 @@ Route::get('/viewvid', function(){
 Route::get('/logins', function(){
     return view('login');
 });
+
+Route::get('/relevance', function(){
+    return view('relevance');
+});
+Route::get('/mostrating', function(){
+    return view('mostrating');
+});
+
+
 Route::get('/Recomendation-Item1', function(){
     return view('.youtube-video/Recomendation-Item1');
 });
@@ -133,6 +142,46 @@ Route::get('/Explore-Item9', function(){
 // admin
 Route::get('/admin', function(){
     return view('admin.admin');
+});
+
+// PLAY LISTT  
+// MOST RATING
+Route::get('/mostrating-item1', function(){
+    return view('.mostrating/mostrating-item1');
+});
+Route::get('/mostrating-item2', function(){
+    return view('.mostrating/mostrating-item2');
+});
+Route::get('/mostrating-item3', function(){
+    return view('.mostrating/mostrating-item3');
+});
+Route::get('/mostrating-item4', function(){
+    return view('.mostrating/mostrating-item4');
+});
+Route::get('/mostrating-item5', function(){
+    return view('.mostrating/mostrating-item5');
+});
+Route::get('/mostrating-item6', function(){
+    return view('.mostrating/mostrating-item6');
+});
+//RELEVANCE
+Route::get('/relevance-item1', function(){
+    return view('.relevance/relevance-item1');
+});
+Route::get('/relevance-item2', function(){
+    return view('.relevance/relevance-item2');
+});
+Route::get('/relevance-item3', function(){
+    return view('.relevance/relevance-item3');
+});
+Route::get('/relevance-item4', function(){
+    return view('.relevance/relevance-item4');
+});
+Route::get('/relevance-item5', function(){
+    return view('.relevance/relevance-item5');
+});
+Route::get('/relevance-item6', function(){
+    return view('.relevance/relevance-item6');
 });
 Route::get('/carouselimg','App\Http\Controllers\cimgController@upload');
 Route::post('/carouselimg/proses','App\Http\Controllers\cimgController@proses_upload');
