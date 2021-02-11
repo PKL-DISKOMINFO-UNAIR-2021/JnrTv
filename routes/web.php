@@ -19,6 +19,9 @@ Route::get('/', 'App\Http\Controllers\carouselController@index');
 Route::get('/youtubegj', function(){
     return view('gridview');
 });
+Route::get('/home1', function(){
+    return view('backend/home');
+});
 
 
 Route::get('/explore', function(){
