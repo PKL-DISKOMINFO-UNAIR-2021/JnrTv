@@ -75,9 +75,8 @@ $thumbnailitem9 = $result['items'][5]['snippet']['thumbnails']['medium']['url'];
         </ol>
 
         <div class="carousel-inner">
-            @foreach($gambar as $g)
             <div class="carousel-item active">
-                <img class="d-block w-100" src="{{ $g->file}}" alt="First slide">
+                <img class="d-block w-100" src="" alt="First slide">
                     <div class="carousel-caption d-none d-md-block">
                         <h2> <span class="font-weight-bold">SELAMAT DATANG DI JATIM TV</span></h5>
                         <p>Streaming Informasi dan Video dari Dinas KOMINFO Prov. JAWA TIMUR</p>
@@ -96,7 +95,7 @@ $thumbnailitem9 = $result['items'][5]['snippet']['thumbnails']['medium']['url'];
                     </p>
                 </div>
             </div>
-            @endforeach
+         
             
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
